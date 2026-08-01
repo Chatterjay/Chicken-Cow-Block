@@ -1,5 +1,0 @@
-#Default condenser catalysts used only when a recipe omits the catalyst field.
-#Format: modid:item=storage
-#Storage range: 1 to 2147483647.
-#Examples: ae2:cell_component_1k=8192, megacells:cell_component_1m=8388608
-defaultCatalysts = ["ae2:cell_component_1k=8192", "ae2:cell_component_4k=32768", "ae2:cell_component_16k=131072", "ae2:cell_component_64k=524288", "ae2:cell_component_256k=2097152", "megacells:cell_component_1m=8388608", "megacells:cell_component_4m=33554432", "megacells:cell_component_16m=134217728", "megacells:cell_component_64m=536870912", "megacells:cell_component_256m=2147483647"]
