@@ -53,3 +53,61 @@ ServerEvents.recipes(event =>{
         ]
     )
 })
+ ServerEvents.recipes(event => {
+     event.recipes.lychee.block_clicking(
+         [SizedIngredientWrapper.of('#minecraft:axes')],
+         BlockPredicateWrapper.block('minecraft:mangrove_log'),
+         [
+             PostBuilder.create().dropItem('8x minecraft:mangrove_planks'),
+             PostBuilder.create().dropItem('minecraft:red_dye')
+         ]
+     )
+     event.recipes.lychee.block_clicking(
+         [SizedIngredientWrapper.of('#minecraft:axes')],
+         BlockPredicateWrapper.block('minecraft:spruce_log'),
+         [
+             PostBuilder.create().dropItem('8x minecraft:spruce_planks'),
+             PostBuilder.create().dropItem('minecraft:blue_dye')
+         ]
+     )
+     event.recipes.lychee.block_clicking(
+         [SizedIngredientWrapper.of('#minecraft:axes')],
+         BlockPredicateWrapper.block('minecraft:acacia_log'),
+         [
+             PostBuilder.create().dropItem('8x minecraft:acacia_planks'),
+             PostBuilder.create().dropItem('minecraft:orange_dye')
+         ]
+     )
+     event.recipes.lychee.block_clicking(
+         [SizedIngredientWrapper.of('#minecraft:axes')],
+         BlockPredicateWrapper.block('minecraft:dark_oak_log'),
+         [
+             PostBuilder.create().dropItem('8x minecraft:dark_oak_planks'),
+             PostBuilder.create().dropItem('minecraft:black_dye')
+         ]
+     )
+     event.recipes.lychee.block_clicking(
+         [SizedIngredientWrapper.of('#minecraft:axes')],
+         BlockPredicateWrapper.block('minecraft:jungle_log'),
+         [
+             PostBuilder.create().dropItem('8x minecraft:jungle_planks'),
+             PostBuilder.create().dropItem('minecraft:brown_dye')
+         ]
+     )
+     event.recipes.lychee.block_clicking(
+         [SizedIngredientWrapper.of('#minecraft:axes')],
+         BlockPredicateWrapper.block('minecraft:oak_log'),
+         [
+             PostBuilder.create().dropItem('8x minecraft:oak_planks'),
+             PostBuilder.create().dropItem('minecraft:yellow_dye')
+         ]
+     )
+     event.recipes.lychee.block_clicking(
+         [SizedIngredientWrapper.of('#minecraft:axes')],
+         BlockPredicateWrapper.block('minecraft:birch_log'),
+         [
+             PostBuilder.create().dropItem('8x minecraft:birch_planks'),
+             PostBuilder.create().dropItem('minecraft:white_dye')
+         ]
+     )
+    })

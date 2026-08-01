@@ -162,6 +162,7 @@ const chickenRecipes = [
     breed: false,
      chickens: [
        { output: "c_tnt", item: "minecraft:gunpowder" },
+        { output: "c_pink", item: 'minecraft:pink_dye'},
        { output: "c_apple", item: "minecraft:apple" },
        { output: "c_melon", item: "minecraft:melon" },
        { output: "c_carrot", item: "minecraft:carrot" },

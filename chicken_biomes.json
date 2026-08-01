@@ -151,9 +151,6 @@
   "chicken_roost:c_sugar": [
     "minecraft:beach"
   ],
-  "chicken_roost:c_netherrack": [
-    "minecraft:nether_wastes"
-  ],
   "ars_nouveau:drygmy": [
     "minecraft:mushroom_fields",
     "minecraft:deep_frozen_ocean",
@@ -216,11 +213,11 @@
     "ars_elemental:flourishing_forest",
     "ars_elemental:vexing_caves"
   ],
+  "chicken_roost:c_netherrack": [
+    "minecraft:nether_wastes"
+  ],
   "chicken_roost:c_soulsand": [
     "minecraft:soul_sand_valley"
-  ],
-  "chicken_roost:c_birchwood": [
-    "minecraft:birch_forest"
   ],
   "ars_nouveau:whirlisprig": [
     "minecraft:mushroom_fields",
@@ -284,6 +281,12 @@
     "ars_elemental:flourishing_forest",
     "ars_elemental:vexing_caves"
   ],
+  "chicken_roost:c_birchwood": [
+    "minecraft:birch_forest"
+  ],
+  "chicken_roost:c_sand": [
+    "minecraft:desert"
+  ],
   "ars_nouveau:gift_starby": [
     "minecraft:mushroom_fields",
     "minecraft:deep_frozen_ocean",
@@ -346,14 +349,11 @@
     "ars_elemental:flourishing_forest",
     "ars_elemental:vexing_caves"
   ],
-  "chicken_roost:c_sand": [
-    "minecraft:desert"
+  "chicken_roost:c_soulsoil": [
+    "minecraft:soul_sand_valley"
   ],
   "chicken_roost:c_quartz": [
     "minecraft:nether_wastes"
-  ],
-  "chicken_roost:c_soulsoil": [
-    "minecraft:soul_sand_valley"
   ],
   "ars_elemental:flashjack_entity": [
     "minecraft:jagged_peaks",
@@ -385,16 +385,16 @@
     "minecraft:jungle"
   ],
   "chicken_roost:c_stone": [
-    "minecraft:stony_peaks",
-    "minecraft:stony_shore"
-  ],
-  "chicken_roost:c_flint": [
-    "minecraft:nether_wastes",
-    "minecraft:stony_peaks",
-    "minecraft:stony_shore"
+    "minecraft:stony_shore",
+    "minecraft:stony_peaks"
   ],
   "chicken_roost:c_beetroot": [
     "minecraft:flower_forest"
+  ],
+  "chicken_roost:c_flint": [
+    "minecraft:stony_peaks",
+    "minecraft:stony_shore",
+    "minecraft:nether_wastes"
   ],
   "chicken_roost:c_sprucewood": [
     "minecraft:old_growth_spruce_taiga"
@@ -406,11 +406,11 @@
   "chicken_roost:c_spidereye": [
     "minecraft:dark_forest"
   ],
-  "chicken_roost:c_glowberries": [
-    "minecraft:flower_forest"
-  ],
   "chicken_roost:c_string": [
     "minecraft:dark_forest"
+  ],
+  "chicken_roost:c_glowberries": [
+    "minecraft:flower_forest"
   ],
   "chicken_roost:c_melon": [
     "minecraft:flower_forest"

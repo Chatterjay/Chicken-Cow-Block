@@ -3,6 +3,7 @@ ServerEvents.tags("item",event => {
 })
 ServerEvents.tags("item",event => {
     event.add('c:seeds/tier0','minecraft:wheat_seeds')
+    event.add('c:seeds/tier0orup','minecraft:wheat_seeds')
 })
 ServerEvents.recipes(event =>{
     event.remove({output:'chicken_roost:chicken_food_tier_2'})
