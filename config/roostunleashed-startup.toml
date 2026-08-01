@@ -1,0 +1,6 @@
+#datagenOnStartup
+datagenOnStartup = true
+#maxTierLevel
+# Default: 10
+# Range: 9 ~ 32
+maxTierLevel = 10

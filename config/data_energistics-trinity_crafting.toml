@@ -1,0 +1,44 @@
+#Maximum AEKey count accepted in one strongly connected planning component.
+#单个强连通规划分量允许的最大 AEKey 数量。
+# Default: 64
+# Range: > 1
+maxSccKeys = 64
+#Maximum legal input-binding variants materialized for one planning request.
+#单次规划请求允许展开的最大合法输入绑定变体数。
+# Default: 512
+# Range: > 1
+maxBindingVariants = 512
+#Wall-clock timeout for each ojAlgo mixed-integer solve in milliseconds.
+#每次 ojAlgo 混合整数求解的墙钟超时，单位毫秒。
+# Default: 250
+# Range: > 1
+mipTimeoutMs = 250
+#Maximum compressed scheduling states explored after a cyclic integer solution.
+#循环整数解完成后允许搜索的最大压缩排程状态数。
+# Default: 500000
+# Range: > 1
+maxScheduleStates = 500000
+#Per-tick server-thread budget for rebuilding the immutable crafting graph.
+#服务器线程每 tick 重建不可变合成图的预算，单位毫秒。
+# Default: 4
+# Range: > 1
+graphRebuildBudgetMs = 4
+#Bounded Trinity planning worker count.
+#Trinity 规划器的有界工作线程数。
+# Default: 8
+# Range: 1 ~ 8
+plannerThreads = 8
+#Maximum queued Trinity planning requests before fail-fast fallback to AE2.
+#触发快速回退 AE2 前允许排队的 Trinity 规划请求数。
+# Default: 128
+# Range: > 1
+plannerQueueCapacity = 128
+#Maximum exponential backoff between dynamic-input retries, in ticks.
+#动态输入重试指数退避的最大 tick 间隔。
+# Default: 200
+# Range: > 1
+dynamicRetryMaxTicks = 200
+#Default quantity semantics for machine and external crafting requests.
+#机器和外部合成请求使用的默认数量语义。
+#Allowed Values: NET_NEW, FINAL_TOTAL
+defaultQuantityMode = "NET_NEW"

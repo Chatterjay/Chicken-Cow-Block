@@ -1,0 +1,322 @@
+#JDT Extras Settings
+[jdte]
+
+	#Upgrade System Settings
+	[jdte.upgrades]
+		#Number of extra filter slots per filter upgrade card
+		# Default: 9
+		# Range: 1 ~ 27
+		filterSlotsPerUpgrade = 9
+		#Underclock energy cost multiplier (0.2 = 20% of original)
+		# Default: 0.2
+		# Range: 0.01 ~ 1.0
+		underclockEnergyMultiplier = 0.2
+		#Overclock energy cost multiplier (3 = 3x original)
+		# Default: 3
+		# Range: 1 ~ 10
+		overclockEnergyMultiplier = 3
+		#Underclock tick speed (locks machine to this tick interval)
+		# Default: 40
+		# Range: 1 ~ 100
+		underclockTickSpeed = 40
+		#Overclock tick speed (locks machine to this tick interval)
+		# Default: 1
+		# Range: 1 ~ 10
+		overclockTickSpeed = 1
+		#Base area radius for range upgrade
+		# Default: 5.0
+		# Range: 1.0 ~ 50.0
+		baseAreaRadius = 5.0
+		#Base area offset for range upgrade
+		# Default: 9
+		# Range: 0 ~ 50
+		baseAreaOffset = 9
+
+	#Time Accelerator Settings
+	[jdte.timeAccelerator]
+		#Base fluid capacity for time accelerators (mB)
+		# Default: 1000
+		# Range: 100 ~ 100000
+		timeAcceleratorBaseFluidCapacity = 1000
+		#Time accelerator fluid cost multiplier. 1.0 matches the JDT Time Wand cost spread over 30 seconds.
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		timeAcceleratorFluidCostMultiplier = 1.0
+		#Basic time accelerator default multiplier
+		# Default: 4
+		# Range: 1 ~ 100
+		basicTimeAcceleratorDefaultMultiplier = 4
+		#Basic time accelerator overclock multiplier
+		# Default: 16
+		# Range: 1 ~ 1000
+		basicTimeAcceleratorOverclockMultiplier = 16
+		#Advanced time accelerator energy capacity
+		# Default: 200000
+		# Range: 10000 ~ 10000000
+		advancedTimeAcceleratorEnergyCapacity = 200000
+		#Advanced time accelerator max adjustable multiplier
+		# Default: 128
+		# Range: 1 ~ 1000
+		advancedTimeAcceleratorMaxMultiplier = 128
+		#Advanced time accelerator overclock multiplier
+		# Default: 256
+		# Range: 1 ~ 10000
+		advancedTimeAcceleratorOverclockMultiplier = 256
+		#Advanced time accelerator default multiplier
+		# Default: 4
+		# Range: 1 ~ 100
+		advancedTimeAcceleratorDefaultMultiplier = 4
+
+	#Bio Crusher Settings
+	[jdte.bioCrusher]
+		#Base fluid capacity for bio crusher (mB)
+		# Default: 16000
+		# Range: 1000 ~ 1000000
+		bioCrusherFluidCapacity = 16000
+		#Base energy cost per operation
+		# Default: 300
+		# Range: 10 ~ 100000
+		bioCrusherEnergyCost = 300
+		#Base search radius for bio crusher
+		# Default: 2.5
+		# Range: 1.0 ~ 20.0
+		bioCrusherBaseRadius = 2.5
+		#Experience fluid produced per actual experience point dropped by the entity (mB)
+		# Default: 1.0
+		# Range: 0.0 ~ 10000.0
+		experienceFluidPerPoint = 1.0
+		#Multiplier applied to the base output slots opened by each Capacity Upgrade (base is 9 slots per upgrade)
+		# Default: 2
+		# Range: 1 ~ 10
+		bioCrusherOutputSlotsPerCapacityUpgradeMultiplier = 2
+		#Base damage dealt by bio crusher
+		# Default: 5
+		# Range: 1 ~ 1000
+		bioCrusherBaseDamage = 5
+		#Base interval in ticks between bio crusher operations
+		# Default: 5
+		# Range: 1 ~ 200
+		bioCrusherProcessTime = 5
+		#When enabled, the bio crusher will not force-kill entities that survive its FakePlayer attack. Disabled by default so protected bosses can still be processed.
+		respectDamageRestrictions = false
+		#Allow Bio Crushers to automatically destroy Draconic Evolution Chaos Guardian Crystals. Disabled by default.
+		allowDestroyChaosGuardianCrystals = false
+		#Allow Bio Crushers to instantly kill the Draconic Evolution Chaos Guardian with FakePlayer attribution. Disabled by default.
+		allowInstantKillChaosGuardian = false
+		#Looting extra drop chance per level (0.5 = 50%)
+		# Default: 0.5
+		# Range: 0.01 ~ 1.0
+		lootingExtraDropChance = 0.5
+		#Advanced bio crusher energy capacity
+		# Default: 100000
+		# Range: 10000 ~ 10000000
+		advancedBioCrusherEnergyCapacity = 100000
+		#Extended bio crusher energy capacity
+		# Default: 200000
+		# Range: 10000 ~ 10000000
+		extendedBioCrusherEnergyCapacity = 200000
+		#Max entities processed per tick (advanced)
+		# Default: 2
+		# Range: 1 ~ 100
+		advancedBioCrusherMaxEntities = 2
+		#Max entities processed per tick (extended)
+		# Default: 4
+		# Range: 1 ~ 100
+		extendedBioCrusherMaxEntities = 4
+
+	#Life Extractor Settings
+	[jdte.lifeExtractor]
+		#Life Fluid produced per point of the entity's current health (mB)
+		# Default: 0.1
+		# Range: 0.001 ~ 100000.0
+		fluidPerHealth = 0.1
+
+	#Loot Fabricator Settings
+	[jdte.lootFabricator]
+		#Life Fluid consumed per successful loot fabrication operation (mB)
+		# Default: 100
+		# Range: 1 ~ 1000000
+		lifeFluidCost = 100
+		#Base Time Fluid consumed per successful loot fabrication operation (mB). Faster machine speeds multiply this integer cost.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		baseTimeFluidCost = 1
+		#Additional Life Fluid and Time Fluid cost per Looting Upgrade installed in a Loot Fabricator, in percent.
+		# Default: 50
+		# Range: 0 ~ 10000
+		lootingFluidCostIncreasePercent = 50
+
+	#Sender/Receiver Settings
+	[jdte.senderReceiver]
+		#Internal storage slots for item sender/receiver
+		# Default: 9
+		# Range: 1 ~ 54
+		senderStorageSlots = 9
+		#Advanced item sender energy capacity
+		# Default: 50000
+		# Range: 1000 ~ 10000000
+		advancedItemSenderEnergyCapacity = 50000
+		#Advanced item sender energy cost per cycle
+		# Default: 500
+		# Range: 10 ~ 100000
+		advancedItemSenderEnergyCost = 500
+		#Extended item sender energy capacity
+		# Default: 100000
+		# Range: 1000 ~ 10000000
+		extendedItemSenderEnergyCapacity = 100000
+		#Advanced fluid sender energy capacity
+		# Default: 50000
+		# Range: 1000 ~ 10000000
+		advancedFluidSenderEnergyCapacity = 50000
+		#Advanced fluid sender energy cost per cycle
+		# Default: 500
+		# Range: 10 ~ 100000
+		advancedFluidSenderEnergyCost = 500
+		#Extended fluid sender energy capacity
+		# Default: 100000
+		# Range: 1000 ~ 10000000
+		extendedFluidSenderEnergyCapacity = 100000
+		#Fluid sender/receiver base fluid capacity (mB)
+		# Default: 8000
+		# Range: 100 ~ 1000000
+		fluidSenderFluidCapacity = 8000
+		#When enabled, Fluid Senders move all available internal fluid per operation instead of using the configured fluid batch limits
+		fluidSenderUnlimitedTransfer = true
+		#Maximum items transferred per side and auto I/O operation. Default matches Logistics Network's Netherite tier.
+		# Default: 10000
+		# Range: 1 ~ 1000000
+		autoIoItemTransferRate = 10000
+		#Maximum fluid transferred per side and auto I/O operation in mB. Default matches Logistics Network's Netherite tier.
+		# Default: 1000000
+		# Range: > 1
+		autoIoFluidTransferRate = 1000000
+		#Maximum items moved per sender/receiver operation without Overclock. Default matches Logistics Network's Diamond tier.
+		# Default: 64
+		# Range: 1 ~ 1000000
+		senderReceiverItemTransferRate = 64
+		#Maximum items moved per sender/receiver operation with Overclock or Creative. Default matches Logistics Network's Netherite tier.
+		# Default: 10000
+		# Range: 1 ~ 1000000
+		senderReceiverOverclockItemTransferRate = 10000
+		#Maximum fluid moved per sender/receiver operation without Overclock in mB. Default matches Logistics Network's Diamond tier.
+		# Default: 20000
+		# Range: > 1
+		senderReceiverFluidTransferRate = 20000
+		#Maximum fluid moved per sender/receiver operation with Overclock or Creative in mB. Default matches Logistics Network's Netherite tier.
+		# Default: 1000000
+		# Range: > 1
+		senderReceiverOverclockFluidTransferRate = 1000000
+		#Initial idle retry delay for auto I/O and sender/receiver transfers in ticks
+		# Default: 10
+		# Range: 1 ~ 200
+		transferFailureBackoffStart = 10
+		#Maximum idle retry delay for auto I/O and sender/receiver transfers in ticks
+		# Default: 40
+		# Range: 1 ~ 1200
+		transferFailureBackoffMax = 40
+
+	#Advanced Item Collector Settings
+	[jdte.advancedItemCollector]
+		#Directly transfer oversized container slots before player block breaking creates item entities
+		preDrainEnabled = true
+		#Minimum item count in one source slot that enables pre-break direct transfer
+		# Default: 10000000
+		# Range: > 65
+		preDrainThreshold = 10000000
+		#Directly insert triggered oversized stacks into an attached AE2 ME storage capability
+		meDirectTransferEnabled = true
+
+	#Entity Suppressor Settings
+	[jdte.entitySuppressor]
+		# Default: 200000
+		# Range: 1000 ~ 100000000
+		energyCapacity = 200000
+		# Default: 250
+		# Range: 0 ~ 1000000
+		energyPerTick = 250
+		protectNamed = true
+		protectTamed = true
+		protectBosses = true
+		#Periodically remove matching existing entities while Block Entities mode is active
+		removeExistingEntities = false
+
+	#Range Blocker Settings
+	[jdte.rangeBlocker]
+		# Default: 200000
+		# Range: 1000 ~ 100000000
+		energyCapacity = 200000
+		# Default: 250
+		# Range: 0 ~ 1000000
+		containmentEnergyPerTick = 250
+		#Average FE consumed per active Demagnetization tick; fractional values are accumulated
+		# Default: 0.25
+		# Range: 0.0 ~ 1000000.0
+		demagnetizationEnergyPerTick = 0.25
+		protectNamed = true
+		protectTamed = true
+		protectBosses = true
+		#Make Mekanism's MekaSuit magnetic attraction respect demagnetization fields
+		mekanismIntegration = true
+		#Destroy non-player projectiles before they cross a Containment field boundary
+		containProjectiles = true
+		#Contain projectiles with no owner, including modded projectiles that do not expose one
+		containOwnerlessProjectiles = true
+		#Prevent explosions from contained projectiles from affecting blocks and entities outside the field
+		containProjectileExplosions = true
+
+	#Gel Generator Settings
+	[jdte.gelGenerator]
+		#Number of input slots
+		# Default: 4
+		# Range: 1 ~ 27
+		gelGeneratorInputSlots = 4
+		#Number of output slots
+		# Default: 4
+		# Range: 1 ~ 27
+		gelGeneratorOutputSlots = 4
+		#Base fluid capacity (mB)
+		# Default: 4000
+		# Range: 100 ~ 1000000
+		gelGeneratorFluidCapacity = 4000
+		#Base energy capacity
+		# Default: 100000
+		# Range: 1000 ~ 10000000
+		gelGeneratorEnergyCapacity = 100000
+		#Fluid conversion amount per operation (mB)
+		# Default: 1000
+		# Range: 1 ~ 100000
+		gelGeneratorFluidConversionAmount = 1000
+		#Number of uses per food item
+		# Default: 2
+		# Range: 1 ~ 100
+		gelGeneratorFuelUsesPerItem = 2
+		#Base energy cost per conversion
+		# Default: 1000
+		# Range: 10 ~ 100000
+		gelGeneratorEnergyCost = 1000
+
+	#Generator Upgrade Settings
+	[jdte.generatorUpgrade]
+		#Generator upgrade energy output multiplier
+		# Default: 3
+		# Range: 1 ~ 10
+		generatorUpgradeEnergyMultiplier = 3
+		#Generator upgrade fluid cost per tick (mB)
+		# Default: 2
+		# Range: 1 ~ 100
+		generatorUpgradeFluidCost = 2
+
+	#Upgrade Item Settings
+	[jdte.upgradeItems]
+		#Max sharpness upgrades stackable
+		# Default: 6
+		# Range: 1 ~ 64
+		maxSharpnessUpgrades = 6
+		#Damage added per sharpness upgrade
+		# Default: 5
+		# Range: 1 ~ 100
+		sharpnessDamagePerUpgrade = 5
+		#Max looting upgrades stackable
+		# Default: 6
+		# Range: 1 ~ 64
+		maxLootingUpgrades = 6

@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "03A6F0D378EDA539"
+	group: "493C1A081222BF4F"
+	icon: {
+		components: {
+			"ftbquests:icon": "actuallyadditions:block/animal_feeder_side_chicken"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "03A6F0D378EDA539"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "40A17507739AF9FC"
+		tasks: [{
+			id: "0094467EDD40F278"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: -1.5d
+	}]
+}

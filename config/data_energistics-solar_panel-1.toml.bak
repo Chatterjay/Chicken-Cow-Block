@@ -1,0 +1,16 @@
+#Daytime AE generation per tick for the ME Solar Panel.
+# Default: 3000.0
+# Range: 0.0 ~ 1.7976931348623157E308
+dayGenerationAEPerTick = 10240.0
+#Nighttime AE generation per tick for the ME Solar Panel.
+# Default: 1000.0
+# Range: 0.0 ~ 1.7976931348623157E308
+nightGenerationAEPerTick = 5120.0
+#Additional generation ratio provided by each installed speed card. 0.75 = +75%.
+# Default: 0.75
+# Range: 0.0 ~ 1000.0
+speedCardBonusRatio = 0.75
+#Additional internal AE storage provided by each installed energy card.
+# Default: 80000.0
+# Range: 0.0 ~ 1.7976931348623157E308
+energyCardCapacityBonusAE = 80000.0

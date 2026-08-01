@@ -1,0 +1,9 @@
+{
+  "casing": "ae2_casing",
+  "default_overlays": {
+    "side": "ae2:block/smooth_quartz_block",
+    "front": "mi_tweaks:block/machines/overlay/overlay_stop",
+    "front_active" :"mi_tweaks:block/machines/overlay/overlay_work"
+  },
+  "loader": "modern_industrialization:machine"
+}

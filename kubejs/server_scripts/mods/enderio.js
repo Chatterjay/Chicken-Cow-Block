@@ -1,0 +1,108 @@
+ServerEvents.recipes(event=>{
+event.recipes.enderio.alloy_smelting(
+    Item.of('chicken_roost:c_invar'),
+    ['2x chicken_roost:c_iron', 'chicken_roost:c_nickel'],
+    48000,   
+    10    
+   );
+  }
+),
+ServerEvents.recipes(event=>{
+event.recipes.enderio.alloy_smelting(
+    Item.of('chicken_roost:c_conductiveiron'),
+    ['chicken_roost:c_iron', 'chicken_roost:c_copper'],
+    48000,   
+    10    
+   );
+  }
+),
+ServerEvents.recipes(event=>{
+event.recipes.enderio.alloy_smelting(
+    Item.of('chicken_roost:c_constantan'),
+    ['chicken_roost:c_nickel', 'chicken_roost:c_copper'],
+    48000,   
+    10    
+   );
+  }
+),
+ServerEvents.recipes(event=>{
+event.recipes.enderio.alloy_smelting(
+    Item.of('chicken_roost:c_signalum'),
+    ['chicken_roost:c_copper', 'chicken_roost:c_silver','chicken_roost:c_redstone'],
+    48000,   
+    10    
+   );
+  }
+),
+ServerEvents.recipes(event=>{
+event.recipes.enderio.alloy_smelting(
+    Item.of('chicken_roost:c_electrum'),
+    ['chicken_roost:c_gold', 'chicken_roost:c_silver'],
+    48000,   
+    10    
+   );
+  }
+),
+ServerEvents.recipes(event=>{
+event.recipes.enderio.alloy_smelting(
+    Item.of('chicken_roost:c_energeticalloy'),
+    ['chicken_roost:c_gold', 'chicken_roost:c_conductiveiron','chicken_roost:c_redstone'],
+    480000,   
+    10    
+   );
+  }
+),
+ServerEvents.recipes(event=>{
+event.recipes.enderio.alloy_smelting(
+    Item.of('chicken_roost:c_soularium'),
+    ['chicken_roost:c_gold','chicken_roost:c_soulsand'],
+    480000,   
+    10    
+   );
+  }
+),
+ServerEvents.recipes(event=>{
+event.recipes.enderio.alloy_smelting(
+    Item.of('chicken_roost:c_bronze'),
+    ['3x chicken_roost:c_copper','chicken_roost:c_tin'],
+    480000,   
+    10    
+   );
+  }
+)
+ServerEvents.recipes(event=>{
+event.recipes.enderio.alloy_smelting(
+    Item.of('chicken_roost:c_redstonealloy'),
+    ['chicken_roost:c_copper','chicken_roost:c_redstone'],
+    480000,   
+    10    
+   );
+  }
+)
+ServerEvents.recipes(event=>{
+event.recipes.enderio.alloy_smelting(
+    Item.of('chicken_roost:c_darksteel'),
+    ['chicken_roost:c_steel','chicken_roost:c_obsidian'],
+    480000,   
+    10    
+   );
+  }
+)
+ServerEvents.recipes(event=>{
+event.recipes.enderio.alloy_smelting(
+    Item.of('chicken_roost:c_pulsatingiron'),
+    ['chicken_roost:c_iron','chicken_roost:c_enderpearl'],
+    480000,   
+    10    
+   );
+  }
+)
+ServerEvents.recipes(event=>{
+event.recipes.enderio.alloy_smelting(
+    Item.of('chicken_roost:c_vibrantalloy'),
+    ['chicken_roost:c_energeticalloy','chicken_roost:c_energeticalloy','chicken_roost:c_glowstone'],
+    480000,   
+    10    
+   );
+  }
+)

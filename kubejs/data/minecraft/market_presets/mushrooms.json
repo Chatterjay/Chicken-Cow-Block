@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "payment": {
+    "ingredient": {
+      "item": "chicken_roost:chicken_food_tier_3"
+    },
+    "count": 1
+  }
+}

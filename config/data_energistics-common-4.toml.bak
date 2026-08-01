@@ -1,0 +1,32 @@
+#Base power cost for the data ripper power curve.
+# Default: 512
+# Range: > 1
+dataRipperBaseCost = 512
+#Regex patterns for block ids that the data ripper should never accelerate.
+dataRipperBlacklist = []
+#Regex-based power multipliers for the data ripper, formatted as pattern=value.
+dataRipperMultipliers = []
+#Base chunk coverage level for the Data Distribution Tower. 1=1x1 chunk, 2=3x3 chunks, etc.
+# Default: 1
+# Range: 1 ~ 128
+dataDistributionTowerRange = 1
+#Maximum FE transferred per tick by a Data Distribution Tower network.
+# Default: 2147483647
+# Range: > 1
+dataDistributionTowerTransferPerTick = 2147483647
+#Maximum stocked item amount per Data Sanctum interface config/stock slot.
+# Default: 8192
+# Range: > 1
+dataSanctumInterfaceItemLimit = 8192
+#Maximum stocked fluid buckets per Data Sanctum interface config/stock slot.
+# Default: 512
+# Range: > 1
+dataSanctumInterfaceFluidBuckets = 512
+#Maximum item amount per Data Sanctum interface return slot.
+# Default: 65536
+# Range: > 1
+dataSanctumInterfaceReturnItemLimit = 65536
+#Maximum fluid buckets per Data Sanctum interface return slot.
+# Default: 4096
+# Range: > 1
+dataSanctumInterfaceReturnFluidBuckets = 4096

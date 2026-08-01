@@ -1,0 +1,8 @@
+{
+  "casing": "white_casing",
+  "default_overlays": {
+    "front": "mi_tweaks:block/machines/overlay/overlay_stop",
+    "front_active" :"mi_tweaks:block/machines/overlay/overlay_work"
+  },
+  "loader": "modern_industrialization:machine"
+}

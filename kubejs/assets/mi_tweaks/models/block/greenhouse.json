@@ -1,0 +1,9 @@
+{
+  "casing": "green_casing",
+  "default_overlays": {
+    "side": "modern_industrialization:block/steel_machine_casing",
+    "front": "mi_tweaks:block/machines/overlay/overlay_stop",
+    "front_active" :"mi_tweaks:block/machines/overlay/overlay_work"
+  },
+  "loader": "modern_industrialization:machine"
+}

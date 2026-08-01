@@ -1,0 +1,10 @@
+{
+    "music.my_music":{
+        "sounds":[
+            {
+                "name":"ccb:my_music",
+                "stream":true
+            }
+        ]
+    }
+}

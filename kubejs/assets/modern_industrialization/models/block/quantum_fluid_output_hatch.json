@@ -1,0 +1,9 @@
+{
+  "casing": "quan_casing",
+  "default_overlays": {
+    "side": "modern_industrialization:block/machines/hatch_fluid/overlay_side",
+    "output": "modern_industrialization:block/overlays/output_fluid",
+    "fluid_auto": "modern_industrialization:block/overlays/fluid_auto"
+  },
+  "loader": "modern_industrialization:machine"
+}

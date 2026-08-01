@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = D:/PCL 正式版 2.10.9/.minecraft/versions/Chicken Cow Block/saves/新的世界
+}
+

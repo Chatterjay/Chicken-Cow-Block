@@ -1,0 +1,16 @@
+{
+  "input": "arsmeteorites:ritual_conjure_meteorites",
+  "source": 1,
+  "default": 1,
+  "catalysts": "arsmeteorites:ritual_conjure_meteorites",
+  "meteorites": [
+    "minecraft:redstone_block",
+    "minecraft:tnt",
+    "projecte:nova_catalyst",
+    "projecte:nova_cataclysm",
+    "oritech:nuke",
+    "data_energistics:tnt_configurable",
+    "ae2lt:overload_tnt"
+  ],
+  "weights": [200,100,80,80,1,1,1]
+}

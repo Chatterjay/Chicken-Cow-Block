@@ -1,0 +1,9 @@
+{
+  "casing": "dire_casing",
+  "default_overlays": {
+    "side": "justdynathings:block/phase/true",
+    "front": "mi_tweaks:block/machines/overlay/overlay_stop",
+    "front_active" :"mi_tweaks:block/machines/overlay/overlay_work"
+  },
+  "loader": "modern_industrialization:machine"
+}

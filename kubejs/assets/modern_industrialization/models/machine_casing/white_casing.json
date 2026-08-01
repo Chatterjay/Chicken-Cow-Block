@@ -1,0 +1,4 @@
+{
+"block" :"minecraft:white_concrete", 
+"loader" :"modern_industrialization:use_block_model"  
+}

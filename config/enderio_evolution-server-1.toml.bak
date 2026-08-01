@@ -1,0 +1,17 @@
+[undying_totem_capacitor]
+	#是否启用不死图腾电容的自定义等级计算逻辑。
+	#如果为 false，将使用默认的硬编码逻辑（效率 <=1级: 3.5，<=3级: 4.5，否则 6.0）。
+	enableCustomMath = false
+	#影响电容等级的最大效率附魔等级上限。
+	#设置为 -1 则不做任何附魔等级限制（无限成长）。
+	# Default: 5
+	# Range: -1 ~ 255
+	maxEnchantLimit = 5
+	#没有任何效率附魔时的基础电容等级。
+	# Default: 3.5
+	# Range: 0.0 ~ 100.0
+	baseLevel = 3.5
+	#每一级效率附魔具体增加多少电容等级。
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	levelIncrementPerEnchant = 0.5
