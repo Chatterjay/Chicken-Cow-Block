@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4DBCFDB5B26933C8"
+	group: "493C1A081222BF4F"
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:block/command_block_back"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "4DBCFDB5B26933C8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "6E8497B508C4D49A"
+		rewards: [{
+			id: "09107D3DBF2D042F"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "5A692141A435CFA6"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

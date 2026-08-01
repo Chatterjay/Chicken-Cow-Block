@@ -1,0 +1,6 @@
+#extraTierMaxLevels
+extraTierMaxLevels = [10]
+#extraTierXPs
+extraTierXPs = [0]
+#extraTierFoodXps
+extraTierFoodXps = [5000]

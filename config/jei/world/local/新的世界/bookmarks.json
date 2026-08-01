@@ -1,0 +1,11 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"modern_mekanistics:mass_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekmm:scrap_box"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":"mekmm:unstable_dimensional_gas","type":"mekanism.api.chemical.ChemicalStack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"data_energistics:data_inscriber_template"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"data_energistics:data_carrier"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"arsmeteorites:ritual_conjure_meteorites"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_nouveau:ritual_brazier"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:assembler"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

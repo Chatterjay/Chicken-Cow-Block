@@ -1,0 +1,50 @@
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+		[types.wood_type.integrateddynamics]
+			menril = true
+
+		[types.wood_type.ars_nouveau]
+			archwood = true
+
+		[types.wood_type.allthemodium]
+			demonic = true
+			soul = true
+
+		[types.wood_type.ifeu]
+			rubber = true
+
+		[types.leaves_type.allthemodium]
+			ancient = true
+			demonic = true
+			soul = true
+
+		[types.leaves_type.integrateddynamics]
+			menril = true
+
+		[types.leaves_type.occultism]
+			otherworld = true
+
+		[types.leaves_type.ars_nouveau]
+			blue_archwood = true
+			red_archwood = true
+			purple_archwood = true
+			green_archwood = true
+
+		[types.leaves_type.ars_elemental]
+			yellow_archwood = true
+
+#Disables specific entries
+[entries]
+
+		[entries.wood_type.functionalstorage]
+			1 = true
+			4 = true
+			2 = true
+
+		[entries.wood_type.create]
+			window_pane = true
+			window = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
