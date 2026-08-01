@@ -1,11 +1,12 @@
 [
   {"version":1},
+  {"ingredient":{"id":"data_energistics:me_access_hatch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"data_energistics:trinity_data_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"data_energistics:data_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ae2cs:data_crystal_seed"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ae2cs:purified_data_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"data_energistics:data_reassembler"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"data_energistics:data_extractor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"data_energistics:trinity_data_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"data_energistics:composite_input_warehouse"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"data_energistics:composite_output_warehouse"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"data_energistics:me_composite_input_warehouse"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -98,6 +99,5 @@
   {"ingredient":{"id":"ccb:world_tree"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ccb:real_soul_boom"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ccb:unique_meat"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ccb:bacterial_juice_ranbow"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ccb:power_drink"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"ccb:bacterial_juice_ranbow"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
