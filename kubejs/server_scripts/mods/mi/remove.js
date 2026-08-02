@@ -1,3 +1,3 @@
-ServerEvents.recipes(event =>{
-    event.remove({output:'modern_industrialization:replicator'})
-})
+ServerEvents.recipes(event => {
+    event.remove({output: 'modern_industrialization:replicator'});
+});

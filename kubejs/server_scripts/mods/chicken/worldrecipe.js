@@ -1,5 +1,5 @@
-// server_scripts/void_reward.js
-//橡木鸡
+// server_scripts/worldrecipe.js
+// 橡木鸡
 PlayerEvents.tick(event => {
     const { player, server } = event;
     // 避免在客户端计算、避免在已标记的玩家上反复判断
@@ -23,25 +23,19 @@ PlayerEvents.tick(event => {
         player.tell(Text.of('极致的毁灭，却带来了别样的新生，看来这是唯一的机会！').gold());
     }
 });
-// 放在 /kubejs/server_scripts/ 目录下，例如 chicken_drop_mob.js
 
-//石英鸡
-ServerEvents.recipes(event =>{
-     let post = PostBuilder.create()
-    let contextual = ContextualBuilder.create()
-     event.recipes.lychee.block_crushing(
+ServerEvents.recipes(event => {
+    // 石英鸡
+    event.recipes.lychee.block_crushing(
         BlockPredicateWrapper.ANVIL,
         BlockPredicateWrapper.block("minecraft:quartz_block"),
         SizedIngredientWrapper.of('chicken_roost:c_vanilla'),
         [
-           post.dropItem('chicken_roost:c_quartz')
+            PostBuilder.create().dropItem('chicken_roost:c_quartz')
         ]
-    )
-})
-ServerEvents.recipes(event =>{
-     let post = PostBuilder.create()
-    let contextual = ContextualBuilder.create()
-     event.recipes.lychee.block_crushing(
+    );
+    // 下界石英种子
+    event.recipes.lychee.block_crushing(
         BlockPredicateWrapper.ANVIL,
         BlockPredicateWrapper.ANY,
         [
@@ -49,65 +43,63 @@ ServerEvents.recipes(event =>{
             SizedIngredientWrapper.of('minecraft:light_gray_dye'),
         ],
         [
-           post.dropItem('ae2cs:nether_quartz_seed')
+            PostBuilder.create().dropItem('ae2cs:nether_quartz_seed')
         ]
-    )
-})
- ServerEvents.recipes(event => {
-     event.recipes.lychee.block_clicking(
-         [SizedIngredientWrapper.of('#minecraft:axes')],
-         BlockPredicateWrapper.block('minecraft:mangrove_log'),
-         [
-             PostBuilder.create().dropItem('8x minecraft:mangrove_planks'),
-             PostBuilder.create().dropItem('minecraft:red_dye')
-         ]
-     )
-     event.recipes.lychee.block_clicking(
-         [SizedIngredientWrapper.of('#minecraft:axes')],
-         BlockPredicateWrapper.block('minecraft:spruce_log'),
-         [
-             PostBuilder.create().dropItem('8x minecraft:spruce_planks'),
-             PostBuilder.create().dropItem('minecraft:blue_dye')
-         ]
-     )
-     event.recipes.lychee.block_clicking(
-         [SizedIngredientWrapper.of('#minecraft:axes')],
-         BlockPredicateWrapper.block('minecraft:acacia_log'),
-         [
-             PostBuilder.create().dropItem('8x minecraft:acacia_planks'),
-             PostBuilder.create().dropItem('minecraft:orange_dye')
-         ]
-     )
-     event.recipes.lychee.block_clicking(
-         [SizedIngredientWrapper.of('#minecraft:axes')],
-         BlockPredicateWrapper.block('minecraft:dark_oak_log'),
-         [
-             PostBuilder.create().dropItem('8x minecraft:dark_oak_planks'),
-             PostBuilder.create().dropItem('minecraft:black_dye')
-         ]
-     )
-     event.recipes.lychee.block_clicking(
-         [SizedIngredientWrapper.of('#minecraft:axes')],
-         BlockPredicateWrapper.block('minecraft:jungle_log'),
-         [
-             PostBuilder.create().dropItem('8x minecraft:jungle_planks'),
-             PostBuilder.create().dropItem('minecraft:brown_dye')
-         ]
-     )
-     event.recipes.lychee.block_clicking(
-         [SizedIngredientWrapper.of('#minecraft:axes')],
-         BlockPredicateWrapper.block('minecraft:oak_log'),
-         [
-             PostBuilder.create().dropItem('8x minecraft:oak_planks'),
-             PostBuilder.create().dropItem('minecraft:yellow_dye')
-         ]
-     )
-     event.recipes.lychee.block_clicking(
-         [SizedIngredientWrapper.of('#minecraft:axes')],
-         BlockPredicateWrapper.block('minecraft:birch_log'),
-         [
-             PostBuilder.create().dropItem('8x minecraft:birch_planks'),
-             PostBuilder.create().dropItem('minecraft:white_dye')
-         ]
-     )
-    })
+    );
+    // 红色染料
+    event.recipes.lychee.block_interacting(
+        [SizedIngredientWrapper.of('#c:seeds')],
+        BlockPredicateWrapper.block('minecraft:mangrove_log'),
+        [
+            PostBuilder.create().dropItem('minecraft:red_dye')
+        ]
+    );
+    // 蓝色染料
+    event.recipes.lychee.block_interacting(
+        [SizedIngredientWrapper.of('#c:seeds')],
+        BlockPredicateWrapper.block('minecraft:spruce_log'),
+        [
+            PostBuilder.create().dropItem('minecraft:blue_dye')
+        ]
+    );
+    // 橙色染料
+    event.recipes.lychee.block_interacting(
+        [SizedIngredientWrapper.of('#c:seeds')],
+        BlockPredicateWrapper.block('minecraft:acacia_log'),
+        [
+            PostBuilder.create().dropItem('minecraft:orange_dye')
+        ]
+    );
+    // 黑色染料
+    event.recipes.lychee.block_interacting(
+        [SizedIngredientWrapper.of('#c:seeds')],
+        BlockPredicateWrapper.block('minecraft:dark_oak_log'),
+        [
+            PostBuilder.create().dropItem('minecraft:black_dye')
+        ]
+    );
+    // 棕色染料
+    event.recipes.lychee.block_interacting(
+        [SizedIngredientWrapper.of('#c:seeds')],
+        BlockPredicateWrapper.block('minecraft:jungle_log'),
+        [
+            PostBuilder.create().dropItem('minecraft:brown_dye')
+        ]
+    );
+    // 黄色染料
+    event.recipes.lychee.block_interacting(
+        [SizedIngredientWrapper.of('#c:seeds')],
+        BlockPredicateWrapper.block('minecraft:oak_log'),
+        [
+            PostBuilder.create().dropItem('minecraft:yellow_dye')
+        ]
+    );
+    // 白色染料
+    event.recipes.lychee.block_interacting(
+        [SizedIngredientWrapper.of('#c:seeds')],
+        BlockPredicateWrapper.block('minecraft:birch_log'),
+        [
+            PostBuilder.create().dropItem('minecraft:white_dye')
+        ]
+    );
+});
