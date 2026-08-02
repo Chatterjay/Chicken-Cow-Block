@@ -58,49 +58,49 @@ ServerEvents.recipes(event =>{
          [SizedIngredientWrapper.of('#c:seeds')],
          BlockPredicateWrapper.block('minecraft:mangrove_log'),
          [
-             PostBuilder.create().withChance(0.2).dropItem('minecraft:red_dye')
+             PostBuilder.create().dropItem('minecraft:red_dye')
          ]
      )
      event.recipes.lychee.block_interacting(
          [SizedIngredientWrapper.of('#c:seeds')],
          BlockPredicateWrapper.block('minecraft:spruce_log'),
          [
-             PostBuilder.create().withChance(0.2).dropItem('minecraft:blue_dye')
+             PostBuilder.create().dropItem('minecraft:blue_dye')
          ]
      )
      event.recipes.lychee.block_interacting(
          [SizedIngredientWrapper.of('#c:seeds')],
          BlockPredicateWrapper.block('minecraft:acacia_log'),
          [
-             PostBuilder.create().withChance(0.2).dropItem('minecraft:orange_dye')
+             PostBuilder.create().dropItem('minecraft:orange_dye')
          ]
      )
      event.recipes.lychee.block_interacting(
          [SizedIngredientWrapper.of('#c:seeds')],
          BlockPredicateWrapper.block('minecraft:dark_oak_log'),
          [
-             PostBuilder.create().withChance(0.2).dropItem('minecraft:black_dye')
+             PostBuilder.create().dropItem('minecraft:black_dye')
          ]
      )
      event.recipes.lychee.block_interacting(
          [SizedIngredientWrapper.of('#c:seeds')],
          BlockPredicateWrapper.block('minecraft:jungle_log'),
          [
-             PostBuilder.create().withChance(0.2).dropItem('minecraft:brown_dye')
+             PostBuilder.create().dropItem('minecraft:brown_dye')
          ]
      )
      event.recipes.lychee.block_interacting(
          [SizedIngredientWrapper.of('#c:seeds')],
          BlockPredicateWrapper.block('minecraft:oak_log'),
          [
-             PostBuilder.create().withChance(0.2).dropItem('minecraft:yellow_dye')
+             PostBuilder.create().dropItem('minecraft:yellow_dye')
          ]
      )
      event.recipes.lychee.block_interacting(
          [SizedIngredientWrapper.of('#c:seeds')],
          BlockPredicateWrapper.block('minecraft:birch_log'),
          [
-             PostBuilder.create().withChance(0.2).dropItem('minecraft:white_dye')
+             PostBuilder.create().dropItem('minecraft:white_dye')
          ]
      )
     })
