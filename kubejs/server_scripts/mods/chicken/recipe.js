@@ -8,6 +8,14 @@ event.shaped("chicken_roost:c_water",[
     B:'minecraft:feather',
     C:'chicken_roost:chicken_essence_tier_2'
 })
+event.shaped('chicken_roost:c_oakwood',[
+    "AAA",
+    "ACA",
+    "AAA"
+],{
+    A:'minecraft:oak_log',
+    C:'chicken_roost:c_dirt'
+})
 });
 ServerEvents.recipes(event =>{
 event.shaped("chicken_roost:c_lava",[

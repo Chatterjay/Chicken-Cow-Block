@@ -46,9 +46,9 @@ ItemEvents.entityInteracted(event => {
         return true;
     }
 //tier1
-    if (processConversion("c_ruby", 'allthecompressed:ruby_block_2x')) return
-    if (processConversion("c_emerald", 'allthecompressed:emerald_block_2x')) return;
-    if (processConversion("c_uranium", 'allthecompressed:uranium_block_2x')) return;
-    if (processConversion("c_amethystshard", 'allthecompressed:amethyst_block_2x')) return;
+    if (processConversion("c_ruby", 'alltheores:ruby_block')) return
+    if (processConversion("c_emerald", 'minecraft:emerald_block')) return;
+    if (processConversion("c_uranium", 'immersiveengineering:storage_uranium')) return;
+    if (processConversion("c_amethystshard", 'minecraft:amethyst_block')) return;
     chicken.persistentData.putBoolean(lockKey, false);
 });
