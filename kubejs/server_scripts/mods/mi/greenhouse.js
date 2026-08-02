@@ -26,11 +26,11 @@ ServerEvents.recipes(event => {
     { seed: 'chicken_roost:chicken_food_tier_8', crop: 'chicken_roost:chicken_food_tier_8' },
     { seed: 'chicken_roost:chicken_food_tier_9', crop: 'chicken_roost:chicken_food_tier_9' },
     { seed: 'chicken_roost:chicken_food_tier_10', crop: 'chicken_roost:chicken_food_tier_10' },
-  ]
-    seedCrops.forEach(function(entry) {
-      event.recipes.modern_industrialization.greenhouse(32, 100)
-        .itemIn(entry.seed,0)
-        .itemOut(entry.crop)
-        .fluidIn("10x extended_industrialization:npk_fertilizer")
-    })
-  })
+  ];
+    seedCrops.forEach(entry => {
+        event.recipes.modern_industrialization.greenhouse(32, 100)
+            .itemIn(entry.seed, 0)
+            .fluidIn("10x extended_industrialization:npk_fertilizer")
+            .itemOut(entry.crop);
+    });
+});
