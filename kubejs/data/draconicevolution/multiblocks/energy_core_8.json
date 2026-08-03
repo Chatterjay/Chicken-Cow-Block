@@ -1,7 +1,7 @@
 ﻿{
     "keys":  {
                  "b":  {
-                           "block":  "minecraft:glass"
+                     "block": "ccb_core:stellar_confinement_glass"
                        },
                  "c":  {
                            "block":  "minecraft:redstone_block"

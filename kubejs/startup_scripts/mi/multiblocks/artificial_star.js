@@ -170,7 +170,7 @@ MIMachineEvents.registerMachines(event => {
         .key("s", event.memberOfBlock("minecraft:polished_andesite"), event.noHatch())
         .key("t", event.memberOfDEStrucutre("draconicevolution:energy_core_stabilizer"), event.noHatch())
         .key("u", event.memberOfBlock("draconicevolution:energy_core_stabilizer"), event.noHatch())
-        .key("v", event.memberOfDEStrucutre("minecraft:glass"), event.noHatch())
+        .key("v", event.memberOfDEStrucutre("ccb_core:stellar_confinement_glass"), event.noHatch())
         .key("w", event.memberOfDEStrucutre("minecraft:redstone_block"), event.noHatch())
         .key("x", event.memberOfDEStrucutre("minecraft:netherite_block"), event.noHatch())
         .key("y", event.memberOfBlock("minecraft:red_concrete"), event.noHatch())
