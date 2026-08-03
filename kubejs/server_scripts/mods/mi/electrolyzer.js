@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
 });
 ServerEvents.recipes(event => {
     event.remove({id: 'modern_industrialization:materials/electrolyzer/uu_matter'});
-    event.recipes.modern_industrialization.electrolyzer(2560, 1000)
+    event.recipes.modern_industrialization.electrolyzer(256, 1000)
         .itemIn('64x chicken_roost:c_aluminium')
         .itemOut('chicken_roost:c_titanium');
     event.recipes.modern_industrialization.electrolyzer(114, 2000)

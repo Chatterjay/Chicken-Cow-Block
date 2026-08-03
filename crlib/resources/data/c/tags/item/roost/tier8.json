@@ -38,6 +38,10 @@
       "required": false
     },
     {
+      "id": "chicken_roost:c_titanium",
+      "required": false
+    },
+    {
       "id": "chicken_roost:c_monazite",
       "required": false
     },

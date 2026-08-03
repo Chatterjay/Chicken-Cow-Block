@@ -3769,7 +3769,7 @@
     "mobtexture": "titaniumchicken",
     "dropitem": "chicken_roost:ingot_titanum",
     "eggtime": 600,
-    "tier": 9,
+    "tier": 8,
     "CanGetFireDamage": false,
     "CanGetProjectileDamage": true,
     "CanGetExplosionDamage": true,

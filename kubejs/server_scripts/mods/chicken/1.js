@@ -450,6 +450,7 @@ const chickenRecipes = [
     time: 200,
     breed: false,
      chickens: [
+    { output: 'c_titanium', item: 'modern_industrialization:raw_titanium'},
     { output: 'c_iridium', item: 'modern_industrialization:iridium_ingot'},
     { output: 'c_netherstar', item: 'minecraft:nether_star'},
     { output: 'c_diamantinecrystal', item: 'actuallyadditions:diamatine_crystal'},
@@ -463,7 +464,6 @@ const chickenRecipes = [
     time: 220,
     breed: false,
      chickens: [
-    { output: 'c_titanium', item: 'modern_industrialization:raw_titanium'},
     { output: 'c_unobtainium', item: 'allthemodium:unobtainium_ingot'},
     { output: 'c_plutonium', item: 'oritech:plutonium_dust'},
     { output: 'c_neutron', item: 'avaritia:neutron_ingot'},

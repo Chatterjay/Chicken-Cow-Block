@@ -2,10 +2,6 @@
   "replace": false,
   "values": [
     {
-      "id": "chicken_roost:c_titanium",
-      "required": false
-    },
-    {
       "id": "chicken_roost:c_unobtainium",
       "required": false
     },
