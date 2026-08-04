@@ -25,4 +25,15 @@ event.shaped('ccb:power_drink',[
     A:'ae2cs:irradiated_crystal_block',
     C:'mekanism:radioactive_waste_barrel',
 })
+event.shaped('ccb:life_water',[
+    " A ",
+    "BCD",
+    " E "
+],{
+    A:'arsdelight:mendosteen_hornbeer',
+    B:'arsdelight:bastion_hornbeer',
+    C:'extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:ber"]',
+    D:'arsdelight:bombegrante_hornbeer',
+    E:'arsdelight:frostaya_hornbeer'
+})
 })

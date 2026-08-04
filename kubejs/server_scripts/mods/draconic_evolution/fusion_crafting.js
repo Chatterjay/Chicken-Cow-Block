@@ -143,6 +143,80 @@ ServerEvents.recipes(event => {
         techLevel: "draconic",
         totalEnergy: 1024000000
     });
+    event.custom({
+        type: "draconicevolution:fusion_crafting",
+        catalyst: {
+            item: "ifeu:apple_core"
+        },
+        ingredients: [
+            {
+                consume: true,
+                ingredient: {
+                    item: "projecte:red_matter"
+                }
+            },
+            {
+                consume: true,
+                ingredient: {
+                    item: "projecte:red_matter"
+                }
+            },
+            {
+                consume: true,
+                ingredient: {
+                    item: "projectexpansion:yellow_matter"
+                }
+            },
+            {
+                consume: true,
+                ingredient: {
+                    item: "projectexpansion:yellow_matter"
+                }
+            },
+            {
+                consume: true,
+                ingredient: {
+                    item: "projectexpansion:white_matter"
+                }
+            },
+            {
+                consume: true,
+                ingredient: {
+                    item: "projectexpansion:white_matter"
+                }
+            },
+            {
+                consume: true,
+                ingredient: {
+                    item: "projectexpansion:fading_matter"
+                }
+            },
+            {
+                consume: true,
+                ingredient: {
+                    item: "projectexpansion:fading_matter"
+                }
+            },
+            {
+                consume: true,
+                ingredient: {
+                    item: "ifeu:liquid_malic_acid_bucket"
+                }
+            },
+            {
+                consume: true,
+                ingredient: {
+                    item: "ifeu:liquid_malic_acid_bucket"
+                }
+            }
+        ],
+        result: {
+            count: 1,
+            id: "ccb:delicious_matter"
+        },
+        techLevel: "draconic",
+        totalEnergy: 819200000
+    });
 });
 
 ServerEvents.tags('block', event => {

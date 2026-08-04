@@ -37,4 +37,12 @@ ServerEvents.recipes(event => {
         .chemicalIn("64000x ccb:singularity_gas")
         .chemicalIn("8000x ccb:netherstar_gas")
         .itemOut('ccb:atm_vibranium_unobtainium_alloy_ingot');
+    event.recipes.modern_mekanistics.niuniu_brand_cooking_machine(256, 200)
+        .itemIn('avaritia:star_fuel')
+        .itemIn('oritech:still_sulfuric_acid_bucket')
+        .itemIn('ifeu:liquid_malic_acid_bucket')
+        .itemIn('pneumaticcraft:etching_acid_bucket')
+        .chemicalIn("8000x mekanism:sulfuric_acid")
+        .chemicalIn("8000x mekanism:hydrofluoric_acid")
+        .itemOut('ccb:star_acid');
 });
