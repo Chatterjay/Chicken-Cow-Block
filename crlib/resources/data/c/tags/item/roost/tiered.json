@@ -850,11 +850,11 @@
       "required": false
     },
     {
-      "id": "chicken_roost:c_monazite",
+      "id": "chicken_roost:c_stainsteel",
       "required": false
     },
     {
-      "id": "chicken_roost:c_stainsteel",
+      "id": "chicken_roost:c_monazite",
       "required": false
     },
     {
