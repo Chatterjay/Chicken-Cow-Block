@@ -64,6 +64,10 @@
     {
       "id": "chicken_roost:c_quantumalloy",
       "required": false
+    },
+    {
+      "id": "chicken_roost:c_stainsteel",
+      "required": false
     }
   ]
 }

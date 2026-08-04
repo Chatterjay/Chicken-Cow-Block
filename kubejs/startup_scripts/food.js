@@ -58,7 +58,7 @@ StartupEvents.registry('item', event => {
     event.create('ccb:power_drink')
         .food(food => {
             food.nutrition(1)
-                .saturation(99)
+                .saturation(100)
                 .effect("apothic_attributes:bleeding", 12000, 2, 1)
                 .effect("minecraft:glowing", 12000, 0, 1)
                 .effect("minecraft:health_boost", 12000, 0, 0.001)
@@ -144,40 +144,40 @@ StartupEvents.registry('item', event => {
         });
     event.create('ccb:antimatter_soup')
         .food(food => {
-            food.nutrition(99)
-                .saturation(1)
+            food.nutrition(100)
+                .saturation(2)
                 .usingConvertsTo('occultism:eldritch_chalice')
         });
     event.create('ccb:uumatter_soup')
         .food(food => {
-            food.nutrition(99)
-                .saturation(1)
+            food.nutrition(100)
+                .saturation(2)
                 .usingConvertsTo('occultism:celestial_chalice')
         });
     event.create('ccb:real_soul_boom')
         .food(food => {
-            food.nutrition(99)
-                .saturation(1)
+            food.nutrition(100)
+                .saturation(2)
         });
     event.create('ccb:exhaust_nuclear_waste_sauce')
         .food(food => {
-            food.nutrition(99)
-                .saturation(1)
+            food.nutrition(100)
+                .saturation(2)
         });
     event.create('ccb:plasma_coke')
         .food(food => {
-            food.nutrition(99)
-                .saturation(1)
+            food.nutrition(100)
+                .saturation(2)
         });
     event.create('ccb:aged_dragon_wings')
         .food(food => {
-            food.nutrition(99)
-                .saturation(1)
+            food.nutrition(100)
+                .saturation(2)
         });
     event.create('ccb:world_tree')
         .food(food => {
-            food.nutrition(99)
-                .saturation(1)
+            food.nutrition(100)
+                .saturation(2)
         });
     event.create('ccb:dragon_wings')
         .food(food => {

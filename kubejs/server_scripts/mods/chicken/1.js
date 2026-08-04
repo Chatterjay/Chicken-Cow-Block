@@ -436,6 +436,7 @@ const chickenRecipes = [
     time: 180,
     breed: false,
      chickens: [
+    { output: 'c_stainsteel', item: 'modern_industrialization:stainless_steel_ingot'},
     { output: 'c_diamantinecrystal', item: 'actuallyadditions:diamatine_crystal'},
     { output: 'c_allthemodium', item: 'allthemodium:allthemodium_ingot'},
     { output: 'c_vibranium', item: 'allthemodium:vibranium_ingot'},
@@ -450,11 +451,11 @@ const chickenRecipes = [
     time: 200,
     breed: false,
      chickens: [
+    { output: 'c_titanium', item: 'modern_industrialization:raw_titanium'},
     { output: 'c_iridium', item: 'modern_industrialization:iridium_ingot'},
     { output: 'c_netherstar', item: 'minecraft:nether_star'},
     { output: 'c_diamantinecrystal', item: 'actuallyadditions:diamatine_crystal'},
     { output: 'c_monazite', item: 'modern_industrialization:monazite_dust'},
-    { output: 'c_stainsteel', item: 'modern_industrialization:stainless_steel_ingot'},
     { output: 'c_eclipsealloy', item:'justdirethings:eclipsealloy_ingot'}
    ]
   },
@@ -463,7 +464,6 @@ const chickenRecipes = [
     time: 220,
     breed: false,
      chickens: [
-    { output: 'c_titanium', item: 'modern_industrialization:raw_titanium'},
     { output: 'c_unobtainium', item: 'allthemodium:unobtainium_ingot'},
     { output: 'c_plutonium', item: 'oritech:plutonium_dust'},
     { output: 'c_neutron', item: 'avaritia:neutron_ingot'},

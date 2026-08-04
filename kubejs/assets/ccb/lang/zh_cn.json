@@ -39,5 +39,8 @@
   "item.ccb.world_tree": "世界之树",
   "item.ccb.dragon_wings": "龙翅",
   "item.ccb.life_water": "生命之水",
-  "item.ccb.cow_bucket": "牛牛桶"
+  "item.ccb.cow_bucket": "牛牛桶",
+  "fluid_type.ccb.overworld_fluid": "主世界流体",
+  "fluid_type.ccb.nether_fluid": "下界流体",
+  "fluid_type.ccb.end_fluid": "末地流体"
 }

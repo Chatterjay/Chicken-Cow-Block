@@ -9,4 +9,16 @@ ServerEvents.recipes(event => {
         .itemIn('minecraft:netherite_ingot')
         .itemIn('modern_industrialization:industrial_tnt')
         .itemOut('64x ccb_core:stellar_confinement_glass');
+     event.recipes.modern_industrialization.implosion_compressor(1, 10)
+        .itemIn('modern_industrialization:plutonium_battery')
+        .itemIn('oritech:plutonium_pellet')
+        .itemIn('8x mekanism:pellet_plutonium')
+        .itemIn('oritech:nuke')
+        .itemOut('ccb:pellet_no');
+    event.recipes.modern_industrialization.implosion_compressor(1, 10)
+        .itemIn('modern_industrialization:he_uranium_fuel_rod')
+        .itemIn('oritech:uranium_pellet')
+        .itemIn('8x modern_industrialization:le_uranium_nugget')
+        .itemIn('modern_industrialization:nuke')
+        .itemOut('ccb:uranium_radiation');
 });
