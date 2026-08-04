@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.fire_ale",
+  "colors": [
+    "f30e0e",
+    "8f1d1d"
+  ],
+  "ingredient": {
+    "item": "irons_spellbooks:fire_ale"
+  }
+}
