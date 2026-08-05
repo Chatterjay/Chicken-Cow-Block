@@ -35,3 +35,9 @@ potProbability = 0.0
 needPot = false
 #If true, ingredient remainder items (e.g., Glass Bottles from Potions, Bowls from Stews) will output. Default: true
 enableRemainingItem = true
+
+[jdt]
+#If true, goo spread requires mycelial reactor working. Default: false
+gooSpreadRequiresReactorWorking = true
+#If true, goo spread recipe will ignore block state. Default: false
+gooSpreadIgnoreBlockState = true
