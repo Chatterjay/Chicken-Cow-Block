@@ -21,4 +21,10 @@ ServerEvents.recipes(event => {
         .itemIn('8x modern_industrialization:le_uranium_nugget')
         .itemIn('modern_industrialization:nuke')
         .itemOut('ccb:uranium_radiation');
+    event.recipes.modern_industrialization.implosion_compressor(16000, 10)
+        .itemIn('ars_elemental:necrotic_focus')
+        .itemIn('64x ae2lt:overload_tnt')
+        .itemIn('64x oritech:nuke')
+        .itemIn('256x modern_industrialization:nuke')
+        .itemOut('ccb:real_soul_boom');
 });

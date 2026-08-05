@@ -1,12 +1,12 @@
 ServerEvents.recipes(event =>{
-event.shaped('8x ccb:raw_sandwich',[
-    "A",
+event.shaped('ccb:raw_sandwich',[
+    "C",
     "B",
-    "C"
+    "A"
 ],{
-    A:'minecraft:cobblestone',
+    C:'minecraft:cobblestone',
     B:'chicken_roost:chicken_essence_tier_1',
-    C:'minecraft:oak_log',
+    A:'minecraft:oak_log',
 })
 event.shaped('ccb:soul_boom',[
     "ABA",

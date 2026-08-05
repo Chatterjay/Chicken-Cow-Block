@@ -19,3 +19,12 @@ StartupEvents.registry("fluid", event => {
         .noBlock()
         .noBucket();
 });
+MIRegistrationEvents.registerFluids(event => {
+    event.register(
+        "Fanta Plasma", "fanta_plasma", // English name and internal name
+        0xe59d12, 
+        "steam", // Steam-like texture
+        true, // true for upside down
+        "low", // medium transparency
+    );
+});

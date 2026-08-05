@@ -20,9 +20,7 @@ global.COW_TRANSMUTE_RULES = [
   { item: 'mekanism:brine_bucket', fluid: "mekanism:sodium" },
   { item: 'mekanism:sodium_bucket', fluid: "mekanism:superheated_sodium" },
   { item: 'mekanism_extras:naquadah_reactor_controller', fluid: "mekanism_extras:polonium_containing_solution" },
-  { item: 'occultism:otherworld_essence', fluid: "occultengineering:spirit_solution" },
   { item: 'allthetweaks:ender_pearl_block', fluid: "data_energistics:ender" },
-  { item: 'occultism:otherworld_essence', fluid: "occultengineering:spirit_solution" },
   { item: 'ifeu:dragon_star_block', fluid: "ifeu:dragon_star_essence" },
   { item: 'neoecoae:cryotheum_crystal', fluid: "neoecoae:cryotheum_solution" },
   { item: 'occultism:otherworld_essence', fluid: "occultengineering:spirit_solution" }
