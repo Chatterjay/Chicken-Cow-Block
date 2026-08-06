@@ -19,25 +19,25 @@
 	needBoard = false
 
 [cookingPot]
-	#Energy per tick for generated recipes. Default: 16
-	# Default: 16
-	# Range: > 1
-	energy = 16
-	#Duration multiplier for generated recipes. Default: 0.5
-	# Default: 0.5
-	# Range: 0.0 ~ 2.147483647E9
-	durationMultiplier = 0.5
-	#CookingPot consume probability for generated recipes. Default: 0.0
-	# Default: 0.0
-	# Range: 0.0 ~ 1.0
-	potProbability = 0.0
-	#Whether need CookingPot for generated recipes. Default: false
-	needPot = false
-	#If true, ingredient remainder items (e.g., Glass Bottles from Potions, Bowls from Stews) will output. Default: true
-	enableRemainingItem = true
+#Energy per tick for generated recipes. Default: 16
+# Default: 16
+# Range: > 1
+energy = 16
+#Duration multiplier for generated recipes. Default: 0.5
+# Default: 0.5
+# Range: 0.0 ~ 2.147483647E9
+durationMultiplier = 0.5
+#CookingPot consume probability for generated recipes. Default: 0.0
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+potProbability = 0.0
+#Whether need CookingPot for generated recipes. Default: false
+needPot = false
+#If true, ingredient remainder items (e.g., Glass Bottles from Potions, Bowls from Stews) will output. Default: true
+enableRemainingItem = true
 
 [jdt]
-	#If true, goo spread requires mycelial reactor working. Default: false
-	gooSpreadRequiresReactorWorking = true
-	#If true, goo spread recipe will ignore block state. Default: false
-	gooSpreadIgnoreBlockState = true
+#If true, goo spread requires mycelial reactor working. Default: false
+gooSpreadRequiresReactorWorking = true
+#If true, goo spread recipe will ignore block state. Default: false
+gooSpreadIgnoreBlockState = true
