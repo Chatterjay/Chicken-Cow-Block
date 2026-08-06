@@ -1,0 +1,30 @@
+ServerEvents.recipes(event =>{
+event.recipes.occultism.ritual(
+'ccb:antimatter_soup',
+[//输出物品
+'mekanism:pellet_antimatter',
+'ae2lt:overload_alloy',
+'enderio_evolution:stellar_alloy_block',
+'ends_delight:fried_dragon_egg',
+'arsdelight:grilled_wilden_meat',
+'arsdelight:grilled_chimera_meat',
+'farmersdelight:rotten_tomato'
+],
+'occultism:eldritch_chalice',//仪式核心输入物品（放在黄金献祭之碗上的）
+'occultism:marid_cooking_ritual'
+    ).dummy("ccb:custom_ritual_misc").useItem("minecraft:egg")
+    event.recipes.occultism.ritual(
+'ccb:uumatter_soup',
+[//输出物品
+'arsdelight:wilden_meat',
+'arsdelight:chimera_meat',
+'ae2lt:overload_alloy_blank',
+'farmersdelight:tomato',
+'ends_delight:liquid_dragon_egg',
+'allthemodium:unobtainium_block',
+'mekmm:uu_matter'
+],
+'occultism:celestial_chalice',//仪式核心输入物品（放在黄金献祭之碗上的）
+'occultism:marid_cooking_ritual'
+    ).dummy("ccb:custom_ritual_misc").useItem("minecraft:egg")
+});

@@ -1,6 +1,7 @@
 
 ServerEvents.recipes(event => {
     event.remove({output: 'ifeu:dead_dragon_egg'})
+    event.remove({output: 'pneumaticcraft:yeast_culture'})
 })
 ServerEvents.recipes(event=>{
     event.custom(
@@ -13,6 +14,19 @@ ServerEvents.recipes(event=>{
   },
   "output": {
     "Name": "ifeu:dead_dragon_egg",
+  },
+  "tierRequirement": 4
+})
+ event.custom(
+        {
+  "type": "justdirethings:goospread",
+  "craftingDuration": 2400,
+  "id": "pneumaticcraft:yeast_culture",
+  "input": {
+    "Name": 'industrialforegoing:mycelial_reactor'
+  },
+  "output": {
+    "Name": "pneumaticcraft:yeast_culture",
   },
   "tierRequirement": 4
 })

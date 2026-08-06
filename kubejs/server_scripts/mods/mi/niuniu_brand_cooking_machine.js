@@ -45,4 +45,10 @@ ServerEvents.recipes(event => {
         .chemicalIn("8000x mekanism:sulfuric_acid")
         .chemicalIn("8000x mekanism:hydrofluoric_acid")
         .itemOut('ccb:star_acid');
+    event.recipes.modern_mekanistics.niuniu_brand_cooking_machine(256, 200)
+        .itemIn('ae2omnicells:spent_nuclear_waste_cell')
+        .itemIn('64x actuallyadditions:coffee_beans')
+        .itemIn('pneumaticcraft:yeast_culture_bucket')
+        .chemicalIn("1024000x mekanism:spent_nuclear_waste")
+        .itemOut('ccb:exhaust_nuclear_waste_sauce');
 });

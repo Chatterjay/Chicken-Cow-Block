@@ -31,6 +31,8 @@ LootJS.modifiers(event => {
 LootJS.modifiers(event => {
     event.addEntityModifier("occultism:possessed_guardian")
         .addLoot('chicken_roost:c_prismarinecrystal','chicken_roost:c_prismarineshard');
+    event.addEntityModifier("mecrh:ender_chicken")
+        .addLoot('2x ccb:dragon_wings');
 })
 //沙砾鸡
 LootJS.modifiers(event => {
