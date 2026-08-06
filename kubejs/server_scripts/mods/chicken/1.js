@@ -454,7 +454,6 @@ const chickenRecipes = [
     { output: 'c_titanium', item: 'modern_industrialization:raw_titanium'},
     { output: 'c_iridium', item: 'modern_industrialization:iridium_ingot'},
     { output: 'c_netherstar', item: 'minecraft:nether_star'},
-    { output: 'c_diamantinecrystal', item: 'actuallyadditions:diamatine_crystal'},
     { output: 'c_monazite', item: 'modern_industrialization:monazite_dust'},
     { output: 'c_eclipsealloy', item:'justdirethings:eclipsealloy_ingot'}
    ]

@@ -18,13 +18,10 @@ StartupEvents.registry("fluid", event => {
         .tint(0xde62c8)
         .noBlock()
         .noBucket();
-});
-MIRegistrationEvents.registerFluids(event => {
-    event.register(
-        "Fanta Plasma", "fanta_plasma", // English name and internal name
-        0xe59d12, 
-        "steam", // Steam-like texture
-        true, // true for upside down
-        "low", // medium transparency
-    );
+    event.create('ccb:fanta_plasma', 'thin')
+        .stillTexture("ccb:fluid/fanta_plasma_still")
+        .flowingTexture("ccb:fluid/fanta_plasma_still")
+        .displayName('芬达等离子体')
+        .tint(0xe59d12)
+        .noBlock();
 });

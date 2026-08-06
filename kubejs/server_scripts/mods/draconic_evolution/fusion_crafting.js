@@ -22,6 +22,24 @@ ServerEvents.recipes(event => {
             {
                 "consume": true,
                 "ingredient": {
+                    "item": "chicken_roost:chicken_essence_tier_8"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "occultism:awakened_feather"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:draconium_block"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
                     "item": "draconicevolution:draconium_block"
                 }
             },
@@ -34,19 +52,7 @@ ServerEvents.recipes(event => {
             {
                 "consume": true,
                 "ingredient": {
-                    "item": "draconicevolution:draconium_block"
-                }
-            },
-            {
-                "consume": true,
-                "ingredient": {
-                    "item": "draconicevolution:awakened_draconium_ingot"
-                }
-            },
-            {
-                "consume": true,
-                "ingredient": {
-                    "item": "draconicevolution:awakened_draconium_ingot"
+                    "item": "occultism:awakened_feather"
                 }
             }
         ],
@@ -55,7 +61,7 @@ ServerEvents.recipes(event => {
             "id": "chicken_roost:c_draconium"
         },
         "techLevel": "wyvern",
-        "totalEnergy": 500000000
+        "totalEnergy": 1000000
     });
     event.custom({
         type: "draconicevolution:fusion_crafting",
@@ -141,7 +147,7 @@ ServerEvents.recipes(event => {
             id: "chicken_roost:c_awakeneddraconium"
         },
         techLevel: "draconic",
-        totalEnergy: 1024000000
+        totalEnergy: 10240000
     });
     event.custom({
         type: "draconicevolution:fusion_crafting",
@@ -217,6 +223,93 @@ ServerEvents.recipes(event => {
         techLevel: "draconic",
         totalEnergy: 819200000
     });
+     event
+    .custom({
+      type: "draconicevolution:fusion_crafting",
+      catalyst: {
+        item: "chicken_roost:c_awakeneddraconium",
+      },
+      ingredients: [
+        {
+          consume: true,
+          ingredient: {
+            tag: "c:ingots/draconium_awakened",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            tag: "c:ingots/draconium_awakened",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: "draconicevolution:awakened_core",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: "draconicevolution:awakened_core",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: "draconicevolution:large_chaos_frag",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: "draconicevolution:large_chaos_frag",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            tag: "c:ingots/draconium_awakened",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: "draconicevolution:awakened_core",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: "draconicevolution:awakened_core",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: "draconicevolution:large_chaos_frag",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: "draconicevolution:large_chaos_frag",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            tag: "c:ingots/draconium_awakened",
+          },
+        },
+      ],
+      result: {
+        count: 1,
+        id: "chicken_roost:c_chaos",
+      },
+      techLevel: "chaotic",
+      totalEnergy: 100000000,
+    })
 });
 
 ServerEvents.tags('block', event => {

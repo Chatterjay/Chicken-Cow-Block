@@ -75,5 +75,9 @@ event.custom(
     }
   ],
 })
+    event.recipes.extended_industrialization.canning_machine(32, 20)
+        .fluidIn('8000x ccb:fanta_plasma')
+        .itemIn('modern_industrialization:quantum_tank')
+        .itemOut('ccb:plasma_coke');
 })
 

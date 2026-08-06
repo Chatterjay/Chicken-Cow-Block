@@ -4,9 +4,9 @@ event.shaped('ccb:raw_sandwich',[
     "B",
     "A"
 ],{
-    C:'minecraft:cobblestone',
+    A:'minecraft:cobblestone',
     B:'chicken_roost:chicken_essence_tier_1',
-    A:'minecraft:oak_log',
+    C:'minecraft:oak_log',
 })
 event.shaped('ccb:soul_boom',[
     "ABA",
@@ -36,4 +36,15 @@ event.shaped('ccb:life_water',[
     D:'arsdelight:bombegrante_hornbeer',
     E:'arsdelight:frostaya_hornbeer'
 })
+})
+ServerEvents.recipes(event => {
+  event.custom({
+    type: "lychee:item_inside",
+    item_in: { item: 'ccb:dragon_wings' },
+    block_in: "pneumaticcraft:yeast_culture[level=0]",
+    time: 240,
+    post: [
+      { type: "drop_item", id: "ccb:aged_dragon_wings" }
+    ]
+  })
 })
