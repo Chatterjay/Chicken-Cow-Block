@@ -1,0 +1,127 @@
+{
+  "type": "modonomicon:dense",
+  "mapping": {
+    "*": {
+      "type": "modonomicon:display",
+      "display": "occultism:otherstone"
+    },
+    "+": {
+      "type": "modonomicon:display",
+      "display": "occultism:otherrock"
+    },
+    "5": {
+      "type": "modonomicon:block",
+      "block": "occultengineering:copper_chalk"
+    },
+    "X": {
+      "type": "modonomicon:tag",
+      "display": "occultism:chalk_glyph_purple",
+      "tag": "#occultism:glyphs_purple"
+    },
+    "Y": {
+      "type": "modonomicon:tag",
+      "display": "occultism:chalk_glyph_gold",
+      "tag": "#occultism:glyphs_yellow"
+    },
+    "6": {
+      "type": "modonomicon:block",
+      "block": "farmersdelight:cooking_pot"
+    },
+    "7": {
+      "type": "modonomicon:block",
+      "block": "create_connected:fluid_vessel"
+    },
+    "8": {
+      "type": "modonomicon:block",
+      "block": "occultengineering:zinc_chalk"
+    },
+    "9": {
+      "type": "modonomicon:block",
+      "block": "create:item_vault"
+    },
+    "O": {
+      "type": "modonomicon:tag",
+      "display": "occultism:chalk_glyph_orange",
+      "tag": "#occultism:glyphs_orange"
+    },
+    "R": {
+      "type": "modonomicon:tag",
+      "display": "occultism:chalk_glyph_red",
+      "tag": "#occultism:glyphs_red"
+    },
+    "D": {
+      "type": "modonomicon:block",
+      "block": "occultengineering:brass_chalk"
+    },
+    "P": {
+      "type": "modonomicon:tag",
+      "display": "occultism:chalk_glyph_pink",
+      "tag": "#occultism:glyphs_pink"
+    },
+    "F": {
+      "type": "modonomicon:block",
+      "block": "farmersdelight:cutting_board"
+    },
+    "0": {
+      "type": "modonomicon:tag",
+      "display": "occultism:golden_sacrificial_bowl",
+      "tag": "#occultism:center_sacrificial_bowl"
+    },
+    "H": {
+      "type": "modonomicon:block",
+      "block": "farmersdelight:stove"
+    },
+    "I": {
+      "type": "modonomicon:block",
+      "block": "create_connected:item_silo"
+    },
+    "J": {
+      "type": "modonomicon:block",
+      "block": "create:fluid_tank"
+    },
+    "N": {
+      "type": "modonomicon:block",
+      "block": "farmersdelight:skillet"
+    }
+  },
+  "pattern": [
+    [
+      "_________________",
+      "____5555X5555____",
+      "__YY5__X6X__5YY__",
+      "__Y7Y_88888_Y9Y__",
+      "_55YYO_____OYY55_",
+      "_5__ORODDDORO__5_",
+      "_5_8_OD_P_DO_8_5_",
+      "_5X8_D_8_8_D_8X5_",
+      "_XF8_DP505PD_8HX_",
+      "_5X8_D_858_D_8X5_",
+      "_5_8_OD_P_DO_8_5_",
+      "_5__ORODDDORO__5_",
+      "__5YYO_____OYY55_",
+      "__YIY_88888_YJY__",
+      "__YY5__XNX__5YY__",
+      "_____555X5555____",
+      "_________________"
+    ],
+    [
+      "*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*"
+    ]
+  ]
+}
