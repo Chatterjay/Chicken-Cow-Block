@@ -1,0 +1,50 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "data_energistics:fish_dan_",
+  "variants": [],
+  "name_color": "#a3a3a3",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "data_energistics:qiuyeqaq2024"
+  },
+  "trivia": "hostilenetworks.trivia.fish_dan_",
+  "fabricator_drops": [
+    {
+      "id": "minecraft:cod",
+      "count": 16
+    },
+    {
+      "id": "minecraft:salmon",
+      "count": 16
+    },
+    {
+      "id": "minecraft:tropical_fish",
+      "count": 16
+    },
+    {
+      "id": "minecraft:pufferfish",
+      "count": 16
+    },
+    {
+      "id": "minecraft:egg",
+      "count": 16
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

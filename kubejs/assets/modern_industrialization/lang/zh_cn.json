@@ -6,9 +6,6 @@
     "block.modern_industrialization.quantum_fluid_input_hatch":"量子流体输入仓",
     "block.modern_industrialization.quantum_fluid_output_hatch":"量子流体输出仓",
     "rei_categories.modern_mekanistics.niuniu_brand_cooking_machine" : "牛牛牌烹饪机",
-    "block.modern_mekanistics.niuniu_brand_cooking_machine":"牛牛牌烹饪机",
-    "item.modern_industrialization.fanta_plasma_bucket": "芬达等离子体桶",
-    "fluid_type.modern_industrialization.fanta_plasma": "芬达等离子体",
-    "block.modern_industrialization.fanta_plasma": "芬达等离子体"
+    "block.modern_mekanistics.niuniu_brand_cooking_machine":"牛牛牌烹饪机"
     
 }

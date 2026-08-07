@@ -42,5 +42,9 @@
   "item.ccb.cow_bucket": "牛牛桶",
   "fluid_type.ccb.overworld_fluid": "主世界流体",
   "fluid_type.ccb.nether_fluid": "下界流体",
-  "fluid_type.ccb.end_fluid": "末地流体"
+  "fluid_type.ccb.end_fluid": "末地流体",
+  "item.ccb.fanta_plasma_bucket": "芬达等离子体桶",
+  "fluid_type.ccb.fanta_plasma": "芬达等离子体",
+  "block.ccb.fanta_plasma": "芬达等离子体",
+  "item.ccb.mi_prediction_matrix": "现代工业化预测矩阵"
 }

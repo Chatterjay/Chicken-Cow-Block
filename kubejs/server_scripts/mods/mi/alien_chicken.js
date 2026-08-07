@@ -53,4 +53,10 @@ ServerEvents.recipes(event => {
         .itemIn('ae2lt:flawless_budding_overload_crystal')
         .fluidIn("1000x data_energistics:data_corrosion_liquid")
         .itemOut('chicken_roost:c_overloadcrystal');
+    event.recipes.modern_industrialization.alien_chicken(32, 20)
+        .itemIn('chicken_roost:c_chargedcertus')
+        .itemIn('data_energistics:budding_data_crystal_4')
+        .itemIn('64x data_energistics:data_crystal')
+        .itemIn('data_energistics:data_meteorite_2')
+        .itemOut('chicken_roost:c_datacrystal');
 });

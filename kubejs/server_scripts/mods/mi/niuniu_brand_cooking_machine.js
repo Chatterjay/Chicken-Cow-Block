@@ -1,6 +1,9 @@
 ServerEvents.recipes(event => {
     event.recipes.modern_mekanistics.niuniu_brand_cooking_machine(32, 20)
         .itemIn('minecraft:glass_bottle')
+        .itemIn('mekanism:hdpe_stick')
+        .itemIn('#c:raw_blocks')
+        .itemIn('mekmm:advanced_electrolysis_core')
         .chemicalIn("100x mekanism:oxygen")
         .chemicalIn("100x mekanism:hydrogen_chloride")
         .chemicalIn("100x mekanism:sulfuric_acid")

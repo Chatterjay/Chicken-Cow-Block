@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "modern_industrialization:advanced_machine_hull",
+  "variants": [],
+  "name_color": "#a3a3a3",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 1024,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "modern_industrialization:rubber_sheet"
+  },
+  "trivia": "hostilenetworks.trivia.advanced_machine_hull",
+  "fabricator_drops": [
+    {
+      "id": "modern_industrialization:large_motor",
+      "count": 4
+    },
+    {
+      "id": "modern_industrialization:large_pump",
+      "count": 4
+    },
+    {
+      "id": "'modern_industrialization:analog_circuit'",
+      "count": 1
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

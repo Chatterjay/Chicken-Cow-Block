@@ -1,0 +1,46 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "modern_industrialization:turbo_machine_hull",
+  "variants": [],
+  "name_color": "#a3a3a3",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 2048,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "modern_industrialization:rubber_sheet"
+  },
+  "trivia": "hostilenetworks.trivia.turbo_machine_hull",
+  "fabricator_drops": [
+    {
+      "id": "modern_industrialization:advanced_motor",
+      "count": 4
+    },
+    {
+      "id": "modern_industrialization:advanced_pump",
+      "count": 2
+    },
+    {
+      "id": "modern_industrialization:diode",
+      "count": 2
+    },
+    {
+      "id": "modern_industrialization:transistor",
+      "count": 2
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

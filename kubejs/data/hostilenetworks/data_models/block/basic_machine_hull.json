@@ -1,0 +1,50 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "modern_industrialization:basic_machine_hull",
+  "variants": [],
+  "name_color": "#a3a3a3",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "modern_industrialization:rubber_sheet"
+  },
+  "trivia": "hostilenetworks.trivia.basic_machine_hull",
+  "fabricator_drops": [
+    {
+      "id": "modern_industrialization:robot_arm",
+      "count": 4
+    },
+    {
+      "id": "modern_industrialization:piston",
+      "count": 4
+    },
+    {
+      "id": "modern_industrialization:motor",
+      "count": 4
+    },
+    {
+      "id": "modern_industrialization:conveyor",
+      "count": 4
+    },
+    {
+      "id": "modern_industrialization:pump",
+      "count": 4
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}
