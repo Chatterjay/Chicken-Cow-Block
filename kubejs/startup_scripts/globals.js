@@ -25,3 +25,10 @@ global.COW_TRANSMUTE_RULES = [
   { item: 'neoecoae:cryotheum_crystal', fluid: "neoecoae:cryotheum_solution" },
   { item: 'occultism:otherworld_essence', fluid: "occultengineering:spirit_solution" }
 ]
+
+global.CHICKEN_TRANSMUTE_RULES = [
+  {item: "alltheores:ruby_block", outputChicken: "c_ruby"},
+  {item: "minecraft:emerald_block", outputChicken: "c_emerald"},
+  {item: "immersiveengineering:storage_uranium", outputChicken: "c_uranium"},
+  {item: "minecraft:amethyst_block", outputChicken: "c_amethystshard"}
+]
