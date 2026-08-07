@@ -13,7 +13,7 @@
   },
   "sim_cost": 512,
   "input": {
-    "item": "hostilenetworks:prediction_matrix"
+    "item": "ccb:mi_prediction_matrix"
   },
   "base_drop": {
     "id": "modern_industrialization:rubber_sheet"
@@ -22,11 +22,11 @@
   "fabricator_drops": [
     {
       "id": "modern_industrialization:robot_arm",
-      "count": 4
+      "count": 1
     },
     {
       "id": "modern_industrialization:piston",
-      "count": 4
+      "count": 2
     },
     {
       "id": "modern_industrialization:motor",
@@ -34,11 +34,11 @@
     },
     {
       "id": "modern_industrialization:conveyor",
-      "count": 4
+      "count": 2
     },
     {
       "id": "modern_industrialization:pump",
-      "count": 4
+      "count": 2
     }
   ],
   "upgrade_conditions": [
