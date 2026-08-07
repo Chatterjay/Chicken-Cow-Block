@@ -19,7 +19,7 @@ RecipeViewerEvents.addInformation("item", event => {
         const {item, outputChicken} = rule;
 
         const itemName = Item.of(item).getDisplayName().getString() || item;
-        const chickenName = Item.of(`chicken_roost:${outputChicken}`).getDisplayName().getString() || item;
+        const chickenName = Item.of(`chicken_roost:${outputChicken}`).getDisplayName().getString() || outputChicken;
 
         event.add([`chicken_roost:${outputChicken}`, item], [
             `使用 §6${itemName}§r 右键普通鸡，可将其转化为 §b${chickenName}§r。`
