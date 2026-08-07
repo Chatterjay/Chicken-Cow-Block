@@ -1,0 +1,50 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "modern_industrialization:quantum_machine_hull",
+  "variants": [],
+  "name_color": "rainbow",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 8192,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "modern_industrialization:rubber_sheet"
+  },
+  "trivia": "hostilenetworks.trivia.quantum_machine_hull",
+  "fabricator_drops": [
+    {
+      "id": "modern_industrialization:random_access_memory",
+      "count": 2
+    },
+    {
+      "id": "modern_industrialization:arithmetic_logic_unit",
+      "count": 1
+    },
+    {
+      "id": "modern_industrialization:memory_management_unit",
+      "count": 1
+    },
+    {
+      "id": "modern_industrialization:cooling_cell",
+      "count": 1
+    },
+    {
+      "id": "modern_industrialization:qubit",
+      "count": 1
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}
