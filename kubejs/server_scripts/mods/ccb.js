@@ -3,13 +3,14 @@ ServerEvents.recipes(event => {
     event.smithing('ccb_core:natural_lightning_spawner',
         'irons_spellbooks:lightning_bottle', 'minecraft:trident', 'powah:charged_snowball');
     event.shaped('ccb:mi_prediction_matrix',[
-    "AB ",
+    "AE ",
     "BCB",
-    " BD"
+    " ED"
 ],{
     A:'immersiveengineering:ingot_aluminum',
-    B:'immersiveengineering:slag_glass',
+    B:'modern_industrialization:analog_circuit_board',
     C:'hostilenetworks:prediction_matrix',
-    D:'minecraft:copper_ingot'
+    D:'minecraft:copper_ingot',
+    E:'immersiveengineering:slag_glass'
 })
 });
