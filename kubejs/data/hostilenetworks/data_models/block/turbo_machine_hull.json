@@ -7,7 +7,7 @@
   "type": "hostilenetworks:block_data_model",
   "block": "modern_industrialization:turbo_machine_hull",
   "variants": [],
-  "name_color": "#a3a3a3",
+  "name_color": "blue",
   "display": {
     "scale": 3
   },
