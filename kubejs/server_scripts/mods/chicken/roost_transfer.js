@@ -46,12 +46,10 @@ ItemEvents.entityInteracted(event => {
         return true;
     }
 
-    // tier1
-    if (processConversion("c_ruby", 'alltheores:ruby_block')) return;
-    if (processConversion("c_emerald", 'minecraft:emerald_block')) return;
-    if (processConversion("c_uranium", 'immersiveengineering:storage_uranium')) return;
-    if (processConversion("c_amethystshard", 'minecraft:amethyst_block')) return;
-    if (processConversion("c_stainsteel", 'modern_industrialization:stainless_steel_rotor')) return;
-    if (processConversion("c_monazite", 'modern_industrialization:monazite_block')) return;
+    for (const {item, outputChicken} of global.CHICKEN_TRANSMUTE_RULES) {
+        if (processConversion(outputChicken, item)) {
+            return;
+        }
+    }
     chicken.persistentData.putBoolean(lockKey, false);
 });

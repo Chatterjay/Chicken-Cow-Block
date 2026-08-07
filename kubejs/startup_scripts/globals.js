@@ -27,3 +27,10 @@ global.COW_TRANSMUTE_RULES = [
   { item: 'modern_industrialization:creosote_bucket', fluid: "modern_industrialization:lubricant" },
   { item: 'oritech:fluxite_block', fluid: "oritech:still_molten_fluxite" }
 ]
+
+global.CHICKEN_TRANSMUTE_RULES = [
+  {item: "alltheores:ruby_block", outputChicken: "c_ruby"},
+  {item: "minecraft:emerald_block", outputChicken: "c_emerald"},
+  {item: "immersiveengineering:storage_uranium", outputChicken: "c_uranium"},
+  {item: "minecraft:amethyst_block", outputChicken: "c_amethystshard"}
+]
