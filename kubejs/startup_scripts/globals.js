@@ -23,5 +23,7 @@ global.COW_TRANSMUTE_RULES = [
   { item: 'allthetweaks:ender_pearl_block', fluid: "data_energistics:ender" },
   { item: 'ifeu:dragon_star_block', fluid: "ifeu:dragon_star_essence" },
   { item: 'neoecoae:cryotheum_crystal', fluid: "neoecoae:cryotheum_solution" },
-  { item: 'occultism:otherworld_essence', fluid: "occultengineering:spirit_solution" }
+  { item: 'occultism:otherworld_essence', fluid: "occultengineering:spirit_solution" },
+  { item: 'modern_industrialization:creosote_bucket', fluid: "modern_industrialization:lubricant" },
+  { item: 'oritech:fluxite_block', fluid: "oritech:still_molten_fluxite" }
 ]

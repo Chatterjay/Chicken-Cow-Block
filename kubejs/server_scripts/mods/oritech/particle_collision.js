@@ -81,4 +81,28 @@ ServerEvents.recipes(event=>{
   ],
   "time": 50000
 })
+    event.custom(
+{
+   "type": "oritech:particle_collision",
+  "ingredients": [
+    {
+      "item": 'chicken_roost:c_uranium'
+    },
+    {
+   "item": 'fluidsneo:fluid_cow_spawn_egg',
+   "count": 1,
+   "components": {
+     "minecraft:entity_data": {
+       "type": "oritech:still_molten_fluxite"
+     }
+   }},
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": 'chicken_roost:c_plutonium'
+    }
+  ],
+  "time": 15000
+})
 })

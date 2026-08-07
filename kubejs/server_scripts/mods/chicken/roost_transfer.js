@@ -51,5 +51,7 @@ ItemEvents.entityInteracted(event => {
     if (processConversion("c_emerald", 'minecraft:emerald_block')) return;
     if (processConversion("c_uranium", 'immersiveengineering:storage_uranium')) return;
     if (processConversion("c_amethystshard", 'minecraft:amethyst_block')) return;
+    if (processConversion("c_stainsteel", 'modern_industrialization:stainless_steel_rotor')) return;
+    if (processConversion("c_monazite", 'modern_industrialization:monazite_block')) return;
     chicken.persistentData.putBoolean(lockKey, false);
 });

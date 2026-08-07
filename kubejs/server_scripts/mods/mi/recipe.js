@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
     event.remove({output: 'modern_industrialization:replicator'});
     event.remove({output: 'hostile_neural_industrialization:prediction_machine_casing'});
+    event.remove({id: "modern_industrialization:materials/superconductor/assembler/coil"});
     event.shaped('hostile_neural_industrialization:prediction_machine_casing',[
     "AAA",
     "ABA",
