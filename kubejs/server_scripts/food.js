@@ -18,12 +18,13 @@ event.shaped('ccb:soul_boom',[
     C:'chicken_roost:chicken_essence_tier_2',
 })
 event.shaped('ccb:power_drink',[
-    "AAA",
+    "ABA",
     "ACA",
     "AAA"
 ],{
     A:'ae2cs:irradiated_crystal_block',
-    C:'mekanism:radioactive_waste_barrel',
+    B: 'createaddition:straw',
+    C:'mekanism:radioactive_waste_barrel'
 })
 event.shaped('ccb:life_water',[
     " A ",

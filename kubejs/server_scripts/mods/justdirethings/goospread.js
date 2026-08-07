@@ -1,7 +1,8 @@
 
 ServerEvents.recipes(event => {
     event.remove({output: 'ifeu:dead_dragon_egg'})
-    event.remove({output: 'pneumaticcraft:yeast_culture'})
+    event.remove({id:'pneumaticcraft:thermo_plant/yeast_culture'})
+    event.remove({id:'oritech:centrifuge/fluid/compat/pneumaticcraft/yeast'})
 })
 ServerEvents.recipes(event=>{
     event.custom(
