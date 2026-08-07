@@ -19,126 +19,125 @@
 	needBoard = false
 
 [cookingPot]
-#Energy per tick for generated recipes. Default: 16
-# Default: 16
-# Range: > 1
-energy = 16
-#Duration multiplier for generated recipes. Default: 0.5
-# Default: 0.5
-# Range: 0.0 ~ 2.147483647E9
-durationMultiplier = 0.5
-#CookingPot consume probability for generated recipes. Default: 0.0
-# Default: 0.0
-# Range: 0.0 ~ 1.0
-potProbability = 0.0
-#Whether need CookingPot for generated recipes. Default: false
-needPot = false
-#If true, ingredient remainder items (e.g., Glass Bottles from Potions, Bowls from Stews) will output. Default: true
-enableRemainingItem = true
+	#Energy per tick for generated recipes. Default: 16
+	# Default: 16
+	# Range: > 1
+	energy = 16
+	#Duration multiplier for generated recipes. Default: 0.5
+	# Default: 0.5
+	# Range: 0.0 ~ 2.147483647E9
+	durationMultiplier = 0.5
+	#CookingPot consume probability for generated recipes. Default: 0.0
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	potProbability = 0.0
+	#Whether need CookingPot for generated recipes. Default: false
+	needPot = false
+	#If true, ingredient remainder items (e.g., Glass Bottles from Potions, Bowls from Stews) will output. Default: true
+	enableRemainingItem = true
 
 [jdt]
-#If true, goo spread requires mycelial reactor working. Default: false
-gooSpreadRequiresReactorWorking = true
-#If true, goo spread recipe will ignore block state. Default: false
-gooSpreadIgnoreBlockState = true
+	#If true, goo spread requires mycelial reactor working. Default: false
+	gooSpreadRequiresReactorWorking = true
+	#If true, goo spread recipe will ignore block state. Default: false
+	gooSpreadIgnoreBlockState = true
 
 [hni]
-#Default: true
-enable = true
+	#Default: true
+	enable = true
 
-[hni.monoLootFabricator]
-#Fluid input for MI predictions
-#Leave empty to remove fluid requirement
-miFluidInputId = "modern_industrialization:lubricant"
-#Amount of fluid required for MI predictions
-# Default: 1000
-# Range: 1 ~ 9223372036854775807
-miFluidInputAmount = 100
-#Probability the input fluid for MI predictions will be consumed
-# Default: 1.0
-# Range: 0.0 ~ 1.0
-miFluidInputProbability = 1.0
-#Fluid output for MI predictions
-#Leave empty to remove fluid output
-miFluidOutputId = "ccb:fanta_plasma"
-#Amount of fluid output for MI predictions
-# Default: 1000
-# Range: 1 ~ 9223372036854775807
-miFluidOutputAmount = 1
-#Probability the output fluid for MI predictions will be produced
-# Default: 1.0
-# Range: 0.0 ~ 1.0
-miFluidOutputProbability = 0.1
+	[hni.largeLootFabricator]
+		#Amount of fluid output for MI predictions
+		# Default: 1000
+		# Range: 1 ~ 9223372036854775807
+		miFluidOutputAmount = 100
+		#Probability the output fluid for MI predictions will be produced
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		miFluidOutputProbability = 0.1
+		#Probability the input fluid for MI predictions will be consumed
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		miFluidInputProbability = 1.0
+		#Fluid input for MI predictions
+		#Leave empty to remove fluid requirement
+		miFluidInputId = "modern_industrialization:lubricant"
+		#Amount of fluid required for MI predictions
+		# Default: 1000
+		# Range: 1 ~ 9223372036854775807
+		miFluidInputAmount = 1000
+		#Fluid output for MI predictions
+		#Leave empty to remove fluid output
+		miFluidOutputId = "modern_industrialization:crude_oil"
 
+	[hni.monoLootFabricator]
+		#Amount of fluid output for MI predictions
+		# Default: 1000
+		# Range: 1 ~ 9223372036854775807
+		miFluidOutputAmount = 1000
+		#Probability the output fluid for MI predictions will be produced
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		miFluidOutputProbability = 1.0
+		#Probability the input fluid for MI predictions will be consumed
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		miFluidInputProbability = 1.0
+		#Fluid input for MI predictions
+		#Leave empty to remove fluid requirement
+		miFluidInputId = ""
+		#Amount of fluid required for MI predictions
+		# Default: 1000
+		# Range: 1 ~ 9223372036854775807
+		miFluidInputAmount = 1000
+		#Fluid output for MI predictions
+		#Leave empty to remove fluid output
+		miFluidOutputId = ""
 
-[hni.electricSimChamber]
-#Fluid input for MI predictions
-#Leave empty to remove fluid requirement
-miFluidInputId = "modern_industrialization:lubricant"
-#Amount of fluid required for MI predictions
-# Default: 1000
-# Range: 1 ~ 9223372036854775807
-miFluidInputAmount = 100
-#Probability the input fluid for MI predictions will be consumed
-# Default: 1.0
-# Range: 0.0 ~ 1.0
-miFluidInputProbability = 1.0
-#Fluid output for MI predictions
-#Leave empty to remove fluid output
-miFluidOutputId = "ccb:fanta_plasma"
-#Amount of fluid output for MI predictions
-# Default: 1000
-# Range: 1 ~ 9223372036854775807
-miFluidOutputAmount = 1
-#Probability the output fluid for MI predictions will be produced
-# Default: 1.0
-# Range: 0.0 ~ 1.0
-miFluidOutputProbability = 0.1
+	[hni.electricSimChamber]
+		#Amount of fluid output for MI predictions
+		# Default: 1000
+		# Range: 1 ~ 9223372036854775807
+		miFluidOutputAmount = 1000
+		#Probability the output fluid for MI predictions will be produced
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		miFluidOutputProbability = 1.0
+		#Probability the input fluid for MI predictions will be consumed
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		miFluidInputProbability = 1.0
+		#Fluid input for MI predictions
+		#Leave empty to remove fluid requirement
+		miFluidInputId = ""
+		#Amount of fluid required for MI predictions
+		# Default: 1000
+		# Range: 1 ~ 9223372036854775807
+		miFluidInputAmount = 1000
+		#Fluid output for MI predictions
+		#Leave empty to remove fluid output
+		miFluidOutputId = ""
 
-[hni.largeSimChamber]
-#Fluid input for MI predictions
-#Leave empty to remove fluid requirement
-miFluidInputId = "modern_industrialization:lubricant"
-#Amount of fluid required for MI predictions
-# Default: 1000
-# Range: 1 ~ 9223372036854775807
-miFluidInputAmount = 1000
-#Probability the input fluid for MI predictions will be consumed
-# Default: 1.0
-# Range: 0.0 ~ 1.0
-miFluidInputProbability = 1.0
-#Fluid output for MI predictions
-#Leave empty to remove fluid output
-miFluidOutputId = "ccb:fanta_plasma"
-#Amount of fluid output for MI predictions
-# Default: 1000
-# Range: 1 ~ 9223372036854775807
-miFluidOutputAmount = 1
-#Probability the output fluid for MI predictions will be produced
-# Default: 1.0
-# Range: 0.0 ~ 1.0
-miFluidOutputProbability = 0.1
-
-[hni.largeLootFabricator]
-#Fluid input for MI predictions
-#Leave empty to remove fluid requirement
-miFluidInputId = "modern_industrialization:lubricant"
-#Amount of fluid required for MI predictions
-# Default: 1000
-# Range: 1 ~ 9223372036854775807
-miFluidInputAmount = 1000
-#Probability the input fluid for MI predictions will be consumed
-# Default: 1.0
-# Range: 0.0 ~ 1.0
-miFluidInputProbability = 1.0
-#Fluid output for MI predictions
-#Leave empty to remove fluid output
-miFluidOutputId = "ccb:fanta_plasma"
-#Amount of fluid output for MI predictions
-# Default: 1000
-# Range: 1 ~ 9223372036854775807
-miFluidOutputAmount = 1
-#Probability the output fluid for MI predictions will be produced
-# Default: 1.0
-# Range: 0.0 ~ 1.0
-miFluidOutputProbability = 0.1
+	[hni.largeSimChamber]
+		#Amount of fluid output for MI predictions
+		# Default: 1000
+		# Range: 1 ~ 9223372036854775807
+		miFluidOutputAmount = 100
+		#Probability the output fluid for MI predictions will be produced
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		miFluidOutputProbability = 0.1
+		#Probability the input fluid for MI predictions will be consumed
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		miFluidInputProbability = 1.0
+		#Fluid input for MI predictions
+		#Leave empty to remove fluid requirement
+		miFluidInputId = "modern_industrialization:lubricant"
+		#Amount of fluid required for MI predictions
+		# Default: 1000
+		# Range: 1 ~ 9223372036854775807
+		miFluidInputAmount = 1000
+		#Fluid output for MI predictions
+		#Leave empty to remove fluid output
+		miFluidOutputId = "modern_industrialization:crude_oil"

@@ -426,6 +426,7 @@ const chickenRecipes = [
     { output: 'c_fluixcrystal', item: 'ae2:fluix_crystal'},
     { output: 'c_netherite', item: 'minecraft:netherite_scrap'},
     { output: 'c_singularity', item: 'ae2:singularity'},
+    { output: 'c_uranium', item: 'immersiveengineering:ingot_uranium'},
     { output: 'c_entrocrystal', item: 'extendedae:entro_crystal'},
     { output: 'c_datacrystal', item: 'data_energistics:data_crystal'},
     { output: 'c_blazegold', item: 'justdirethings:blazegold_ingot'}
