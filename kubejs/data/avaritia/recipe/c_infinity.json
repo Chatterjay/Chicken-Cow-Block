@@ -1,0 +1,55 @@
+{
+  "type": "avaritia:shaped_table",
+  "key": {
+    "A": {
+      "item": "avaritia:neutron_gear"
+    },
+    "B": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "C": {
+      "item": "avaritia:blaze_cube"
+    },
+    "D": {
+      "item": "avaritia:singularity"
+    },
+    "E": {
+      "item": "avaritia:infinity_nugget"
+    },
+    "F": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "G": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "H": {
+      "item": "avaritia:densest_neutron_collector"
+    },
+    "I": {
+      "item": "chicken_roost:c_neutron"
+    },
+    "J": {
+      "item": "avaritia:densest_neutron_compressor"
+    },
+    "K": {
+      "item": "avaritia:eternal_singularity"
+    }
+  },
+  "pattern": [
+    "AABBCBBAA",
+    "A   D   A",
+    "B  EFE  B",
+    "B EGEGE B",
+    "CHFEIEFJC",
+    "B EGEGE B",
+    "B  EFE  B",
+    "A   K   A",
+    "AABBCBBAA"
+  ],
+  
+  "result": {
+    "count": 1,
+    "id": "chicken_roost:c_infinity"
+  },
+    "tier": 4
+}

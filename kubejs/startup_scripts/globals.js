@@ -32,5 +32,7 @@ global.CHICKEN_TRANSMUTE_RULES = [
   {item: "alltheores:ruby_block", outputChicken: "c_ruby"},
   {item: "minecraft:emerald_block", outputChicken: "c_emerald"},
   {item: "immersiveengineering:storage_uranium", outputChicken: "c_uranium"},
-  {item: "minecraft:amethyst_block", outputChicken: "c_amethystshard"}
+  {item: "minecraft:amethyst_block", outputChicken: "c_amethystshard"},
+  {item: "modern_industrialization:stainless_steel_rotor", outputChicken: "c_stainsteel"},
+  {item: "modern_industrialization:monazite_block", outputChicken: "c_monazite"}
 ]

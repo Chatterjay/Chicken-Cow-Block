@@ -1,0 +1,102 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAAAAAA",
+    "BCDEFEDGB",
+    "BDHEIEJDB",
+    "BEEKKKEEB",
+    "BFIKLKIFB",
+    "BEEKKKEEB",
+    "BDMEIENDB",
+    "BODEFEDPB",
+    "AAAAAAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "oritech:machine_speed_addon"
+    },
+    "B": {
+      "item": "modularrouters:speed_upgrade"
+    },
+    "C": {
+      "items": "ifeu:processing_addon_6",
+      "components": {
+        "titanium:augments": {
+          "Processing": 7.0
+        }
+      },
+      "type": "neoforge:components"
+    },
+    "D": {
+      "item": "mekanism:upgrade_speed"
+    },
+    "E": {
+      "item": "ae2cs:overload_card"
+    },
+    "F": {
+      "item": "enderio_evolution:stellar_stack_upgrade"
+    },
+    "G": {
+      "item": "ifeu:heal_addon_6"
+    },
+    "H": {
+      "item": "ifeu:thread_addon_6"
+    },
+    "I": {
+      "item": "enderio_evolution:stellar_batch_upgrade"
+    },
+    "J": {
+      "item": "ifeu:apple_addon_6"
+    },
+    "K": {
+      "item": "mekanism_extras:upgrade_stack"
+    },
+    "L": {
+      "item": "jdte:overclock_upgrade"
+    },
+    "M": {
+      "items": "ifeu:efficiency_addon_6",
+      "components": {
+        "titanium:augments": {
+          "Efficiency": 0.39999998
+        }
+      },
+      "type": "neoforge:components"
+    },
+    "N": {
+      "item": "ifeu:chance_addon_6"
+    },
+    "O": {
+      "items": "ifeu:speed_addon_6",
+      "components": {
+        "titanium:augments": {
+          "Speed": 7.0
+        }
+      },
+      "type": "neoforge:components"
+    },
+    "P": {
+      "item": "ifeu:energy_addon_6"
+    }
+  },
+  "result": {
+    "id": "oritech:machine_combi_addon",
+    "components": {
+      "oritech:addon_data": {
+        "crop_filter": false,
+        "data": {
+          "efficiency": 0.020161295,
+          "energy_bonus_capacity": 17500000,
+          "energy_bonus_transfer": 7000,
+          "extra_chambers": 0,
+          "max_burst_ticks": 0,
+          "speed": 0.008163265
+        },
+        "fluid": false,
+        "quarry_count": 0,
+        "silk": false,
+        "yield_count": 0
+      }
+    }
+  }
+}
