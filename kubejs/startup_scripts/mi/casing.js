@@ -16,4 +16,6 @@ MIMachineEvents.registerCasings(event => {
 
     event.registerBlockImitation('white_casing', 'minecraft:white_concrete');
 
+    event.registerBlockImitation('wood_casing', 'minecraft:oak_log');
+
 });

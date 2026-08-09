@@ -141,3 +141,13 @@
 		#Fluid output for MI predictions
 		#Leave empty to remove fluid output
 		miFluidOutputId = "modern_industrialization:crude_oil"
+
+[feastBlockServing]
+#Duration for generated recipes. Default: 50
+# Default: 50
+# Range: > 1
+duration = 20
+#Energy per tick for generated recipes. Default: 4
+# Default: 4
+# Range: > 1
+energy = 4

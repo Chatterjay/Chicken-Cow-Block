@@ -1,11 +1,14 @@
 {
-    "rei_categories.mi_tweaks.magic_chicken" : "魔法制造鸡",
-    "rei_categories.mi_tweaks.alien_chicken" : "外星鸡",
-    "rei_categories.mi_tweaks.time_chicken" : "时光鸡",
-    "rei_categories.mi_tweaks.create_chicken" : "装配鸡",
-    "rei_categories.mi_tweaks.greenhouse" : "温室",
-    "block.mi_tweaks.greenhouse":"温室",
-    "rei_categories.mi_tweaks.petrochemical_factory" : "石化工厂",
-    "block.mi_tweaks.petrochemical_factory":"石化工厂"
-
+  "rei_categories.mi_tweaks.magic_chicken": "魔法制造鸡",
+  "rei_categories.mi_tweaks.alien_chicken": "外星鸡",
+  "rei_categories.mi_tweaks.time_chicken": "时光鸡",
+  "rei_categories.mi_tweaks.create_chicken": "装配鸡",
+  "rei_categories.mi_tweaks.greenhouse": "温室",
+  "block.mi_tweaks.greenhouse": "温室",
+  "rei_categories.mi_tweaks.petrochemical_factory": "石化工厂",
+  "block.mi_tweaks.petrochemical_factory": "石化工厂",
+  "rei_categories.mi_tweaks.cutting_board": "巨大砧板",
+  "block.mi_tweaks.cutting_board": "巨大砧板",
+  "rei_categories.mi_tweaks.cooking_pot": "巨大厨锅",
+  "block.mi_tweaks.cooking_pot": "巨大厨锅"
 }
