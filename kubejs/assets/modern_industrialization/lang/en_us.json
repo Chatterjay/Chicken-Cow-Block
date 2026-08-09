@@ -1,5 +1,6 @@
 { 
     "rei_categories.modern_industrialization.artificial_star" : "Artificial Star",
     "rei_categories.modern_mekanistics.mass_generator" : "Mass Generator",
-    "rei_categories.modern_mekanistics.niuniu_brand_cooking_machine" : "Niuniu Brand Cooking Machine"
+    "rei_categories.modern_mekanistics.niuniu_brand_cooking_machine" : "Niuniu Brand Cooking Machine",
+    "rei_categories.modern_mekanistics.fluid_compressor" : "Fluid Compressor"
 }

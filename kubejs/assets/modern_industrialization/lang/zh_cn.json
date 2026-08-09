@@ -6,6 +6,8 @@
     "block.modern_industrialization.quantum_fluid_input_hatch":"量子流体输入仓",
     "block.modern_industrialization.quantum_fluid_output_hatch":"量子流体输出仓",
     "rei_categories.modern_mekanistics.niuniu_brand_cooking_machine" : "牛牛牌烹饪机",
-    "block.modern_mekanistics.niuniu_brand_cooking_machine":"牛牛牌烹饪机"
+    "block.modern_mekanistics.niuniu_brand_cooking_machine":"牛牛牌烹饪机",
+    "rei_categories.modern_industrialization.fluid_compressor" : "流体压缩机",
+    "block.modern_industrialization.fluid_compressor":"流体压缩机"
     
 }
