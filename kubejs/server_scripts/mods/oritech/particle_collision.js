@@ -89,18 +89,36 @@ ServerEvents.recipes(event=>{
       "item": 'chicken_roost:c_uranium'
     },
     {
-   "item": 'fluidsneo:fluid_cow_spawn_egg',
+      "type":"neoforge:components",
+   "items": 'fluidsneo:fluid_cow_spawn_egg',
    "count": 1,
    "components": {
-     "minecraft:entity_data": {
-       "type": "oritech:still_molten_fluxite"
-     }
+    "fluidsneo:fluid_type":"oritech:still_molten_fluxite"
    }},
   ],
   "results": [
     {
       "count": 1,
       "id": 'chicken_roost:c_plutonium'
+    }
+  ],
+  "time": 15000
+})
+   event.custom(
+{
+   "type": "oritech:particle_collision",
+  "ingredients": [
+    {
+      "item": 'modern_industrialization:singularity'
+    },
+    {
+      "item": 'ae2lt:overload_singularity'
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": 'avaritia:singularity'
     }
   ],
   "time": 15000

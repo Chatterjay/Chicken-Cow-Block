@@ -1,0 +1,14 @@
+{
+  "input": "modern_industrialization:stainless_steel_drill",
+  "source": 30,
+  "default": 1,
+  "catalysts": "modern_industrialization:electric_quarry",
+  "meteorites": [
+    "modern_industrialization:titanium_ore",
+    "modern_industrialization:tungsten_ore",
+    "modern_industrialization:monazite_ore",
+    "mekanism:fluorite_ore",
+    "modern_industrialization:platinum_ore"
+  ],
+  "weights": [2,2,3,1,10]
+}

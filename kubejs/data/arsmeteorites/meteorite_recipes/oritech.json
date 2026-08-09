@@ -1,0 +1,14 @@
+{
+  "input": "oritech:deep_drill_block",
+  "source": 50,
+  "default": 1,
+  "catalysts": "oritech:machine_yield_addon",
+  "meteorites": [
+    "oritech:uranium_crystal",
+    "oritechthings:infested_amethyst_block",
+    "oritech:uranium_dust_block",
+    "oritech:capacitor_addon_extender",
+    "oritech:biosteel_block"
+  ],
+  "weights": [10,1,5,10,1]
+}

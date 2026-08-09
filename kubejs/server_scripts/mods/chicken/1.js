@@ -362,7 +362,8 @@ const chickenRecipes = [
     { output: "c_prismarineshard", item: "minecraft:prismarine_shard" },
     { output: "c_bitumen", item: "oritech:carbon_fibre_strands" },
     { output: "c_soularium", item: "enderio:soularium_ingot" },
-    { output: "c_amethystshard", item: 'minecraft:amethyst_shard' }
+    { output: "c_amethystshard", item: 'minecraft:amethyst_shard' },
+     { output: "c_constantan", item: 'immersiveengineering:ingot_constantan'}
    ]
   },
   {
@@ -385,7 +386,6 @@ const chickenRecipes = [
     { output: 'c_breeze', item: 'minecraft:breeze_rod'},
     { output:'c_certusquartz' , item: 'ae2:certus_quartz_crystal'},
     { output:'c_skystone' , item: 'ae2:sky_stone_block'},
-    { output:'c_antimony' , item: 'modern_industrialization:raw_antimony'},
     { output:'c_emerald' , item: 'minecraft:emerald'}
    ]
   },
@@ -406,6 +406,12 @@ const chickenRecipes = [
         parent_2: "c_lava",
         item: "minecraft:basalt"
       },
+       {
+        output: "c_antimony",
+        parent_1: "c_platinum",
+        parent_2: "c_invar",
+        item: "modern_industrialization:raw_antimony"
+      }
     
   ]
  },

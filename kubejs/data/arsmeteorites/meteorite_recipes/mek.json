@@ -1,0 +1,14 @@
+{
+  "input": "mekanism:digital_miner",
+  "source": 20,
+  "default": 1,
+  "catalysts": "mekanism:atomic_disassembler",
+  "meteorites": [
+    "mekanism:osmium_ore",
+    "minecraft:diamond_ore",
+    "immersiveengineering:ore_lead",
+    "mekanism:fluorite_ore",
+    "immersiveengineering:ore_uranium"
+  ],
+  "weights": [5,2,5,4,2]
+}
