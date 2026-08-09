@@ -8,6 +8,6 @@ MITweaksMachineEvents.registerPowerlessMachines(event => {
         fluidSlotPositions => {
         },
         "bricks", "feast_block_serving", true, false, true,
-        1, true
+        4, true
     );
 });
