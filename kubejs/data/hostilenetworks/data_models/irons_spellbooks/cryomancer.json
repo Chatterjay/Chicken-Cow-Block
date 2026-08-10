@@ -1,0 +1,32 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "irons_spellbooks"
+        }
+    ],
+    "entity": "irons_spellbooks:cryomancer",
+    "variants": [],
+    "name_color": "#8AD8FF",
+    "display": {},
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.cryomancer",
+    "fabricator_drops": [
+        {
+            "id": "irons_spellbooks:permafrost_shard",
+            "count": 1
+        },
+        {
+            "id": "minecraft:ice",
+            "count": 16
+        }
+
+    ]
+}

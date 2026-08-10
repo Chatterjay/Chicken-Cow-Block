@@ -1,0 +1,357 @@
+{
+	"size": "medium",
+	"color": "#056608",
+	"waves": [{
+			"entities": [
+				{
+					"entity": "irons_spellbooks:necromancer",
+					"count": 5
+				}
+			],
+			"modifiers": [
+				{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 0.25
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"id": "irons_spellbooks:rotten_spell_book",
+						"count": 2,
+						"components": {
+							"irons_spellbooks:spell_container": {
+								"data": [],
+								"maxSpells": 8,
+								"mustEquip": true,
+								"spellWheel": true
+							}
+						}
+					}
+				}
+			],
+			"max_wave_time": 1000,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+				{
+					"entity": "irons_spellbooks:necromancer",
+					"count": 5
+				},
+				{
+					"entity": "irons_spellbooks:archevoker",
+					"count": 1
+				}
+			],
+			"modifiers": [
+				{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 0.20
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": 0.05
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_value",
+					"value": 4
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "add_value",
+					"value": 2.5
+				},
+				{
+					"attribute": "apothic_attributes:armor_pierce",
+					"operation": "add_value",
+					"value": 2
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack_list",
+				"stacks": [
+					{
+						"id": "irons_spellbooks:druidic_spell_book",
+						"count": 1,
+						"components": {
+							"irons_spellbooks:spell_container": {
+								"data": [],
+								"maxSpells": 10,
+								"mustEquip": true,
+								"spellWheel": true
+							}
+						}
+					},
+					{
+						"id": "irons_spellbooks:mithril_ore",
+						"count": 16
+					},
+					{
+						"id": "irons_spellbooks:blaze_spell_book",
+						"count": 1,
+						"components": {
+							"irons_spellbooks:spell_container": {
+								"data": [],
+								"maxSpells": 10,
+								"mustEquip": true,
+								"spellWheel": true
+							}
+						}
+					}
+				]
+			}],
+			"max_wave_time": 1000,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+				{
+					"entity": "irons_spellbooks:apothecarist",
+					"count": 1
+				},
+				{
+					"entity": "irons_spellbooks:pyromancer",
+					"count": 1
+				},
+				{
+					"entity": "irons_spellbooks:ice_spider",
+					"count": 1
+				},
+				{
+					"entity": "irons_spellbooks:cryomancer",
+					"count": 1
+				}
+
+			],
+			"modifiers": [
+				{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 0.35
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_value",
+					"value": 5
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "add_value",
+					"value": 2.5
+				},
+				{
+					"attribute": "apothic_attributes:armor_pierce",
+					"operation": "add_value",
+					"value": 3
+				},
+				{
+					"attribute": "apothic_attributes:life_steal",
+					"operation": "add_value",
+					"value": 0.10
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack_list",
+				"stacks": [
+					{
+						"id": "irons_spellbooks:ruined_book",
+						"count": 2
+					},
+					{
+						"id": "irons_spellbooks:blank_rune",
+						"count": 64
+					},
+					{
+						"id": "irons_spellbooks:cinder_essence",
+						"count": 32
+					},
+					{
+						"id": "irons_spellbooks:frozen_bone",
+						"count": 32
+					}
+				]
+			}],
+			"max_wave_time": 1000,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+				{
+					"entity": "irons_spellbooks:priest",
+					"count": 5
+				}
+			],
+			"modifiers": [
+				{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 0.40
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "add_value",
+					"value": 0.5
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_value",
+					"value": 5
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "add_value",
+					"value": 4
+				},
+				{
+					"attribute": "apothic_attributes:armor_pierce",
+					"operation": "add_value",
+					"value": 3
+				},
+				{
+					"attribute": "apothic_attributes:life_steal",
+					"operation": "add_value",
+					"value": 0.10
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack_list",
+				"stacks": [
+					{
+						"id": "irons_spellbooks:villager_spell_book",
+						"count": 1,
+						"components": {
+							"irons_spellbooks:spell_container": {
+								"data": [],
+								"maxSpells": 10,
+								"mustEquip": true,
+								"spellWheel": true
+							}
+						}
+					},
+					{
+						"id": "irons_spellbooks:ruined_book",
+						"count": 2
+					},
+					{
+						"id": "irons_spellbooks:blank_rune",
+						"count": 64
+					},
+					{
+						"id": "irons_spellbooks:upgrade_orb",
+						"count": 16
+					}
+				]
+			}],
+			"max_wave_time": 1200,
+			"setup_time": 200
+		},
+		 {
+			"entities": [
+				{
+					"entity": "irons_spellbooks:dead_king_corpse",
+					"count": 1
+				},
+				{
+					"entity": "irons_spellbooks:citadel_keeper",
+					"count": 5
+				}
+			],
+			"modifiers": [
+				{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 0.50
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "add_value",
+					"value": 0.6
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_value",
+					"value": 5
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "add_value",
+					"value": 4
+				},
+				{
+					"attribute": "apothic_attributes:armor_pierce",
+					"operation": "add_value",
+					"value": 3
+				},
+				{
+					"attribute": "apothic_attributes:life_steal",
+					"operation": "add_value",
+					"value": 0.20
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack_list",
+				"stacks": [
+					{
+						"id": "irons_spellbooks:cinderous_soul_rune",
+						"count": 1
+					},
+					{
+						"id": "irons_spellbooks:ruined_book",
+						"count": 2
+					},
+					{
+						"id": "irons_spellbooks:blank_rune",
+						"count": 64
+					},
+					{
+						"id": "irons_spellbooks:cinder_essence",
+						"count": 64
+					}
+				]
+			}],
+			"max_wave_time": 1200,
+			"setup_time": 200
+		}
+	],
+	"rewards": [{
+		"type": "gateways:stack_list",
+		"stacks": [
+			{
+				"id": "irons_spellbooks:upgrade_orb",
+				"count": 64
+			},
+			{
+				"id": "irons_spellbooks:ruined_book",
+				"count": 4
+			},
+			{
+				"id": "irons_spellbooks:blank_rune",
+				"count": 64
+			},
+			{
+				"id": "irons_spellbooks:cinder_essence",
+				"count": 64
+			}
+		]
+	}],
+	"failures": [
+		{
+			"type": "gateways:explosion",
+			"strength": 2,
+			"fire": true,
+			"block_damage": true
+		}
+	],
+	"rules": {"allow_discarding": true}
+}

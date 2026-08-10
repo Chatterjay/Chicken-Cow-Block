@@ -79,5 +79,9 @@ event.custom(
         .fluidIn('8000x ccb:fanta_plasma')
         .itemIn('modern_industrialization:quantum_tank')
         .itemOut('ccb:plasma_coke');
+    event.recipes.extended_industrialization.canning_machine(32, 20)
+        .itemIn('irons_spellbooks:blood_vial')
+        .fluidOut('1000x irons_spellbooks:blood')
+        .itemOut('minecraft:glass_bottle');
 })
 
