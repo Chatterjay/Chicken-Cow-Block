@@ -32,4 +32,4 @@ QuantumParallelCount = 1024
 # Range: 0.0 ~ 3.4028234663852886E38
 parallelExtraEnergyMultiplier = 1.0
 #disableOverlapsDetection
-disableOverlapsDetection = false
+disableOverlapsDetection = true

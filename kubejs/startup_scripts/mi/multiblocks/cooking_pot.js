@@ -31,7 +31,7 @@ MITweaksMachineEvents.registerBatchMultiblocks(event => {
         "COOKING_POT", "cooking_pot",
         event.getRecipeType("ccb_core:cooking_pot"), shape,
         event.progressBar(77, 33, "arrow"),
-        itemInputs => itemInputs.addSlots(18, 35, 3, 2),
+        itemInputs => itemInputs.addSlot(72, 53).addSlots(18, 35, 3, 2),
         itemOutputs => itemOutputs.addSlots(102, 35, 2, 2),
         fluidInputs => {
         },
