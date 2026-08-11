@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:cryotheum_solution_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.cryotheum_solution")
+.setColors(0x06b6d4,0x0891b2)
+.setIngredient(Ingredient.of("neoecoae:cryotheum_solution_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

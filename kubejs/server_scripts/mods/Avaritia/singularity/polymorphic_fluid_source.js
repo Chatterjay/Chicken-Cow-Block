@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:polymorphic_fluid_source_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.polymorphic_fluid_source")
+.setColors(0xec4899,0xdb2777)
+.setIngredient(Ingredient.of("justdirethings:polymorphic_fluid_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

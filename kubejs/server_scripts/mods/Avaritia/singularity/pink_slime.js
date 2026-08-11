@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:pink_slime_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.pink_slime")
+.setColors(0xf472b6,0xe879f9)
+.setIngredient(Ingredient.of("industrialforegoing:pink_slime_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:still_molten_fluxite_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.still_molten_fluxite")
+.setColors(0xf97316,0xea580c)
+.setIngredient(Ingredient.of("oritech:still_molten_fluxite_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

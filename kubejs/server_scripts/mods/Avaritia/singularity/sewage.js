@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:sewage_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.sewage")
+.setColors(0x78716c,0x57534e)
+.setIngredient(Ingredient.of("industrialforegoing:sewage_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

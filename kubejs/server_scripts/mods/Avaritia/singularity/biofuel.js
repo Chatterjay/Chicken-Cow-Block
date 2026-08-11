@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:biofuel_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.biofuel")
+.setColors(0x65a30d,0x4d7c0f)
+.setIngredient(Ingredient.of("industrialforegoing:biofuel_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

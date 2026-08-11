@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:npk_fertilizer_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.npk_fertilizer")
+.setColors(0x84cc16,0x65a30d)
+.setIngredient(Ingredient.of("extended_industrialization:npk_fertilizer_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

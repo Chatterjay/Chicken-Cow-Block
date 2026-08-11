@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:cryofluid_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.cryofluid")
+.setColors(0x38bdf8,0x0ea5e9)
+.setIngredient(Ingredient.of("modern_industrialization:cryofluid_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

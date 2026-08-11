@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:crude_oil_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.crude_oil")
+.setColors(0x1c1917,0x292524)
+.setIngredient(Ingredient.of("modern_industrialization:crude_oil_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

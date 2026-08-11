@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:time_fluid_source_singularity",s=>{
+s
+.setDisplayName("时间流体")
+.setColors(0x619d49,0x89e565)
+.setIngredient(Ingredient.of("justdirethings:time_fluid_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

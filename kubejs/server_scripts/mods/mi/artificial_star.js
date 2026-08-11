@@ -8,4 +8,5 @@ ServerEvents.recipes(event => {
 
 ServerEvents.tags('item', event => {
     event.add('industrialization_overdrive:multi_processing_array_blacklist', 'modern_industrialization:artificial_star');
+    event.add('industrialization_overdrive:multi_processing_array_blacklist', 'modern_industrialization:fluid_compressor');
 });

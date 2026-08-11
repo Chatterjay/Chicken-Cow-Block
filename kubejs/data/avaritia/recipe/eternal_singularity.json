@@ -1,0 +1,199 @@
+{
+  "type": "avaritia:shapeless_table",
+  "ingredients": [
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:bronze"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:redstone"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:steel"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:platinum"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:emerald"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:netherite"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:iron"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:lead"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:silver"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:nickel"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:osmium"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:refined_obsidian"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:invar"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:quartz"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:blue_ice"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:diamond"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:amethyst_shard"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:gold"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:glowstone"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:coal"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:copper"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:obsidian"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:aluminum"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:lapis_lazuli"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:tin"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:electrum"
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:uranium"
+      },
+      "type": "neoforge:components"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "avaritia:eternal_singularity"
+  },
+  "tier": 4
+}

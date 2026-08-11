@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:molten_allthemodium_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.molten_allthemodium")
+.setColors(0xfbbf24,0xf59e0b)
+.setIngredient(Ingredient.of("allthemodium:molten_allthemodium_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

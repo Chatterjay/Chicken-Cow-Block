@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:water_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.water")
+.setColors(0x3b82f6,0x60a5fa)
+.setIngredient(Ingredient.of("minecraft:water_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

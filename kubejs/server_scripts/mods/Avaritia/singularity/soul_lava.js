@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:soul_lava_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.soul_lava")
+.setColors(0x7c3aed,0xea580c)
+.setIngredient(Ingredient.of("allthemodium:soul_lava_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

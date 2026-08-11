@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:milk_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.milk")
+.setColors(0xf5f5f4,0xe7e5e4)
+.setIngredient(Ingredient.of("minecraft:milk_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})
