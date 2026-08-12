@@ -155,3 +155,17 @@
 	energy = 4
 	#If true, a bowl will be returned. Default: true
 	returnBowl = true
+
+[ffb]
+#Special namae ichi.
+namaeIchi = "哈吉仙"
+#Special namae ni.
+namaeNi = "哈基仙"
+#Special namae no chance no multiplier.
+# Default: 1.0
+# Range: 0.0 ~ 1000.0
+chanceMultiplier = 10.0
+#Special namae no color.
+# Default: 16777215
+# Range: 0 ~ 16777215
+namaeColor = 16755200
