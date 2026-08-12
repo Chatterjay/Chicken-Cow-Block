@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:polonium_containing_solution_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.polonium_containing_solution")
+.setColors(0x4ade80,0x22c55e)
+.setIngredient(Ingredient.of("mekanism_extras:polonium_containing_solution_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:liquid_malic_acid_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.liquid_malic_acid")
+.setColors(0x86efac,0x4ade80)
+.setIngredient(Ingredient.of("ifeu:liquid_malic_acid_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

@@ -35,8 +35,8 @@
 	needPot = false
 	#If true, ingredient remainder items (e.g., Glass Bottles from Potions, Bowls from Stews) will output. Default: true
 	enableRemainingItem = true
-#If true, guess what happened. Default: true
-shouldSkipFirstInput = true
+	#If true, guess what happened. Default: true
+	shouldSkipFirstInput = true
 
 [jdt]
 	#If true, goo spread requires mycelial reactor working. Default: false
@@ -145,13 +145,13 @@ shouldSkipFirstInput = true
 		miFluidOutputId = "modern_industrialization:crude_oil"
 
 [feastBlockServing]
-#Duration for generated recipes. Default: 50
-# Default: 50
-# Range: > 1
-duration = 20
-#Energy per tick for generated recipes. Default: 4
-# Default: 4
-# Range: > 1
-energy = 4
-#If true, a bowl will be returned. Default: true
-returnBowl = true
+	#Duration for generated recipes. Default: 50
+	# Default: 50
+	# Range: > 1
+	duration = 20
+	#Energy per tick for generated recipes. Default: 4
+	# Default: 4
+	# Range: > 1
+	energy = 4
+	#If true, a bowl will be returned. Default: true
+	returnBowl = true

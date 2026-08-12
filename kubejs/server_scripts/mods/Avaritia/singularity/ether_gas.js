@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:ether_gas_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.ether_gas")
+.setColors(0x22d3ee,0x06b6d4)
+.setIngredient(Ingredient.of("industrialforegoing:ether_gas_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

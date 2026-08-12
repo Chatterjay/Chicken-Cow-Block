@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:helium_plasma_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.helium_plasma")
+.setColors(0xf472b6,0xc084fc)
+.setIngredient(Ingredient.of("modern_industrialization:helium_plasma_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

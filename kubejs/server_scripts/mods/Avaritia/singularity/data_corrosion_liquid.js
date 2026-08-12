@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:data_corrosion_liquid_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.data_corrosion_liquid")
+.setColors(0x166534,0x052e16)
+.setIngredient(Ingredient.of("data_energistics:data_corrosion_liquid_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

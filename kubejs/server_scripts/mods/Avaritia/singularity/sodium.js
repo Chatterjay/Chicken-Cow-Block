@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:sodium_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.sodium")
+.setColors(0x78716c,0x57534e)
+.setIngredient(Ingredient.of("mekanism:sodium_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

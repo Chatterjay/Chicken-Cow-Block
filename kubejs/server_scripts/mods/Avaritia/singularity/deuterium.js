@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:deuterium_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.deuterium")
+.setColors(0x67e8f9,0x22d3ee)
+.setIngredient(Ingredient.of("modern_industrialization:deuterium_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})

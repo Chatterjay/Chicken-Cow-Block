@@ -1,0 +1,10 @@
+AvaritiaEvents.singularity(event=>{
+event.register("avaritia:ender_singularity",s=>{
+s
+.setDisplayName("singularity.avaritia.ender")
+.setColors(0x7c3aed,0x6d28d9)
+.setIngredient(Ingredient.of("data_energistics:ender_bucket"))
+.setEnabled(true)
+.setRecipeDisabled(true)
+})
+})
