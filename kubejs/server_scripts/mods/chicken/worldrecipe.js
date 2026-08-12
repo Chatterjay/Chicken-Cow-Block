@@ -102,4 +102,26 @@ ServerEvents.recipes(event => {
             PostBuilder.create().dropItem('minecraft:white_dye')
         ]
     );
+    event.recipes.lychee.block_interacting(
+        [SizedIngredientWrapper.of('minecraft:air')],
+        BlockPredicateWrapper.block('minecraft:short_grass'),
+        [
+            PostBuilder.create().dropItem('chicken_roost:chicken_food_tier_1')
+        ]
+    );
+    event.recipes.lychee.block_interacting(
+        [SizedIngredientWrapper.of('minecraft:stick')],
+        BlockPredicateWrapper.block('minecraft:grass_block'),
+        [
+             PostBuilder.create().preventDefault(),
+            PostBuilder.create().dropItem('minecraft:egg')
+        ]
+    )
+    
 });
+BlockEvents.rightClicked('chicken_roost:roost', event => {
+  if (event.player.isCrouching() && event.item.id == 'minecraft:wooden_sword') {
+    event.player.give('minecraft:wheat_seeds')
+    event.player.swing()
+  }
+})

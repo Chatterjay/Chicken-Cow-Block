@@ -54,7 +54,7 @@ EntityEvents.death(event => {
   if (entity.type !== 'minecraft:chicken') return;
 
   // 设定触发概率，0.2 即 20%
-  const chance = 0.2;
+  const chance = 0.5;
 
   if (Math.random() < chance) {
     // 要生成的生物类型，可以换成任何实体 ID，如 'minecraft:zombie'、'minecraft:skeleton' 等

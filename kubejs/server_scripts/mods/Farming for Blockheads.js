@@ -62,4 +62,15 @@ event.custom(
 }
 }
 )
+event.custom(
+{
+"type": "farmingforblockheads:market",
+"category": "farmingforblockheads:seeds",
+"preset": "minecraft:seeds",//类别
+"result": {
+"count": 1,//数量
+"item": "ars_nouveau:sourceberry_bush"//兑换物品
+}
+}
+)
 })
