@@ -1,0 +1,34 @@
+ServerEvents.recipes(event=>{
+     event.recipes.ars_nouveau.imbuement(
+        'ars_nouveau:ritual_awakening', 
+        'arsmeteorites:ritual_conjure_meteorites', 
+        10000, 
+        [
+            'ars_nouveau:fire_essence',
+            'ars_nouveau:manipulation_essence',
+            'ae2:meteorite_compass'
+        ] 
+    )
+    event.recipes.ars_nouveau.imbuement(
+        'ars_nouveau:ritual_conjure_island_plains', 
+        'ars_elemental:ritual_archwood_forest', 
+        10000, 
+        [
+            'ars_nouveau:fire_essence',
+            'ars_nouveau:water_essence',
+            'ars_nouveau:earth_essence'
+        ] 
+    )
+    event.recipes.ars_nouveau.imbuement(
+        'ars_elemental:ritual_archwood_forest', 
+        'ars_elemental:ritual_archwood_forestation', 
+        10000, 
+        [
+            'ars_nouveau:blue_archwood_sapling',
+            'ars_nouveau:red_archwood_sapling',
+            'ars_nouveau:purple_archwood_sapling',
+            'ars_nouveau:green_archwood_sapling',
+            'ars_elemental:yellow_archwood_sapling'
+        ] 
+    )
+})

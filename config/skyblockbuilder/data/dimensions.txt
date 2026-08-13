@@ -1,11 +1,11 @@
 minecraft:overworld
 allthemodium:mining
-mahoutsukai:reality_marble
 minecraft:the_nether
-compactmachines:compact_world
-allthemodium:the_other
 allthemodium:the_beyond
-minecraft:the_end
-data_energistics:meteorite_cluster
 irons_spellbooks:pocket_dimension
+compactmachines:compact_world
+mahoutsukai:reality_marble
+allthemodium:the_other
+data_energistics:meteorite_cluster
+minecraft:the_end
 ae2:spatial_storage

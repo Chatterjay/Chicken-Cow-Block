@@ -7,7 +7,8 @@ ServerEvents.recipes(event=>{
   },
   "results": [
     {
-      "id": "minecraft:end_portal_frame"
+      "id": "minecraft:end_portal_frame",
+      "count": 4
     }
   ],
   "sequence": [
@@ -19,7 +20,7 @@ ServerEvents.recipes(event=>{
         },
         {
           "type": "neoforge:single",
-          "amount": 500,
+          "amount": 100,
           "fluid": "create_dragons_plus:white_dye"
         }
       ],

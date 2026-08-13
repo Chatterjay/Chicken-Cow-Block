@@ -7,6 +7,7 @@
 		id: "chicken_roost:c_vanilla"
 	}
 	id: "3FB31EA78578C88A"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -419,6 +420,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["43ABC342597E9D59"]
 			id: "4EEBE4A5E16A0686"
 			rewards: [{
 				id: "2B2159FE4EDD6DC7"
@@ -439,7 +441,40 @@
 				}
 			]
 			x: 11.0d
-			y: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4EEBE4A5E16A0686"]
+			id: "46BDE51160DC5F76"
+			rewards: [{
+				id: "522249C4B9B5472E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 12L
+				id: "30E97247E8E299D8"
+				item: { count: 1, id: "minecraft:end_portal_frame" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["61E6A8844426FA38"]
+			id: "5F102198E00CD04B"
+			rewards: [{
+				id: "34E286157CE8C05F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "468CCB90DCCF3A3F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cobblegengalore:block_generators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
 		}
 	]
 }

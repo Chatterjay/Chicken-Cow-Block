@@ -56,3 +56,5 @@ minecraft:village_plains
 minecraft:village_savanna
 minecraft:village_snowy
 minecraft:village_taiga
+xycraft_world:surface_geyser
+xycraft_world:underground_geyser

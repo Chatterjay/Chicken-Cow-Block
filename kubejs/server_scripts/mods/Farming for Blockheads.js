@@ -70,7 +70,6 @@ event.custom(
 "result": {
 "count": 1,//数量
 "item": "ars_nouveau:sourceberry_bush"//兑换物品
-}
-}
+}}
 )
 })
