@@ -1,0 +1,4 @@
+[PressureConduit]
+	#气压导管连接到超过其承压极限的机器时是否会发生爆炸。
+	#爆炸会摧毁导管束中对应的气压导管实体。
+	enablePressureConduitExplosion = true
