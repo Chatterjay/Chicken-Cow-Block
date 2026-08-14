@@ -1,9 +1,9 @@
 #The number of ticks before you can milk a fluid cow again
 # Default: 3600
 # Range: > 0
-defaultMilkingCooldown = 3600
+defaultMilkingCooldown = 600
 #Whether fluid cows should spawn naturally
-naturalSpawning = true
+naturalSpawning = false
 #Milk can be obtained from fluids cows when on cooldown.
 milkCow = false
 #A list of modid:fluid to blacklist from spawning.

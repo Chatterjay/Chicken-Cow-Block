@@ -5,6 +5,9 @@ RecipeViewerEvents.addInformation("item", event => {
      event.add('chicken_roost:c_feather', [
         "当你杀死一只鸡的时候，有概率生成一只羽毛鸡。"
     ]);
+    event.add('#ars_nouveau:shady_wizard_fruits', [
+        "这些果实可以通过至高木森林造林之板获得。"
+    ]);
 
     global.COW_TRANSMUTE_RULES.forEach(rule => {
         const {item, fluid} = rule;

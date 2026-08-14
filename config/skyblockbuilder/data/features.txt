@@ -371,3 +371,10 @@ rftoolsbase:dimshard_dimensions
 rftoolsbase:dimshard_end
 rftoolsbase:dimshard_nether
 rftoolsbase:dimshard_overworld
+xycraft_world:ore_aluminum
+xycraft_world:ore_kivi
+xycraft_world:ore_xy_blue
+xycraft_world:ore_xy_dark
+xycraft_world:ore_xy_green
+xycraft_world:ore_xy_light
+xycraft_world:ore_xy_red
