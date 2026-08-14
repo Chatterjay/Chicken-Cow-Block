@@ -27,4 +27,10 @@ ServerEvents.recipes(event => {
         .itemIn('64x oritech:nuke')
         .itemIn('256x modern_industrialization:nuke')
         .itemOut('ccb:real_soul_boom');
+        event.recipes.modern_industrialization.implosion_compressor(1, 10)
+        .itemIn('mekanism_extras:infinite_compressing_factory')
+        .itemIn('avaritia:densest_neutron_compressor')
+        .itemIn('extendedcompressor:extended_compressor')
+        .itemIn('projectexpansion:compact_sun')
+        .itemOut('modern_industrialization:fluid_compressor');
 });

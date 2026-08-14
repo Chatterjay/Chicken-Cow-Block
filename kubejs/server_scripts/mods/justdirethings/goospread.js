@@ -31,4 +31,17 @@ ServerEvents.recipes(event=>{
   },
   "tierRequirement": 4
 })
+event.custom(
+        {
+  "type": "justdirethings:goospread",
+  "craftingDuration": 2400,
+  "id": 'mi_tweaks:time_chicken',
+  "input": {
+    "Name": 'justdynathings:phase_box'
+  },
+  "output": {
+    "Name": 'mi_tweaks:time_chicken',
+  },
+  "tierRequirement": 4
+})
 })

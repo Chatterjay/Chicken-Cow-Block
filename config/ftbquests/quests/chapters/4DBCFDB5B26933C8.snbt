@@ -15,11 +15,29 @@
 	quest_links: [ ]
 	quests: [{
 		id: "6E8497B508C4D49A"
-		rewards: [{
-			id: "09107D3DBF2D042F"
-			type: "xp"
-			xp: 100
-		}]
+		rewards: [
+			{
+				id: "09107D3DBF2D042F"
+				type: "xp"
+				xp: 100
+			}
+			{
+				id: "3CC2D6D8644F511D"
+				item: {
+					count: 1
+					id: "ccb_core:daipaibulaotie_fumo"
+				}
+				type: "item"
+			}
+			{
+				id: "1A0ED2F815466CD0"
+				item: {
+					count: 1
+					id: "ccb_core:kudikan_fumo"
+				}
+				type: "item"
+			}
+		]
 		tasks: [{
 			id: "5A692141A435CFA6"
 			type: "checkmark"

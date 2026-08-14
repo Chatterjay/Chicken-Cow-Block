@@ -12,7 +12,7 @@ event.recipes.occultism.ritual(
 ],
 'occultism:eldritch_chalice',//仪式核心输入物品（放在黄金献祭之碗上的）
 'occultism:marid_cooking_ritual'
-    ).dummy("ccb:custom_ritual_misc").useItem("minecraft:egg")
+    ).dummy("ccb:cook_ritual_misc").useItem("minecraft:egg")
     event.recipes.occultism.ritual(
 'ccb:uumatter_soup',
 [//输出物品
@@ -26,7 +26,7 @@ event.recipes.occultism.ritual(
 ],
 'occultism:celestial_chalice',//仪式核心输入物品（放在黄金献祭之碗上的）
 'occultism:marid_cooking_ritual'
-    ).dummy("ccb:custom_ritual_misc").useItem("minecraft:egg")
+    ).dummy("ccb:cook_ritual_misc").useItem("minecraft:egg")
     event.recipes.occultism.ritual(
 'avaritia:ultimate_stew',
 [//输出物品

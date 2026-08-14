@@ -16,6 +16,8 @@ ServerEvents.recipes(event => {
     event.recipes.modern_industrialization.alien_chicken(16, 20)
         .itemIn('chicken_roost:c_cobble')
         .itemIn('64x ae2cs:purified_meteor_crystal')
+        .itemIn('64x ae2:sky_stone_block')
+        .itemIn('ae2:meteorite_compass')
         .fluidIn("64000x minecraft:water")
         .itemOut('chicken_roost:c_skystone');
     event.recipes.modern_industrialization.alien_chicken(16, 20)
@@ -51,12 +53,13 @@ ServerEvents.recipes(event => {
         .itemIn('256x ae2lt:pigmee_fumo')
         .itemIn('64x ae2lt:overload_crystal')
         .itemIn('ae2lt:flawless_budding_overload_crystal')
-        .fluidIn("1000x data_energistics:data_corrosion_liquid")
+        .fluidIn("8000x data_energistics:data_corrosion_liquid")
         .itemOut('chicken_roost:c_overloadcrystal');
     event.recipes.modern_industrialization.alien_chicken(32, 20)
         .itemIn('chicken_roost:c_chargedcertus')
         .itemIn('data_energistics:budding_data_crystal_4')
         .itemIn('64x data_energistics:data_crystal')
         .itemIn('data_energistics:data_meteorite_2')
+        .fluidIn("8000x data_energistics:data_corrosion_liquid")
         .itemOut('chicken_roost:c_datacrystal');
 });

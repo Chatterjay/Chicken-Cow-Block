@@ -110,6 +110,13 @@ ServerEvents.recipes(event => {
         ]
     );
     event.recipes.lychee.block_interacting(
+        [SizedIngredientWrapper.of('minecraft:air')],
+        BlockPredicateWrapper.block('minecraft:tall_grass'),
+        [
+            PostBuilder.create().dropItem('chicken_roost:chicken_food_tier_1')
+        ]
+    );
+    event.recipes.lychee.block_interacting(
         [SizedIngredientWrapper.of('minecraft:stick')],
         BlockPredicateWrapper.block('minecraft:grass_block'),
         [

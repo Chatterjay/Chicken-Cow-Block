@@ -157,6 +157,11 @@
 					item: { count: 1, id: "minecraft:white_dye" }
 					type: "item"
 				}
+				{
+					id: "7B69828CB61E657F"
+					item: { count: 1, id: "minecraft:brown_dye" }
+					type: "item"
+				}
 			]
 			x: -3.5d
 			y: -5.0d
@@ -475,6 +480,23 @@
 			}]
 			x: 2.5d
 			y: -8.5d
+		}
+		{
+			id: "2DE04164B6E41DF8"
+			rewards: [{
+				id: "358C61FD30CBCA22"
+				item: {
+					count: 1
+					id: "chicken_roost:c_oakwood"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "733B0A5EA167EC49"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -8.0d
 		}
 	]
 }
