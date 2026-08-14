@@ -1,7 +1,7 @@
 {
   "item.ccb.my_music": "音乐唱片",
   "jukebox_song.ccb.my_music": "我的音乐-あいつら全員同窓会",
-    "sound.ccb.my_music": "我的音乐",
+  "sound.ccb.my_music": "我的音乐",
   "item.ccb.incomplete_end_portal_frame": "未完成的末地传送门",
   "item.ccb.uu_amplitude_bucket": "uu增幅液桶",
   "fluid_type.ccb.uu_amplitude": "uu增幅液",
@@ -47,5 +47,5 @@
   "fluid_type.ccb.fanta_plasma": "芬达等离子体",
   "block.ccb.fanta_plasma": "芬达等离子体",
   "item.ccb.mi_prediction_matrix": "现代工业化预测矩阵",
-  "item.ccb.cook_ritual_misc": "仪式:烹饪"
+  "item.ccb.cook_ritual_misc": "仪式: 烹饪"
 }

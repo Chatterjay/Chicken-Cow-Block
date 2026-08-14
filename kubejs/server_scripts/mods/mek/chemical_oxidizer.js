@@ -9,6 +9,6 @@ ServerEvents.recipes(event=>{
        {"type":"mekanism:oxidizing","input":{"count":1,"item":'ae2:singularity'},"output":{"amount":10,"id":"ccb:singularity_gas"}}
     )
     event.custom(
-       {"type":"mekanism:oxidizing","input":{"count":1,"item":'ae2omnicells:singularity_block'},"output":{"amount":100,"id":"ccb:singularity_gas"}}
+       {"type":"mekanism:oxidizing","input":{"count":1,"item":'ae2omnicells:singularity_block'},"output":{"amount":90,"id":"ccb:singularity_gas"}}
     )
 })

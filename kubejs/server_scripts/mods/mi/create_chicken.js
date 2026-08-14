@@ -1,19 +1,19 @@
 ServerEvents.recipes(event => {
     event.recipes.modern_industrialization.create_chicken(128, 400)
-        .itemIn('2x create:mechanical_press')
+        .itemIn('2x create:mechanical_press', 0)
         .itemIn('#c:dusts/obsidian')
         .fluidIn("1000x minecraft:lava")
         .itemOut('create:sturdy_sheet');
     event.recipes.modern_industrialization.create_chicken(128, 400)
-        .itemIn('create:mechanical_press')
+        .itemIn('create:mechanical_press', 0)
         .itemIn('chicken_roost:c_zinc')
         .itemIn('minecraft:ender_eye')
         .fluidIn("1000x create_dragons_plus:white_dye")
-        .itemOut('minecraft:end_portal_frame');
+        .itemOut('4x minecraft:end_portal_frame');
     event.recipes.modern_industrialization.create_chicken(128, 400)
         .itemIn('minecraft:andesite_slab')
         .itemIn('2x minecraft:iron_nugget')
-        .itemIn('create:mechanical_press')
+        .itemIn('create:mechanical_press', 0)
         .itemOut('create:track');
     event.recipes.modern_industrialization.create_chicken(128, 400)
         .itemIn('#c:plates/gold')
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
         .itemIn('#c:plates/gold')
         .itemIn('3x create:electron_tube')
         .itemIn('3x minecraft:redstone')
-        .itemIn('3x create:mechanical_press')
+        .itemIn('3x create:mechanical_press', 0)
         .itemOut('create_connected:control_chip');
     event.recipes.modern_industrialization.create_chicken(32, 100)
         .itemIn('#c:stripped_logs')
@@ -43,4 +43,9 @@ ServerEvents.recipes(event => {
         .itemIn('create:brass_casing')
         .itemIn('create:sturdy_sheet')
         .itemOut('create:railway_casing');
+    event.recipes.modern_industrialization.create_chicken(114514, 114514)
+        .itemIn('chicken_roost:chicken_food_tier_1')
+        .itemIn('114514x chicken_roost:chicken_food_tier_1')
+        .itemOut('chicken_roost:chicken_food_tier_9', 0.25)
+        .itemOut('chicken_roost:chicken_food_tier_2', 0.75);
 });

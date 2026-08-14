@@ -19,6 +19,7 @@ MIMachineEvents.registerCasings(event => {
     event.registerBlockImitation('wood_casing', 'minecraft:oak_log');
 
     event.registerBlockImitation('sing_casing', 'ae2omnicells:singularity_block');
+
     event.registerBlockImitation('plastic_casing', 'pneumaticcraft:plastic_brick_white');
 
 });

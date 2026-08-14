@@ -36,6 +36,6 @@
     "item.chicken_roost.c_uumatter":"UU物质鸡",
     "entity.chicken_roost.c_uumatter":"UU物质鸡",
     "item.chicken_roost.c_overloadcrystal":"过载水晶鸡",
-    "entity.chicken_roost.c_overloadcrystal":"过载水晶鸡"
-    
+    "entity.chicken_roost.c_overloadcrystal":"过载水晶鸡",
+    "item.chicken_roost.black_egg": "黑色鸡蛋"
 }

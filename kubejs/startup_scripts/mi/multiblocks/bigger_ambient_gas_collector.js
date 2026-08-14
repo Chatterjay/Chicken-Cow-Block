@@ -25,7 +25,7 @@ ModernMekMachineEvents.registerChemicalMachines(event => {
   event.multiBlock("bigger_ambient_gas_collector", "bigger_ambient_gas_collector", BIGEER_AMBIENT_GAS_COLLECTOR)
         .shape(shape)
         .progressBar(event.progressBar(77, 33, "circuit"))
-        .itemInputs(itemInputs => itemInputs.addSlot(56, 35))
+        .itemInputs(itemInputs => itemInputs.addSlots(38, 35, 2, 1))
         .chemicalOutputs(chemicalOutputs => chemicalOutputs.addSlot(102, 35))
         .controllerCasing("plastic_casing")
         .overlay("bigger_ambient_gas_collector", true, false, false)
