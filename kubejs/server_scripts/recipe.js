@@ -2,6 +2,15 @@ ServerEvents.recipes(event =>{
     event.shapeless('chicken_roost:c_vanilla',[
         'minecraft:egg'
     ])
+    event.shapeless('chicken_roost:blue_egg',[
+        'minecraft:egg','minecraft:blue_dye'
+    ])
+    event.shapeless('chicken_roost:brown_egg',[
+        'minecraft:egg','minecraft:brown_dye'
+    ])
+    event.shapeless('chicken_roost:white_egg',[
+        'minecraft:egg','minecraft:white_dye'
+    ])
     event.shaped('8x irons_spellbooks:arcane_essence',[
     "A",
     "B",
@@ -10,5 +19,89 @@ ServerEvents.recipes(event =>{
     A:'minecraft:light_blue_dye',
     B:'ars_nouveau:sourceberry_bush',
     C:'minecraft:purple_dye'
+})
+event.shaped('mi_tweaks:alien_chicken',[
+    "ABA",
+    "BCB",
+    "ABA"
+],{
+    A:'ae2:controller',
+    B:'mekanism:ultimate_control_circuit',
+    C:'ae2:smooth_quartz_block'
+})
+event.shaped('mi_tweaks:create_chicken',[
+    "ABA",
+    "BCB",
+    "ABA"
+],{
+    A:'appliedcreate:stress_storage_component_16k',
+    B:'create:flywheel',
+    C:'create:brass_casing'
+})
+event.shaped('modern_mekanistics:mass_generator',[
+    "ADA",
+    "BCB",
+    "AEA"
+],{
+    A:'mekmm:scrap_box',
+    B:'modern_industrialization:quantum_circuit',
+    C:'create:brass_casing',
+    D:'mekmm:ultimate_recycling_factory',
+    E:'extended_industrialization:electric_waste_collector'
+})
+event.shaped('mi_tweaks:time_chicken',[
+    "ADA",
+    "BCB",
+    "AEA"
+],{
+    A:'mekmm:scrap_box',
+    B:'modern_industrialization:quantum_circuit',
+    C:'create:brass_casing',
+    D:'mekmm:ultimate_recycling_factory',
+    E:'extended_industrialization:electric_waste_collector'
+})
+event.shaped('modern_mekanistics:niuniu_brand_cooking_machine',[
+    "ADA",
+    "BCB",
+    "AEA"
+],{
+    A:'mekanism:boiler_casing',
+    B:'mekanism:resistive_heater',
+    C:'mekanism:qio_drive_array',
+    D:'mi_tweaks:cutting_board',
+    E:'mi_tweaks:cooking_pot'
+})
+event.shaped('modern_mekanistics:niuniu_brand_cooking_machine',[
+    "A B",
+    "DCE",
+    " F "
+],{
+    A:'farmersdelight:flint_knife',
+    B:'farmersdelight:iron_knife',
+    C:'farmersdelight:cutting_board',
+    D:'farmersdelight:golden_knife',
+    E:'farmersdelight:diamond_knife',
+    F:'mekck:atomic_knife'
+})
+event.shaped('modern_mekanistics:niuniu_brand_cooking_machine',[
+    "D E",
+    "BFC",
+    "AAA"
+],{
+    A:'mekanism:resistive_heater',
+    B:'ends_delight:end_stove',
+    C:'farmersdelight:stove',
+    D:'farmersdelight:cooking_pot',
+    E:'farmersdelight:skillet',
+    F:'occultism:spirit_campfire'
+})
+event.shaped('modern_mekanistics:bigger_ambient_gas_collector',[
+    "ABA",
+    "BCB",
+    "ABA"
+],{
+    A:'mekmm:ambient_gas_collector',
+    B:'mekanism:upgrade_filter',
+    C:'pneumaticcraft:plastic_brick_white'
 })
 });

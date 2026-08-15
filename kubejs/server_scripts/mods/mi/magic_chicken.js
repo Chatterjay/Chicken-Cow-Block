@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
         .itemOut('8x irons_spellbooks:blood_vial');
     event.recipes.modern_industrialization.magic_chicken(32, 200)
         .itemIn('minecraft:potion[potion_contents={potion:"minecraft:water"}]')
+        .itemIn('minecraft:gunpowder')
         .itemIn('minecraft:coal')
         .itemOut('irons_spellbooks:common_ink');
     event.recipes.modern_industrialization.magic_chicken(32, 200)
@@ -88,24 +89,26 @@ ServerEvents.recipes(event => {
         .fluidOut('1000x irons_spellbooks:ice_venom');
     event.recipes.modern_industrialization.magic_chicken(32, 200)
         .itemIn('irons_spellbooks:arcane_ingot')
+        .itemIn('#c:nuggets/steel')
+        .fluidIn('100x minecraft:lava')
         .itemOut('apotheosis:common_material');
     event.recipes.modern_industrialization.magic_chicken(32, 200)
-        .itemIn('apotheosis:common_material')
+        .itemIn('2x apotheosis:common_material')
         .itemIn('irons_spellbooks:magic_cloth')
         .fluidIn("100x irons_spellbooks:blood")
         .itemOut('apotheosis:uncommon_material');
      event.recipes.modern_industrialization.magic_chicken(32, 200)
-        .itemIn('apotheosis:uncommon_material')
+        .itemIn('2x apotheosis:uncommon_material')
         .itemIn('irons_spellbooks:mithril_ingot')
         .fluidIn("100x irons_spellbooks:ice_venom")
         .itemOut('apotheosis:rare_material');
     event.recipes.modern_industrialization.magic_chicken(32, 200)
-        .itemIn('apotheosis:rare_material')
+        .itemIn('2x apotheosis:rare_material')
         .itemIn('irons_spellbooks:mithril_weave')
         .fluidIn("100x irons_spellbooks:timeless_slurry")
         .itemOut('apotheosis:epic_material');
     event.recipes.modern_industrialization.magic_chicken(32, 200)
-        .itemIn('apotheosis:epic_material')
+        .itemIn('2x apotheosis:epic_material')
         .itemIn('4x irons_spellbooks:legendary_ink')
         .itemIn('irons_spellbooks:dragonskin')
         .itemOut('apotheosis:mythic_material');

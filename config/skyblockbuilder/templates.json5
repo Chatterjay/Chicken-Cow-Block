@@ -30,7 +30,7 @@
   // A list of possible spawn points.
   // You may also directly use these in the template config, or use a reference created here.
   "spawnPointReferences": {
-    "ikun": {
+    "template": {
       "south": [],
       "west": [],
       "north": [],
@@ -62,8 +62,8 @@
   // The list of templates being available. The first entry is the default template.
   "templateList": [
     {
-      "name": "ikun",
-      "file": "ikun.nbt",
+      "name": "template",
+      "file": "template.nbt",
       "spawns": {
         "south": [],
         "west": [],

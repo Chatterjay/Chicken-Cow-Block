@@ -42,6 +42,12 @@
 			y: -12.0d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ldlib2:textures/gui/icon/color.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "3D96EECE58AA9A0E"
 			rewards: [
 				{
@@ -86,6 +92,9 @@
 				"74A1F17F26482F12"
 				"527679334AB5748E"
 			]
+			icon: {
+				id: "chicken_roost:wood_essence"
+			}
 			id: "18D965CBA6840024"
 			rewards: [{
 				id: "7D1B3239D390CCA6"
@@ -94,13 +103,13 @@
 			}]
 			tasks: [
 				{
-					id: "26D167784CC3DC24"
-					item: { count: 1, id: "minecraft:mangrove_log" }
+					id: "21BA422235FF4C7D"
+					item: { count: 1, id: "chicken_roost:wood_essence" }
 					type: "item"
 				}
 				{
-					id: "21BA422235FF4C7D"
-					item: { count: 1, id: "chicken_roost:wood_essence" }
+					id: "26D167784CC3DC24"
+					item: { count: 1, id: "minecraft:mangrove_log" }
 					type: "item"
 				}
 			]
@@ -148,13 +157,18 @@
 					type: "item"
 				}
 				{
+					id: "4CA9B81F8FAD1344"
+					item: { count: 1, id: "minecraft:white_dye" }
+					type: "item"
+				}
+				{
 					id: "725ADBC2B07651BC"
 					item: { count: 1, id: "minecraft:black_dye" }
 					type: "item"
 				}
 				{
-					id: "4CA9B81F8FAD1344"
-					item: { count: 1, id: "minecraft:white_dye" }
+					id: "7B69828CB61E657F"
+					item: { count: 1, id: "minecraft:brown_dye" }
 					type: "item"
 				}
 			]
@@ -198,6 +212,9 @@
 		}
 		{
 			dependencies: ["7A839806BBD2FFCB"]
+			icon: {
+				id: "chicken_roost:chicken_food_tier_2"
+			}
 			id: "7C9E582343B7777F"
 			rewards: [{
 				id: "77B52008BC35BDB6"
@@ -240,6 +257,9 @@
 				"29DA48258A6B3B9C"
 				"7C9E582343B7777F"
 			]
+			icon: {
+				id: "minecraft:cow_spawn_egg"
+			}
 			id: "3CEF5060B9724CC8"
 			rewards: [{
 				id: "586A671E64F64887"
@@ -359,6 +379,11 @@
 		}
 		{
 			id: "0FE76C0A2BDF3B8B"
+			rewards: [{
+				id: "21F5E5F416C40395"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "34A5A7932B1CD7EC"
 				item: { count: 1, id: "mahoutsukai:hammer" }
@@ -421,6 +446,12 @@
 		}
 		{
 			dependencies: ["43ABC342597E9D59"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/nether_portal"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "4EEBE4A5E16A0686"
 			rewards: [{
 				id: "2B2159FE4EDD6DC7"
@@ -445,23 +476,39 @@
 		}
 		{
 			dependencies: ["4EEBE4A5E16A0686"]
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
 			id: "46BDE51160DC5F76"
 			rewards: [{
 				id: "522249C4B9B5472E"
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				count: 12L
-				id: "30E97247E8E299D8"
-				item: { count: 1, id: "minecraft:end_portal_frame" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 12L
+					id: "30E97247E8E299D8"
+					item: { count: 1, id: "minecraft:end_portal_frame" }
+					type: "item"
+				}
+				{
+					count: 12L
+					disable_toast: true
+					id: "0D4F88BBF580B44C"
+					item: { count: 1, id: "minecraft:ender_eye" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 13.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["61E6A8844426FA38"]
+			icon: {
+				id: "cobblegengalore:block_gen_diamond"
+			}
 			id: "5F102198E00CD04B"
 			rewards: [{
 				id: "34E286157CE8C05F"
@@ -475,6 +522,23 @@
 			}]
 			x: 2.5d
 			y: -8.5d
+		}
+		{
+			id: "2DE04164B6E41DF8"
+			rewards: [{
+				id: "358C61FD30CBCA22"
+				item: {
+					count: 1
+					id: "chicken_roost:c_oakwood"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "733B0A5EA167EC49"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -8.0d
 		}
 	]
 }

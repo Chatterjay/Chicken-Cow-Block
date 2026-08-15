@@ -3,7 +3,7 @@ RecipeViewerEvents.addInformation("item", event => {
         "当你第一次跳入虚空时，你将会获得它，后续可通过合成获得。"
     ]);
      event.add('chicken_roost:c_feather', [
-        "当你杀死一只鸡的时候，有概率生成一只羽毛鸡。"
+        "当你杀死一只原版鸡的时候，有概率生成一只羽毛鸡。"
     ]);
     event.add('#ars_nouveau:shady_wizard_fruits', [
         "这些果实可以通过至高木森林造林之板获得。"
