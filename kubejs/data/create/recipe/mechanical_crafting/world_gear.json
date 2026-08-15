@@ -1,0 +1,114 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "alltheores:iridium_gear"
+    },
+    "B": {
+      "item": "alltheores:platinum_gear"
+    },
+    "C": {
+      "item": "alltheores:silver_gear"
+    },
+    "D": {
+      "item": "alltheores:uranium_gear"
+    },
+    "E": {
+      "item": "alltheores:electrum_gear"
+    },
+    "F": {
+      "item": "alltheores:constantan_gear"
+    },
+    "G": {
+      "item": "alltheores:osmium_gear"
+    },
+    "H": {
+      "item": "ifeu:sculk_gear"
+    },
+    "I": {
+      "item": "ae2cs:wooden_gear"
+    },
+    "J": {
+      "item": "alltheores:signalum_gear"
+    },
+    "K": {
+      "item": "ifeu:netherite_gear"
+    },
+    "L": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:neutron_gear"
+      },
+      "type": "neoforge:components"
+    },
+    "M": {
+      "item": "industrialforegoing:diamond_gear"
+    },
+    "N": {
+      "item": "enderio:vibrant_gear"
+    },
+    "O": {
+      "item": "enderio:energized_gear"
+    },
+    "P": {
+      "item": "enderio:dark_bimetal_gear"
+    },
+    "Q": {
+      "item": "allthemodium:allthemodium_gear"
+    },
+    "R": {
+      "item": "allthemodium:vibranium_gear"
+    },
+    "S": {
+      "item": "allthemodium:unobtainium_gear"
+    },
+    "T": {
+      "item": "appliedcreate:me_gearbox"
+    },
+    "U": {
+      "item": "modern_industrialization:tin_gear"
+    },
+    "V": {
+      "item": "modern_industrialization:titanium_gear"
+    },
+    "W": {
+      "item": "modern_industrialization:bronze_gear"
+    },
+    "X": {
+      "item": "modern_industrialization:steel_gear"
+    },
+    "Y": {
+      "item": "modern_industrialization:iron_gear"
+    },
+    "Z": {
+      "item": "modern_industrialization:stainless_steel_gear"
+    },
+    "a": {
+      "item": "modern_industrialization:aluminum_gear"
+    },
+    "b": {
+      "item": "modern_industrialization:gold_gear"
+    },
+    "c": {
+      "item": "modern_industrialization:invar_gear"
+    }
+  },
+  "pattern": [
+    "    A    ",
+    " B CDE F ",
+    "  GHIHJ  ",
+    "  HKLKHM ",
+    "NOPL LQRS",
+    "  HKLKHT ",
+    "  UHVHW  ",
+    " X YZa b ",
+    "    c    "
+  ],
+  "result": {
+    "id": "ccb:world_gear"
+  },
+    "show_notification": false
+
+}

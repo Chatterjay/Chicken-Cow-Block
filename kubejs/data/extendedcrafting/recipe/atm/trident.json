@@ -1,0 +1,44 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "A   B   C",
+    "A   B   C",
+    "A   D   C",
+    "A   B   C",
+    "AAAABCCCC",
+    "    B    ",
+    "    B    ",
+    "    B    ",
+    "    E    "
+  ],
+  "key": {
+    "A": {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+    },
+    "B": {
+      "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
+    },
+    "C": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    },
+    "D": {
+      "item": "minecraft:trident"
+    },
+    "E": {
+      "items": "industrialforegoing:infinity_trident",
+      "components": {
+        "industrialforegoing:infinity_trident_loyalty": 0,
+        "industrialforegoing:infinity_trident_riptide": 0,
+        "industrialforegoing:infinity_trident_channeling": false,
+        "industrialforegoing:infinity_item_selected_tier": "poor",
+        "industrialforegoing:infinity_item_special": false,
+        "industrialforegoing:infinity_can_charge": true,
+        "industrialforegoing:infinity_item_power": 0
+      },
+      "type": "neoforge:components"
+    }
+  },
+  "result": {
+    "id": "allthemodium:alloy_trident"
+  }
+}

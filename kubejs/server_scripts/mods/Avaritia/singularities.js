@@ -40,6 +40,11 @@ const SINGULARITIES = [
         ingredient: 'data_energistics:ender_bucket'
     },
     {
+        id: 'end_fluid',
+        colors: [0xde62c8, 0xb040a6],
+        ingredient: 'hostilenetworks:end_prediction'
+    },
+    {
         id: 'ether_gas',
         colors: [0x22d3ee, 0x06b6d4],
         ingredient: 'industrialforegoing:ether_gas_bucket'
@@ -105,9 +110,19 @@ const SINGULARITIES = [
         ingredient: 'allthemodium:molten_vibranium_bucket'
     },
     {
+        id: 'nether_fluid',
+        colors: [0xd6753a, 0xa8531f],
+        ingredient: 'hostilenetworks:nether_prediction'
+    },
+    {
         id: 'npk_fertilizer',
         colors: [0x84cc16, 0x65a30d],
         ingredient: 'extended_industrialization:npk_fertilizer_bucket'
+    },
+    {
+        id: 'overworld_fluid',
+        colors: [0x5faeb1, 0x2e8b8e],
+        ingredient: 'hostilenetworks:overworld_prediction'
     },
     {
         id: 'pink_slime',

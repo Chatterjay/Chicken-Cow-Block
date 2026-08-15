@@ -1,0 +1,37 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "   ABC   ",
+    "  AABCC  ",
+    "  AABCC  ",
+    " DAABCCE ",
+    "    B    ",
+    "    B    ",
+    "    B    ",
+    "    B    ",
+    "    F    "
+  ],
+  "key": {
+    "A": {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+    },
+    "B": {
+      "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
+    },
+    "C": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    },
+    "D": {
+      "item": "allthemodium:vibranium_shovel"
+    },
+    "E": {
+      "item": "allthemodium:unobtainium_shovel"
+    },
+    "F": {
+      "item": "allthemodium:allthemodium_shovel"
+    }
+  },
+  "result": {
+    "id": "allthemodium:alloy_shovel"
+  }
+}

@@ -1,3 +1,6 @@
 {
-    "singularity.extendedcrafting.fire_ale" : "炽焰啤酒"
+    "singularity.extendedcrafting.fire_ale" : "炽焰啤酒",
+    "singularity.extendedcrafting.neutron_gear" : "中子素齿轮",
+    "singularity.extendedcrafting.compressor" : "物品压缩机",
+    "singularity.extendedcrafting.ritual_conjure_meteorites" : "陨星之板"
 }

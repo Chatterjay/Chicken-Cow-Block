@@ -104,4 +104,16 @@ event.shaped('modern_mekanistics:bigger_ambient_gas_collector',[
     B:'mekanism:upgrade_filter',
     C:'pneumaticcraft:plastic_brick_white'
 })
+event.shapeless('justdirethings:goosoil_tier1', [
+    'minecraft:dirt','justdirethings:ferricore_hoe'
+    ]).damageIngredient('justdirethings:ferricore_hoe',1) 
+    event.shapeless('justdirethings:goosoil_tier2', [
+    'minecraft:dirt','justdirethings:blazegold_hoe'
+    ]).damageIngredient('justdirethings:blazegold_hoe',1) 
+    event.shapeless('justdirethings:goosoil_tier3', [
+    'minecraft:dirt','justdirethings:celestigem_hoe'
+    ]).damageIngredient('justdirethings:celestigem_hoe',1) 
+    event.shapeless('justdirethings:goosoil_tier4', [
+    'minecraft:dirt','justdirethings:eclipsealloy_hoe'
+    ]).damageIngredient('justdirethings:eclipsealloy_hoe',1) 
 });
