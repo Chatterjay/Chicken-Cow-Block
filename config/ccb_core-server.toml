@@ -157,15 +157,20 @@
 	returnBowl = true
 
 [ffb]
-#Special namae ichi.
-namaeIchi = "哈吉仙"
-#Special namae ni.
-namaeNi = "哈基仙"
-#Special namae no chance no multiplier.
-# Default: 1.0
-# Range: 0.0 ~ 1000.0
-chanceMultiplier = 10.0
-#Special namae no color.
-# Default: 16777215
-# Range: 0 ~ 16777215
-namaeColor = 16755200
+	#Special namae ichi.
+	namaeIchi = "哈吉仙"
+	#Special namae ni.
+	namaeNi = "哈基仙"
+	#Special namae no chance no multiplier.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	chanceMultiplier = 10.0
+	#Special namae no color.
+	# Default: 16777215
+	# Range: 0 ~ 16777215
+	namaeColor = 16755200
+[de]
+	#MaxResistForCoreReduction. Default: 1000000.0
+	# Default: 1000000.0
+	# Range: 25.0 ~ 1.7976931348623157E308
+	maxResistForCoreReduction = 10000000.0
