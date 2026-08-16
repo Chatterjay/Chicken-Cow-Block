@@ -169,8 +169,9 @@
 	# Default: 16777215
 	# Range: 0 ~ 16777215
 	namaeColor = 16755200
+
 [de]
 	#MaxResistForCoreReduction. Default: 1000000.0
 	# Default: 1000000.0
 	# Range: 25.0 ~ 1.7976931348623157E308
-	maxResistForCoreReduction = 10000000.0
+	maxResistForCoreReduction = 1.0E7
