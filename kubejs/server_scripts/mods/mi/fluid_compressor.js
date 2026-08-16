@@ -150,4 +150,16 @@ ServerEvents.recipes(event => {
     event.recipes.modern_industrialization.fluid_compressor(256, 100)
         .fluidIn('10000000x modern_industrialization:uu_matter')
         .itemOut('avaritia:singularity[avaritia:singularity_id="avaritia:uu_matter_singularity"]');
+
+    event.recipes.modern_industrialization.fluid_compressor(256, 100)
+        .fluidIn('10000000x ccb:overworld_fluid')
+        .itemOut('avaritia:singularity[avaritia:singularity_id="avaritia:overworld_fluid_singularity"]');
+
+    event.recipes.modern_industrialization.fluid_compressor(256, 100)
+        .fluidIn('10000000x ccb:nether_fluid')
+        .itemOut('avaritia:singularity[avaritia:singularity_id="avaritia:nether_fluid_singularity"]');
+
+    event.recipes.modern_industrialization.fluid_compressor(256, 100)
+        .fluidIn('10000000x ccb:end_fluid')
+        .itemOut('avaritia:singularity[avaritia:singularity_id="avaritia:end_fluid_singularity"]');
 })

@@ -36,5 +36,8 @@
     "singularity.avaritia.liquid_dragon_breath": "液态龙息",
     "singularity.avaritia.data_corrosion_liquid": "数蚀液",
     "singularity.avaritia.soul_lava": "灵魂熔岩",
-    "singularity.avaritia.uu_matter": "UU物质"
+    "singularity.avaritia.uu_matter": "UU物质",
+    "singularity.avaritia.overworld_fluid": "主世界流体",
+    "singularity.avaritia.nether_fluid": "下界流体",
+    "singularity.avaritia.end_fluid": "末地流体"
 }

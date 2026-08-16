@@ -1,0 +1,37 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AA  B CCC",
+    "AAAABCCCC",
+    "ADAABCCCE",
+    "AAAABCCCC",
+    "AA  B  CC",
+    "    B    ",
+    "    B    ",
+    "    B    ",
+    "    F    "
+  ],
+  "key": {
+    "A": {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+    },
+    "B": {
+      "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
+    },
+    "C": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    },
+    "D": {
+      "item": "allthemodium:vibranium_axe"
+    },
+    "E": {
+      "item": "allthemodium:unobtainium_axe"
+    },
+    "F": {
+      "item": "allthemodium:allthemodium_axe"
+    }
+  },
+  "result": {
+    "id": "allthemodium:alloy_axe"
+  }
+}

@@ -70,7 +70,7 @@ LootJS.modifiers((event) => {
     event.addBlockModifier('minecraft:oak_leaves')
        .addLoot(
             LootEntry.of('chicken_roost:c_apple')
-                .matchMainHand('#chicken_roost:seed_crop')
+                .matchMainHand('#c:seeds/tiered')
                 .randomChance(0.1)
        )
         

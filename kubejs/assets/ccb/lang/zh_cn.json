@@ -47,5 +47,11 @@
   "fluid_type.ccb.fanta_plasma": "芬达等离子体",
   "block.ccb.fanta_plasma": "芬达等离子体",
   "item.ccb.mi_prediction_matrix": "现代工业化预测矩阵",
-  "item.ccb.cook_ritual_misc": "仪式: 烹饪"
+  "item.ccb.cook_ritual_misc": "仪式: 烹饪",
+  "item.ccb.world_gear": "世界齿轮",
+  "tooltip.ccb.world_gear": "维持世界运行的基础零件",
+  "item.ccb.fallen_star_glow": "坠于星坠之地的闪光",
+  "tooltip.ccb.fallen_star_glow": "本该高悬于天空的闪光，如今不知为何出现在这，似乎还隐隐有着上升的趋势。",
+  "item.ccb.strongest_record": "铭刻于世界的最强战绩",
+  "tooltip.ccb.strongest_record": "最强的战绩铭刻于新宿之上，最终获胜的是...(似乎跑题了）不过似乎撼动了某些东西。"
 }
