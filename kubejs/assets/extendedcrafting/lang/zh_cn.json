@@ -2,5 +2,8 @@
     "singularity.extendedcrafting.fire_ale" : "炽焰啤酒",
     "singularity.extendedcrafting.neutron_gear" : "中子素齿轮",
     "singularity.extendedcrafting.compressor" : "物品压缩机",
-    "singularity.extendedcrafting.ritual_conjure_meteorites" : "陨星之板"
+    "singularity.extendedcrafting.ritual_conjure_meteorites" : "陨星之板",
+    "singularity.extendedcrafting.dragon_star_block" : "龙之星块",
+    "singularity.extendedcrafting.stellar_alloy_block" : "恒星合金块",
+    "singularity.extendedcrafting.nether_star_block" : "下界之星块"
 }

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.nether_star_block",
+  "colors": [
+    "e0f7fa",
+    "4aa3c2"
+  ],
+  "ingredient": {
+    "item": "allthetweaks:nether_star_block"
+  }
+}

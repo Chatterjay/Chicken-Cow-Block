@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.stellar_alloy_block",
+  "colors": [
+    "ffd54f",
+    "b8860b"
+  ],
+  "ingredient": {
+    "item": "enderio_evolution:stellar_alloy_block"
+  }
+}

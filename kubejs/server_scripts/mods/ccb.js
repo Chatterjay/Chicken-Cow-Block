@@ -15,4 +15,15 @@ ServerEvents.recipes(event => {
     D:'minecraft:copper_ingot',
     E:'immersiveengineering:slag_glass'
 })
+    event.shapeless('ccb:broken_world_fragment', [
+        'ccb:world_gear',
+        'ccb:fallen_star_glow',
+        'ccb:strongest_record',
+        'ccb:rule_crop',
+        'ccb:soul_cry',
+        'ccb:time_cicada',
+        'ccb:fate_eyes',
+        'ccb:data_elder',
+        'ccb:life_ghost'
+    ]);
 });
