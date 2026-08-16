@@ -173,5 +173,5 @@
 [de]
 	#MaxResistForCoreReduction. Default: 1000000.0
 	# Default: 1000000.0
-	# Range: 25.0 ~ 1.7976931348623157E308
+	# Range: 25.0 ~ 3.4028234663852886E38
 	maxResistForCoreReduction = 1.0E7
