@@ -1,0 +1,10 @@
+﻿{
+  "name": "singularity.extendedcrafting.ender_quartz_seed",
+  "colors": [
+    "2e7d6b",
+    "14352c"
+  ],
+  "ingredient": {
+    "item": "ae2cs:ender_quartz_seed"
+  }
+}

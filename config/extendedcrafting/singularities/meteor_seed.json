@@ -1,0 +1,10 @@
+﻿{
+  "name": "singularity.extendedcrafting.meteor_seed",
+  "colors": [
+    "8a7b6b",
+    "2e2923"
+  ],
+  "ingredient": {
+    "item": "ae2cs:meteor_seed"
+  }
+}

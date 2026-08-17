@@ -1,0 +1,10 @@
+﻿{
+  "name": "singularity.extendedcrafting.entro_crystal_seed",
+  "colors": [
+    "7c3aed",
+    "4c1d95"
+  ],
+  "ingredient": {
+    "item": "ae2cs:entro_crystal_seed"
+  }
+}

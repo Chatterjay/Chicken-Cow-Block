@@ -1,0 +1,10 @@
+﻿{
+  "name": "singularity.extendedcrafting.link_crystal_seed",
+  "colors": [
+    "60a5fa",
+    "1e40af"
+  ],
+  "ingredient": {
+    "item": "ae2cs:link_crystal_seed"
+  }
+}
