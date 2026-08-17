@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.dragon_star_block",
+  "colors": [
+    "c084fc",
+    "5b21b6"
+  ],
+  "ingredient": {
+    "item": "ifeu:dragon_star_block"
+  }
+}

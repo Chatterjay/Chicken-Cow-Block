@@ -2,5 +2,8 @@
     "singularity.extendedcrafting.fire_ale": "Fire Ale",
     "singularity.extendedcrafting.neutron_gear": "Neutronium Gear",
     "singularity.extendedcrafting.compressor": "Compressor",
-    "singularity.extendedcrafting.ritual_conjure_meteorites": "Meteorites"
+    "singularity.extendedcrafting.ritual_conjure_meteorites": "Meteorites",
+    "singularity.extendedcrafting.dragon_star_block": "Dragon Star Block",
+    "singularity.extendedcrafting.stellar_alloy_block": "Stellar Alloy Block",
+    "singularity.extendedcrafting.nether_star_block": "Nether Star Block"
 }
