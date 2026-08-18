@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.divine_soulshard",
+  "colors": [
+    "fff3c4",
+    "b8860b"
+  ],
+  "ingredient": {
+    "item": "irons_spellbooks:divine_soulshard"
+  }
+}

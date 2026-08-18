@@ -1,0 +1,10 @@
+﻿{
+  "name": "singularity.extendedcrafting.resonating_seed",
+  "colors": [
+    "e08ee0",
+    "7a3f7a"
+  ],
+  "ingredient": {
+    "item": "ae2cs:resonating_seed"
+  }
+}

@@ -4,9 +4,9 @@ ServerEvents.recipes(event => {
         "priority": 0,
         "inputs": [
             { "ingredient": { "item": "avaritia:star_fuel_block" }, "count": 1 },
-            { "ingredient": { "item": "projectexpansion:final_star" }, "count": 4 },
-            { "ingredient": { "item": "projectexpansion:colossal_star_omega" }, "count": 4 },
-            { "ingredient": { "item": "projectexpansion:gargantuan_star_omega" }, "count": 4 },
+            { "ingredient": { "item": "projectexpansion:final_star" }, "count": 1 },
+            { "ingredient": { "item": "projectexpansion:colossal_star_omega" }, "count": 1 },
+            { "ingredient": { "item": 'jdte:stellar_fusion_solar_panel' }, "count": 1 },
             { "ingredient": { "item": "oritech:black_hole_block" }, "count": 1 },
             {
                 "ingredient": {

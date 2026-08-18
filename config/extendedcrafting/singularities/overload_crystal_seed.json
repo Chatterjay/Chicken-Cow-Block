@@ -1,0 +1,10 @@
+﻿{
+  "name": "singularity.extendedcrafting.overload_crystal_seed",
+  "colors": [
+    "facc15",
+    "713f12"
+  ],
+  "ingredient": {
+    "item": "ae2cs:overload_crystal_seed"
+  }
+}

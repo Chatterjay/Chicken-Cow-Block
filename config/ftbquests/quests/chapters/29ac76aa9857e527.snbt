@@ -1,0 +1,14 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "29ac76aa9857e527"
+	group: "6A39560B4558E909"
+	icon: {
+		id: "ccb:broken_world_fragment"
+	}
+	id: "29AC76AA9857E527"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

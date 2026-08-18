@@ -1,0 +1,10 @@
+﻿{
+  "name": "singularity.extendedcrafting.data_crystal_seed",
+  "colors": [
+    "38bdf8",
+    "0369a1"
+  ],
+  "ingredient": {
+    "item": "ae2cs:data_crystal_seed"
+  }
+}

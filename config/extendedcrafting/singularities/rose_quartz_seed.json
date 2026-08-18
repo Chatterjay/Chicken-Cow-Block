@@ -1,0 +1,10 @@
+﻿{
+  "name": "singularity.extendedcrafting.rose_quartz_seed",
+  "colors": [
+    "f472b6",
+    "9d174d"
+  ],
+  "ingredient": {
+    "item": "ae2cs:rose_quartz_seed"
+  }
+}

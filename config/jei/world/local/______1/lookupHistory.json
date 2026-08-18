@@ -1,0 +1,15 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"projectexpansion:fading_matter_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:tnt"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"allthecompressed:antimatter_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:pellet_antimatter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modern_industrialization:fluid_compressor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2lt:silicon_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"xycraft_machines:aluminum_clump"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"xycraft_machines:aluminum_shard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"xycraft_machines:aluminum_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":"xycraft_world:clean_aluminum_slurry","type":"mekanism.api.chemical.ChemicalStack","bookmarkType":"INGREDIENT"},
+  {"ingredient":"xycraft_world:dirty_aluminum_slurry","type":"mekanism.api.chemical.ChemicalStack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"moonlight:spawn_box"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,10 @@
+﻿{
+  "name": "singularity.extendedcrafting.redstone_crystal_seed",
+  "colors": [
+    "ef4444",
+    "7f1d1d"
+  ],
+  "ingredient": {
+    "item": "ae2cs:redstone_crystal_seed"
+  }
+}

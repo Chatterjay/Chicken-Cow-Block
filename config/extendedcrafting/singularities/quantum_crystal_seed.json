@@ -1,0 +1,10 @@
+﻿{
+  "name": "singularity.extendedcrafting.quantum_crystal_seed",
+  "colors": [
+    "22d3ee",
+    "0e7490"
+  ],
+  "ingredient": {
+    "item": "ae2cs:quantum_crystal_seed"
+  }
+}

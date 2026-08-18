@@ -1,0 +1,10 @@
+﻿{
+  "name": "singularity.extendedcrafting.irradiated_seed",
+  "colors": [
+    "a3e635",
+    "3f6212"
+  ],
+  "ingredient": {
+    "item": "ae2cs:irradiated_seed"
+  }
+}

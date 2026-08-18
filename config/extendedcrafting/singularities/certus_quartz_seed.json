@@ -1,0 +1,10 @@
+﻿{
+  "name": "singularity.extendedcrafting.certus_quartz_seed",
+  "colors": [
+    "8fd3e8",
+    "3a7ca5"
+  ],
+  "ingredient": {
+    "item": "ae2cs:certus_quartz_seed"
+  }
+}

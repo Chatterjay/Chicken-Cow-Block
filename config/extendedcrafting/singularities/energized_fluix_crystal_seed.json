@@ -1,0 +1,10 @@
+﻿{
+  "name": "singularity.extendedcrafting.energized_fluix_crystal_seed",
+  "colors": [
+    "c084fc",
+    "6b21a8"
+  ],
+  "ingredient": {
+    "item": "ae2cs:energized_fluix_crystal_seed"
+  }
+}
