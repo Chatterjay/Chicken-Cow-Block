@@ -1,0 +1,32 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "irons_spellbooks"
+        }
+    ],
+    "entity": "irons_spellbooks:fire_boss",
+    "variants": [],
+    "name_color": "#6b3838",
+    "display": {},
+    "sim_cost": 8192,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.cryomancer",
+    "fabricator_drops": [
+        {
+            "id": "irons_spellbooks:divine_soulshard",
+            "count": 1
+        },
+        {
+            "id": "irons_spellbooks:arcane_essence",
+            "count": 64
+        }
+
+    ]
+}

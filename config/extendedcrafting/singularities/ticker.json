@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.ticker",
+  "colors": [
+    "a78bfa",
+    "5b21b6"
+  ],
+  "ingredient": {
+    "item": "justdynathings:ticker"
+  }
+}

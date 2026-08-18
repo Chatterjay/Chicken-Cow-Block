@@ -1,0 +1,74 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABBBCBBBA",
+    "BDEFGFEHB",
+    "BEIIIIIEB",
+    "BFIJKJIFB",
+    "CGIKJKIGC",
+    "BFIJKJIFB",
+    "BEIIIIIEB",
+    "BDEFGFEDB",
+    "ABBBCBBBA"
+  ],
+  "key": {
+    "A": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:ticker"
+      },
+      "type": "neoforge:components"
+    },
+    "B": {
+      "item": "apotheosis:mythic_material"
+    },
+    "C": {
+      "item": "justdynathings:echoing_budding_time"
+    },
+    "D": {
+      "item": "jdte:advanced_time_accelerator"
+    },
+    "E": {
+      "item": "mekanism:qio_drive_time_dilating"
+    },
+    "F": {
+      "item": "justdynathings:eclipse_alloy_anvil"
+    },
+    "G": {
+      "item": "jdte:extended_time_freezer"
+    },
+    "H": {
+      "item": "jdte:extended_time_accelerator"
+    },
+    "I": {
+      "item": "ifeu:time_controller"
+    },
+    "J": {
+      "items": "oritech:machine_combi_addon",
+      "components": {
+        "oritech:addon_data": {
+          "yield_count": 0,
+          "crop_filter": false,
+          "silk": false,
+          "data": {
+            "energy_bonus_transfer": 7000,
+            "extra_chambers": 0,
+            "max_burst_ticks": 0,
+            "speed": 0.008163265,
+            "efficiency": 0.020161295,
+            "energy_bonus_capacity": 17500000
+          },
+          "fluid": false,
+          "quarry_count": 0
+        }
+      },
+      "type": "neoforge:components"
+    },
+    "K": {
+      "item": "data_energistics:time_core"
+    }
+  },
+  "result": {
+    "id": "ccb:time_cicada"
+  }
+}

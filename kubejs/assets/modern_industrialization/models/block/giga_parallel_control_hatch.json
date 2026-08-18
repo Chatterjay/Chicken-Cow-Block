@@ -1,0 +1,7 @@
+{
+  "casing": "quan_casing",
+  "default_overlays": {
+    "side": "modern_industrialization:block/machines/hatch_parallel/overlay_side"
+  },
+  "loader": "modern_industrialization:machine"
+}
