@@ -23,5 +23,6 @@
     "singularity.extendedcrafting.energized_fluix_crystal_seed" : "盈能福鲁伊克斯水晶种子",
     "singularity.extendedcrafting.energized_certus_quartz_seed" : "盈能水晶种子",
     "singularity.extendedcrafting.chicken_food_tier_9" : "9级鸡饲料",
-    "singularity.extendedcrafting.divine_soulshard" : "神圣灵魂碎片"
+    "singularity.extendedcrafting.divine_soulshard" : "神圣灵魂碎片",
+    "singularity.extendedcrafting.ticker": "进刻器"
 }
