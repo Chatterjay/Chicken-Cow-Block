@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "occultism"
+        }
+    ],
+    "entity": "occultism:mercy_goat",
+    "variants": [],
+    "name_color": "#E5E0D5",
+    "display": {},
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.mercy_goat",
+    "fabricator_drops": [
+        {
+            "id": "occultism:cruelty_essence",
+            "count": 1
+        }
+    ]
+}

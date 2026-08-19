@@ -5,11 +5,11 @@
             "modid": "irons_spellbooks"
         }
     ],
-    "entity": "irons_spellbooks:fire_boss",
+    "entity": "irons_spellbooks:archevoker",
     "variants": [],
-    "name_color": "#FF3D00",
+    "name_color": "#B39DDB",
     "display": {},
-    "sim_cost": 2048,
+    "sim_cost": 1024,
     "input": {
         "item": "hostilenetworks:prediction_matrix"
     },
@@ -17,23 +17,19 @@
         "id": "hostilenetworks:overworld_prediction",
         "count": 1
     },
-    "trivia": "hostilenetworks.trivia.fire_boss",
+    "trivia": "hostilenetworks.trivia.archevoker",
     "fabricator_drops": [
         {
-            "id": "irons_spellbooks:divine_soulshard",
-            "count": 1
-        },
-        {
-            "id": "irons_spellbooks:decrepit_scythe",
-            "count": 1
-        },
-        {
-            "id": "irons_spellbooks:betrayer_signet",
-            "count": 1
-        },
-        {
-            "id": "irons_spellbooks:cinder_essence",
+            "id": "irons_spellbooks:arcane_essence",
             "count": 16
+        },
+        {
+            "id": "irons_spellbooks:evocation_rune",
+            "count": 1
+        },
+        {
+            "id": "irons_spellbooks:evoker_spell_book",
+            "count": 1
         }
     ]
 }

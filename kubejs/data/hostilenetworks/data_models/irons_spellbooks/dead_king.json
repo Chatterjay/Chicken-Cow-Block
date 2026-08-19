@@ -5,9 +5,9 @@
             "modid": "irons_spellbooks"
         }
     ],
-    "entity": "irons_spellbooks:fire_boss",
+    "entity": "irons_spellbooks:dead_king",
     "variants": [],
-    "name_color": "#FF3D00",
+    "name_color": "#7B1FA2",
     "display": {},
     "sim_cost": 2048,
     "input": {
@@ -17,23 +17,23 @@
         "id": "hostilenetworks:overworld_prediction",
         "count": 1
     },
-    "trivia": "hostilenetworks.trivia.fire_boss",
+    "trivia": "hostilenetworks.trivia.dead_king",
     "fabricator_drops": [
         {
-            "id": "irons_spellbooks:divine_soulshard",
+            "id": "irons_spellbooks:blood_staff",
             "count": 1
         },
         {
-            "id": "irons_spellbooks:decrepit_scythe",
+            "id": "irons_spellbooks:necronomicon_spell_book",
             "count": 1
         },
         {
-            "id": "irons_spellbooks:betrayer_signet",
-            "count": 1
+            "id": "irons_spellbooks:arcane_essence",
+            "count": 32
         },
         {
-            "id": "irons_spellbooks:cinder_essence",
-            "count": 16
+            "id": "irons_spellbooks:blank_rune",
+            "count": 1
         }
     ]
 }

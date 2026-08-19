@@ -1,0 +1,40 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "hostilenetworks:block_data_models_enabled"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mekanism_extras"
+        }
+    ],
+    "type": "hostilenetworks:block_data_model",
+    "block": "mekanism_extras:naquadah_ore",
+    "variants": [
+        "mekanism_extras:end_naquadah_ore"
+    ],
+    "name_color": "#8A7DFF",
+    "display": {
+        "scale": 3
+    },
+    "sim_cost": 1024,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "minecraft:stone"
+    },
+    "trivia": "hostilenetworks.trivia.naquadah_ore",
+    "fabricator_drops": [
+        {
+            "id": "mekanism_extras:raw_naquadah",
+            "count": 3
+        }
+    ],
+    "upgrade_conditions": [
+        {
+            "condition": "minecraft:reference",
+            "name": "hostilenetworks:not_silk_touch"
+        }
+    ]
+}
