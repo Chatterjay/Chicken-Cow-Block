@@ -25,9 +25,9 @@
     "trivia": "hostilenetworks.trivia.draconic_guardian",
     "fabricator_drops": [],
     "data_per_kill": {
-        "faulty": 999,
-        "basic": 999,
-        "advanced": 999,
-        "superior": 999
+        "faulty": 3,
+        "basic": 12,
+        "advanced": 30,
+        "superior": 45
     }
 }
