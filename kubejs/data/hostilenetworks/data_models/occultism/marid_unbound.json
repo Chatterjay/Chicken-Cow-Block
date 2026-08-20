@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "occultism"
+        }
+    ],
+    "entity": "occultism:marid_unbound",
+    "variants": [],
+    "name_color": "#3D9CC2",
+    "display": {},
+    "sim_cost": 2048,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.marid_unbound",
+    "fabricator_drops": [
+        {
+            "id": "occultism:marid_essence",
+            "count": 1
+        }
+    ]
+}

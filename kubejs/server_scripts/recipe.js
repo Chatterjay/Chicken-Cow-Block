@@ -116,4 +116,16 @@ event.shapeless('justdirethings:goosoil_tier1', [
     event.shapeless('justdirethings:goosoil_tier4', [
     'minecraft:dirt','justdirethings:eclipsealloy_hoe'
     ]).damageIngredient('justdirethings:eclipsealloy_hoe',1) 
+    event.remove({ output: 'extendedcompressor:extended_compressor' });
+    event.shaped('extendedcompressor:extended_compressor', [
+        'CBC',
+        'BIB',
+        'DSD'
+    ], {
+        I: 'extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:compressor"]',
+        B: 'extendedcrafting:ultimate_component',
+        S: 'extendedcrafting:ultimate_auto_table',
+        C: 'extendedcrafting:enhanced_ender_catalyst',
+        D: 'extendedcrafting:enhanced_redstone_catalyst'
+    });
 });

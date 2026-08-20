@@ -9,4 +9,6 @@ MIMachineEvents.registerHatches(event => {
         // Number of buckets that the hatch can hold.
         2147283647,
     );
+
+    event.parallel("Giga", "giga", "quan_casing", 2100000000);
 });

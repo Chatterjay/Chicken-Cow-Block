@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "occultism"
+        }
+    ],
+    "entity": "occultism:afrit_wild",
+    "variants": [],
+    "name_color": "#D94A2B",
+    "display": {},
+    "sim_cost": 2048,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.afrit_wild",
+    "fabricator_drops": [
+        {
+            "id": "occultism:afrit_essence",
+            "count": 1
+        }
+    ]
+}

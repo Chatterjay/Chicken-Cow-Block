@@ -1,0 +1,31 @@
+{
+    "entity": "minecraft:cat",
+    "variants": [
+        "minecraft:ocelot"
+    ],
+    "name_color": "#E8A074",
+    "display": {},
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.cat",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:string",
+            "count": 16
+        },
+        {
+            "id": "minecraft:rabbit_foot",
+            "count": 1
+        },
+        {
+            "id": "minecraft:phantom_membrane",
+            "count": 1
+        }
+    ]
+}

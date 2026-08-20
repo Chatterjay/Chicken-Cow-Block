@@ -1,0 +1,33 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "draconicevolution"
+        }
+    ],
+    "entity": "draconicevolution:draconic_guardian",
+    "variants": [],
+    "name": {
+        "translate": "entity.draconicevolution.draconic_guardian",
+        "color": "#8A2BE2"
+    },
+    "display": {
+        "y_offset": 0.5,
+        "scale": 0.25
+    },
+    "sim_cost": 4096,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:end_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.draconic_guardian",
+    "fabricator_drops": [],
+    "data_per_kill": {
+        "faulty": 999,
+        "basic": 999,
+        "advanced": 999,
+        "superior": 999
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "hostilenetworks:block_data_models_enabled"
+        }
+    ],
+    "type": "hostilenetworks:block_data_model",
+    "block": "minecraft:waxed_oxidized_cut_copper_stairs",
+    "variants": [],
+    "name_color": "#4F9D8E",
+    "display": { "scale": 3 },
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "minecraft:copper_ingot"
+    },
+    "trivia": "hostilenetworks.trivia.waxed_oxidized_cut_copper_stairs",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:waxed_oxidized_cut_copper_stairs",
+            "count": 16
+        }
+    ],
+    "upgrade_conditions": [
+        {
+            "condition": "minecraft:reference",
+            "name": "hostilenetworks:not_silk_touch"
+        }
+    ]
+}
