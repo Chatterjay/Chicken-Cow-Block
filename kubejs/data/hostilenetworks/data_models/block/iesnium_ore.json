@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "occultism:iesnium_ore",
+  "variants": [
+    "occultism:iesnium_block"
+  ],
+  "name_color": "#6CA6B2",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 1024,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "hostilenetworks:nether_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.iesnium_ore",
+  "fabricator_drops": [
+    {
+      "id": "occultism:raw_iesnium",
+      "count": 4
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

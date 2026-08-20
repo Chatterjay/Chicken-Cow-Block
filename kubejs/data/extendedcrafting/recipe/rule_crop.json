@@ -6,10 +6,10 @@
     "   CDE   ",
     "  FGHIJ  ",
     "  KLMNO  ",
-    "  PPQPP  ",
-    "  PRSRP  ",
-    " TUVUVUT ",
-    "VUTUTUTUV"
+    "  PQRQP  ",
+    "  PSTSP  ",
+    " UVUVUVU ",
+    "UVUVWVUVU"
   ],
   "key": {
     "A": {
@@ -121,30 +121,37 @@
       "item": "modern_industrialization:analog_circuit"
     },
     "Q": {
+      "item": "modern_industrialization:processing_unit"
+    },
+    "R": {
       "items": "extendedcrafting:singularity",
       "components": {
         "extendedcrafting:singularity_id": "extendedcrafting:chicken_food_tier_9"
       },
       "type": "neoforge:components"
     },
-    "R": {
+    "S": {
       "item": "modern_industrialization:electronic_circuit"
     },
-    "S": {
+    "T": {
       "items": "extendedcrafting:singularity",
       "components": {
         "extendedcrafting:singularity_id": "extendedcrafting:nether_quartz_seed"
       },
       "type": "neoforge:components"
     },
-    "T": {
+    "U": {
       "item": "modern_industrialization:quantum_circuit"
     },
-    "U": {
+    "V": {
       "item": "modern_industrialization:singularity"
     },
-    "V": {
-      "item": "modern_industrialization:processing_unit"
+    "W": {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:npk_fertilizer_singularity"
+      },
+      "type": "neoforge:components"
     }
   },
   "result": {

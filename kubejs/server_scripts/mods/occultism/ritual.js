@@ -140,5 +140,17 @@ event.recipes.occultism.ritual(
 'ccb:uumatter_soup',//仪式核心输入物品（放在黄金献祭之碗上的）
 'occultism:marid_cooking_ritual'
     ).dummy('avaritia:cosmic_meatballs')
+    event.recipes.occultism.ritual(
+'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:block/iesnium_ore"]',
+[//输出物品
+'occultengineering:combined_goggles',
+'occultism:infused_pickaxe',
+'occultism:divination_rod',
+'occultism:crushed_blue_ice',
+'occultism:stable_wormhole'
+],
+'hostilenetworks:blank_data_model',
+'occultism:craft_djinni'
+    ).dummy('occultism:ritual_dummy/custom_ritual_craft')
     
 });

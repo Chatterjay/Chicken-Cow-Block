@@ -63,5 +63,18 @@ event.recipes.ars_nouveau.enchanting_apparatus(
     'ars_nouveau:magebloom_block', 
     'mi_tweaks:magic_chicken', 
     10000, 
+      )
+event.recipes.ars_nouveau.enchanting_apparatus(
+        [
+            'occultism:chalk_rainbow',
+            'mahoutsukai:mana_circuit',
+            'mahoutsukai:scroll_prediction',
+            'mahoutsukai:scroll_insight',
+            'occultism:storage_stabilizer_tier5_dark',
+            'occultism:storage_stabilizer_tier5'
+        ], 
+    'extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:iesnium_block"]', 
+    'ccb:fate_eyes', 
+    100000, 
 )}
 )

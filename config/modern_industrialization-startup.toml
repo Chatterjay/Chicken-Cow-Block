@@ -16,9 +16,9 @@ defaultIndustrialistTrades = true
 	#We recommend leaving this to false unless the other mods have been balanced accordingly.
 	bidirectionalEnergyCompat = true
 	#Enable the Applied Energistics 2 integration, if present.
-	ae2Integration = true
+	ae2Integration = false
 	#Enable the FTB Quests integration, if present.
-	ftbQuestsIntegration = true
+	ftbQuestsIntegration = false
 	#Enable the Almost Unified integration, if present.
 	almostUnifiedIntegration = true
 

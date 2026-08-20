@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.iesnium_block",
+  "colors": [
+    "b57edc",
+    "4a2370"
+  ],
+  "ingredient": {
+    "item": "occultism:iesnium_block"
+  }
+}

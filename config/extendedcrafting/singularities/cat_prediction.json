@@ -1,0 +1,14 @@
+{
+  "name": "singularity.extendedcrafting.cat_prediction",
+  "colors": [
+    "e8a074",
+    "8a4a24"
+  ],
+  "ingredient": {
+    "type": "neoforge:components",
+    "items": "hostilenetworks:prediction",
+    "components": {
+      "hostilenetworks:data_model": "minecraft:cat"
+    }
+  }
+}
