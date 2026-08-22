@@ -26,7 +26,8 @@ global.COW_TRANSMUTE_RULES = [
   { item: 'occultism:otherworld_essence', fluid: "occultengineering:spirit_solution" },
   { item: 'modern_industrialization:creosote_bucket', fluid: "modern_industrialization:lubricant" },
   { item: 'oritech:fluxite_block', fluid: "oritech:still_molten_fluxite" },
-  { item: 'chicken_roost:c_uumatter', fluid: "modern_industrialization:uu_matter" }
+  { item: 'chicken_roost:c_uumatter', fluid: "modern_industrialization:uu_matter" },
+  { item: 'jdte:extended_bio_crusher', fluid: "jdte:life_fluid_source" }
 ]
 
 global.CHICKEN_TRANSMUTE_RULES = [

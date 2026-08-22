@@ -76,6 +76,12 @@ StartupEvents.registry("item", event => {
     // 草神 green.gold/gray
     createTooltipItem("grass_god");
 
+    // 哈气 aqua
+    event.create("ccb:haqi");
+
+    // 强化普攻 gold/gray
+    createTooltipItem("enhanced_basic_attack");
+
     function createTooltipItem(id) {
         if (!id.includes(":")) id = `ccb:${id}`;
         return event.create(id)

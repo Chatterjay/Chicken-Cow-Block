@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.enhanced_basic_attack",
+  "colors": [
+    "ffd700",
+    "4a4a4a"
+  ],
+  "ingredient": {
+    "item": "ccb:enhanced_basic_attack"
+  }
+}

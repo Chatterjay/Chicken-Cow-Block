@@ -91,5 +91,9 @@
   "item.ccb.kudikan": "§cK§6u§eD§ai§bk§9a§dn",
   "tooltip.ccb.kudikan": "§7由§lcow§r§7创造出来的全新规则集合体。",
   "item.ccb.grass_god": "§a草§6神",
-  "tooltip.ccb.grass_god": "§7由§lchicken§r§7创造出来的全新规则集合体。"
+  "tooltip.ccb.grass_god": "§7由§lchicken§r§7创造出来的全新规则集合体。",
+  "item.ccb.haqi": "§b哈气",
+  "item.ccb.enhanced_basic_attack": "§6强化普攻",
+  "tooltip.ccb.enhanced_basic_attack": "§7老吴说过：“三哈一强普，是每只耄的必修课。”",
+  "block.ccb.life_crystal": "§a生命结晶"
 }

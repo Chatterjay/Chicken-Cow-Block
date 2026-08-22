@@ -152,5 +152,21 @@ event.recipes.occultism.ritual(
 'hostilenetworks:blank_data_model',
 'occultism:craft_djinni'
     ).dummy('occultism:ritual_dummy/custom_ritual_craft')
+        event.recipes.occultism.ritual(
+'ccb:life_crystal',
+[//输出物品
+'projecte:life_stone',
+'mob_grinding_utils:entity_spawner',
+'occultism:vitality_compass',
+'occultism:cursed_honey',
+'occultism:demonic_meat',
+'extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:blood_upgrade_orb"]',
+'jdte:life_synthesis_vat',
+'occultism:spawn_egg/familiar_fairy'
+],
+'apotheosis:gem[apotheosis:gem="apotheosis:the_nether/blood_lord",apotheosis:purity="perfect"]',
+"occultism:contact_eldritch_spirit"
+    ).dummy('occultism:ritual_dummy/custom_ritual_craft')
+    
     
 });
