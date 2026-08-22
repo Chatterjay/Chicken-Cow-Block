@@ -1,0 +1,38 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "hostilenetworks:block_data_models_enabled"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ccb_core"
+        }
+    ],
+    "type": "hostilenetworks:block_data_model",
+    "block": "ccb_core:kudikan_fumo",
+    "variants": [],
+    "name_color": "#D8A45D",
+    "display": {
+        "scale": 3
+    },
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "minecraft:stone"
+    },
+    "trivia": "hostilenetworks.trivia.kudikan_fumo",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:pink_petals",
+            "count": 16
+        }
+    ],
+    "upgrade_conditions": [
+        {
+            "condition": "minecraft:reference",
+            "name": "hostilenetworks:not_silk_touch"
+        }
+    ]
+}
