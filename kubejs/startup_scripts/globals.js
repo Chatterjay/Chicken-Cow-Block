@@ -38,3 +38,14 @@ global.CHICKEN_TRANSMUTE_RULES = [
   {item: "modern_industrialization:stainless_steel_rotor", outputChicken: "c_stainsteel"},
   {item: "modern_industrialization:monazite_block", outputChicken: "c_monazite"}
 ]
+
+global.DRILLS = [
+  "aluminum_drill",
+  "bronze_drill",
+  "copper_drill",
+  "titanium_drill",
+  "steel_drill",
+  "stainless_steel_drill",
+  "gold_drill",
+  "digital_miner"
+]

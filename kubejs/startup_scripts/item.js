@@ -82,6 +82,13 @@ StartupEvents.registry("item", event => {
     // 强化普攻 gold/gray
     createTooltipItem("enhanced_basic_attack");
 
+    // 注册不会消耗的钻们
+    global.DRILLS.forEach(key => {
+        createTooltipItem(`un_${key}`)
+        .rarity("rare")
+        .glow(true);
+    });
+    
     function createTooltipItem(id) {
         if (!id.includes(":")) id = `ccb:${id}`;
         return event.create(id)

@@ -95,5 +95,21 @@
   "item.ccb.haqi": "§b哈气",
   "item.ccb.enhanced_basic_attack": "§6强化普攻",
   "tooltip.ccb.enhanced_basic_attack": "§7老吴说过：“三哈一强普，是每只耄的必修课。”",
-  "block.ccb.life_crystal": "§a生命结晶"
+  "block.ccb.life_crystal": "§a生命结晶",
+  "item.ccb.un_aluminum_drill": "坚不可摧的铝钻",
+  "tooltip.ccb.un_aluminum_drill": "§7概率消耗什么的，最讨厌了！",
+  "item.ccb.un_bronze_drill": "坚不可摧的青铜钻",
+  "tooltip.ccb.un_bronze_drill": "§7概率消耗什么的，最讨厌了！",
+  "item.ccb.un_copper_drill": "坚不可摧的铜钻",
+  "tooltip.ccb.un_copper_drill": "§7概率消耗什么的，最讨厌了！",
+  "item.ccb.un_titanium_drill": "坚不可摧的钛钻",
+  "tooltip.ccb.un_titanium_drill": "§7概率消耗什么的，最讨厌了！",
+  "item.ccb.un_steel_drill": "坚不可摧的钢钻",
+  "tooltip.ccb.un_steel_drill": "§7概率消耗什么的，最讨厌了！",
+  "item.ccb.un_stainless_steel_drill": "坚不可摧的不锈钢钻",
+  "tooltip.ccb.un_stainless_steel_drill": "§7概率消耗什么的，最讨厌了！",
+  "item.ccb.un_gold_drill": "坚不可摧的金钻",
+  "tooltip.ccb.un_gold_drill": "§7概率消耗什么的，最讨厌了！",
+  "item.ccb.un_digital_miner": "坚不可摧的数字型采矿🐔钻",
+  "tooltip.ccb.un_digital_miner": "§7概率消耗什么的，最讨厌了！"
 }
