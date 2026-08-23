@@ -76,6 +76,12 @@ StartupEvents.registry("item", event => {
     // 草神 green.gold/gray
     createTooltipItem("grass_god");
 
+    // 哈气 aqua
+    event.create("ccb:haqi");
+
+    // 强化普攻 gold/gray
+    createTooltipItem("enhanced_basic_attack");
+
     // 注册不会消耗的钻们
     global.DRILLS.forEach(key => {
         createTooltipItem(`un_${key}`)

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.blood_upgrade_orb",
+  "colors": [
+    "c41e3a",
+    "5c0a14"
+  ],
+  "ingredient": {
+    "item": "irons_spellbooks:blood_upgrade_orb"
+  }
+}

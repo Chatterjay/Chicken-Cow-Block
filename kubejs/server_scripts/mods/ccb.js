@@ -26,4 +26,17 @@ ServerEvents.recipes(event => {
         'ccb:data_elder',
         'ccb:life_ghost'
     ]);
+    const catPrediction = 'hostilenetworks:prediction[hostilenetworks:data_model="hostilenetworks:minecraft/cat"]';
+    event.shaped('ccb:haqi', [
+        "AAA",
+        "AAA",
+        "AAA"
+    ], {
+        A: catPrediction
+    });
+    event.shapeless('ccb:enhanced_basic_attack', [
+        'ccb:haqi',
+        'ccb:haqi',
+        'ccb:haqi'
+    ]);
 });

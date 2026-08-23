@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.overworld_prediction",
+  "colors": [
+    "7cbd6b",
+    "3d6e2f"
+  ],
+  "ingredient": {
+    "item": "hostilenetworks:overworld_prediction"
+  }
+}

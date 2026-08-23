@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.end_prediction",
+  "colors": [
+    "c9c95c",
+    "2d1b4e"
+  ],
+  "ingredient": {
+    "item": "hostilenetworks:end_prediction"
+  }
+}

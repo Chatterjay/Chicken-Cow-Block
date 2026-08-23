@@ -26,5 +26,9 @@
     "singularity.extendedcrafting.divine_soulshard": "Divine Soulshard",
     "singularity.extendedcrafting.ticker": "Ticker",
     "singularity.extendedcrafting.iesnium_block": "Iesnium Block",
-    "singularity.extendedcrafting.cat_prediction": "Cat Prediction"
+    "singularity.extendedcrafting.enhanced_basic_attack": "Maodie",
+    "singularity.extendedcrafting.overworld_prediction": "Overworld Prediction",
+    "singularity.extendedcrafting.nether_prediction": "Nether Prediction",
+    "singularity.extendedcrafting.end_prediction": "End Prediction",
+    "singularity.extendedcrafting.blood_upgrade_orb": "Life"
 }

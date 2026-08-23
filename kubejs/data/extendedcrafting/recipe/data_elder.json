@@ -1,0 +1,582 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCDEFGHI",
+    "JKLMNOPQR",
+    "STUVWXYZa",
+    "bcdefghij",
+    "klmnopqrs",
+    "tuvwxyz01",
+    "23456789+",
+    "-*/=?@%&~",
+    "_$!^|;:,."
+  ],
+  "key": {
+    "A": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:occultism/possessed_zombie_piglin"
+      },
+      "type": "neoforge:components"
+    },
+    "B": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:occultism/mercy_goat"
+      },
+      "type": "neoforge:components"
+    },
+    "C": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:occultism/marid_unbound"
+      },
+      "type": "neoforge:components"
+    },
+    "D": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:occultism/afrit_wild"
+      },
+      "type": "neoforge:components"
+    },
+    "E": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:occultism/possessed_bee"
+      },
+      "type": "neoforge:components"
+    },
+    "F": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:block/naquadah_ore"
+      },
+      "type": "neoforge:components"
+    },
+    "G": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:draconicevolution/draconic_guardian"
+      },
+      "type": "neoforge:components"
+    },
+    "H": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:block/kudikan_fumo"
+      },
+      "type": "neoforge:components"
+    },
+    "I": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:block/daipaibulaotie_fumo"
+      },
+      "type": "neoforge:components"
+    },
+    "J": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:glow_squid"
+      },
+      "type": "neoforge:components"
+    },
+    "K": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:cod"
+      },
+      "type": "neoforge:components"
+    },
+    "L": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:blocks/copper_ore"
+      },
+      "type": "neoforge:components"
+    },
+    "M": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:breeze"
+      },
+      "type": "neoforge:components"
+    },
+    "N": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:chicken"
+      },
+      "type": "neoforge:components"
+    },
+    "O": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:irons_spellbooks/priest"
+      },
+      "type": "neoforge:components"
+    },
+    "P": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:irons_spellbooks/necromancer"
+      },
+      "type": "neoforge:components"
+    },
+    "Q": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:irons_spellbooks/ice_spider"
+      },
+      "type": "neoforge:components"
+    },
+    "R": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:irons_spellbooks/dead_king"
+      },
+      "type": "neoforge:components"
+    },
+    "S": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:allthemodium/piglich"
+      },
+      "type": "neoforge:components"
+    },
+    "T": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:ars_nouveau/wilden_boss"
+      },
+      "type": "neoforge:components"
+    },
+    "U": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:ars_nouveau/wilden_mobs"
+      },
+      "type": "neoforge:components"
+    },
+    "V": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:blaze"
+      },
+      "type": "neoforge:components"
+    },
+    "W": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:block/advanced_machine_hull"
+      },
+      "type": "neoforge:components"
+    },
+    "X": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:block/basic_machine_hull"
+      },
+      "type": "neoforge:components"
+    },
+    "Y": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:block/fish_dan"
+      },
+      "type": "neoforge:components"
+    },
+    "Z": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:block/highly_advanced_machine_hull"
+      },
+      "type": "neoforge:components"
+    },
+    "a": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:block/iesnium_ore"
+      },
+      "type": "neoforge:components"
+    },
+    "b": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:block/mithril_ore"
+      },
+      "type": "neoforge:components"
+    },
+    "c": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:block/quantum_machine_hull"
+      },
+      "type": "neoforge:components"
+    },
+    "d": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:block/turbo_machine_hull"
+      },
+      "type": "neoforge:components"
+    },
+    "e": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:blocks/coal_ore"
+      },
+      "type": "neoforge:components"
+    },
+    "f": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:nether_prediction"
+      },
+      "type": "neoforge:components"
+    },
+    "g": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:blocks/diamond_ore"
+      },
+      "type": "neoforge:components"
+    },
+    "h": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:blocks/emerald_ore"
+      },
+      "type": "neoforge:components"
+    },
+    "i": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:blocks/gold_ore"
+      },
+      "type": "neoforge:components"
+    },
+    "j": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:blocks/iron_ore"
+      },
+      "type": "neoforge:components"
+    },
+    "k": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:blocks/lapis_ore"
+      },
+      "type": "neoforge:components"
+    },
+    "l": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:blocks/nether_quartz_ore"
+      },
+      "type": "neoforge:components"
+    },
+    "m": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:blocks/redstone_ore"
+      },
+      "type": "neoforge:components"
+    },
+    "n": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:overworld_prediction"
+      },
+      "type": "neoforge:components"
+    },
+    "o": {
+      "item": "ccb:mi_prediction_matrix"
+    },
+    "p": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:end_prediction"
+      },
+      "type": "neoforge:components"
+    },
+    "q": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:cow"
+      },
+      "type": "neoforge:components"
+    },
+    "r": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:creeper"
+      },
+      "type": "neoforge:components"
+    },
+    "s": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:drowned"
+      },
+      "type": "neoforge:components"
+    },
+    "t": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:minecraft/elder_guardian"
+      },
+      "type": "neoforge:components"
+    },
+    "u": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:enderman"
+      },
+      "type": "neoforge:components"
+    },
+    "v": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:evoker"
+      },
+      "type": "neoforge:components"
+    },
+    "w": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:ghast"
+      },
+      "type": "neoforge:components"
+    },
+    "x": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:enhanced_basic_attack"
+      },
+      "type": "neoforge:components"
+    },
+    "y": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:irons_spellbooks/fire_boss"
+      },
+      "type": "neoforge:components"
+    },
+    "z": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:iron_golem"
+      },
+      "type": "neoforge:components"
+    },
+    "0": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:irons_spellbooks/cryomancer"
+      },
+      "type": "neoforge:components"
+    },
+    "1": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:blocks/ancient_debris"
+      },
+      "type": "neoforge:components"
+    },
+    "2": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:irons_spellbooks/pyromancer"
+      },
+      "type": "neoforge:components"
+    },
+    "3": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:magma_cube"
+      },
+      "type": "neoforge:components"
+    },
+    "4": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:minecraft/ender_dragon"
+      },
+      "type": "neoforge:components"
+    },
+    "5": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:guardian"
+      },
+      "type": "neoforge:components"
+    },
+    "6": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:mooshroom"
+      },
+      "type": "neoforge:components"
+    },
+    "7": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:phantom"
+      },
+      "type": "neoforge:components"
+    },
+    "8": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:pig"
+      },
+      "type": "neoforge:components"
+    },
+    "9": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:polar_bear"
+      },
+      "type": "neoforge:components"
+    },
+    "+": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:rabbit"
+      },
+      "type": "neoforge:components"
+    },
+    "-": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:shulker"
+      },
+      "type": "neoforge:components"
+    },
+    "*": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:sheep"
+      },
+      "type": "neoforge:components"
+    },
+    "/": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:skeleton"
+      },
+      "type": "neoforge:components"
+    },
+    "=": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:slime"
+      },
+      "type": "neoforge:components"
+    },
+    "?": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:snow_golem"
+      },
+      "type": "neoforge:components"
+    },
+    "@": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:spider"
+      },
+      "type": "neoforge:components"
+    },
+    "%": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:squid"
+      },
+      "type": "neoforge:components"
+    },
+    "&": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:vindicator"
+      },
+      "type": "neoforge:components"
+    },
+    "~": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:warden"
+      },
+      "type": "neoforge:components"
+    },
+    "_": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:witch"
+      },
+      "type": "neoforge:components"
+    },
+    "$": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:wither"
+      },
+      "type": "neoforge:components"
+    },
+    "!": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:wither_skeleton"
+      },
+      "type": "neoforge:components"
+    },
+    "^": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:zombie"
+      },
+      "type": "neoforge:components"
+    },
+    "|": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:zombified_piglin"
+      },
+      "type": "neoforge:components"
+    },
+    ";": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:irons_spellbooks/citadel_keeper"
+      },
+      "type": "neoforge:components"
+    },
+    ":": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:irons_spellbooks/archevoker"
+      },
+      "type": "neoforge:components"
+    },
+    ",": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:irons_spellbooks/apothecarist"
+      },
+      "type": "neoforge:components"
+    },
+    ".": {
+      "items": "hostilenetworks:prediction",
+      "components": {
+        "hostilenetworks:data_model": "hostilenetworks:block/waxed_oxidized_cut_copper_stairs"
+      },
+      "type": "neoforge:components"
+    }
+  },
+  "result": {
+    "id": "ccb:data_elder"
+  }
+}

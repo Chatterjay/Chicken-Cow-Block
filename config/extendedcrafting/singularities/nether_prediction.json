@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.nether_prediction",
+  "colors": [
+    "c43a3a",
+    "5c1515"
+  ],
+  "ingredient": {
+    "item": "hostilenetworks:nether_prediction"
+  }
+}

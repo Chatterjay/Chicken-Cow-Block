@@ -26,5 +26,9 @@
     "singularity.extendedcrafting.divine_soulshard" : "神圣灵魂碎片",
     "singularity.extendedcrafting.ticker" : "进刻器",
     "singularity.extendedcrafting.iesnium_block" : "艾瑟金属",
-    "singularity.extendedcrafting.cat_prediction" : "猫预测产物"
+    "singularity.extendedcrafting.enhanced_basic_attack" : "耄耋",
+    "singularity.extendedcrafting.overworld_prediction" : "主世界预测产物",
+    "singularity.extendedcrafting.nether_prediction" : "下界预测产物",
+    "singularity.extendedcrafting.end_prediction" : "末地预测产物",
+    "singularity.extendedcrafting.blood_upgrade_orb" : "生命"
 }
