@@ -91,5 +91,21 @@
   "item.ccb.kudikan": "§cK§6u§eD§ai§bk§9a§dn",
   "tooltip.ccb.kudikan": "§7由§lcow§r§7创造出来的全新规则集合体。",
   "item.ccb.grass_god": "§a草§6神",
-  "tooltip.ccb.grass_god": "§7由§lchicken§r§7创造出来的全新规则集合体。"
+  "tooltip.ccb.grass_god": "§7由§lchicken§r§7创造出来的全新规则集合体。",
+  "item.ccb.un_aluminum_drill": "坚不可摧的铝钻",
+  "tooltip.ccb.un_aluminum_drill": "§7概率消耗什么的，最讨厌了！",
+  "item.ccb.un_bronze_drill": "坚不可摧的青铜钻",
+  "tooltip.ccb.un_bronze_drill": "§7概率消耗什么的，最讨厌了！",
+  "item.ccb.un_copper_drill": "坚不可摧的铜钻",
+  "tooltip.ccb.un_copper_drill": "§7概率消耗什么的，最讨厌了！",
+  "item.ccb.un_titanium_drill": "坚不可摧的钛钻",
+  "tooltip.ccb.un_titanium_drill": "§7概率消耗什么的，最讨厌了！",
+  "item.ccb.un_steel_drill": "坚不可摧的钢钻",
+  "tooltip.ccb.un_steel_drill": "§7概率消耗什么的，最讨厌了！",
+  "item.ccb.un_stainless_steel_drill": "坚不可摧的不锈钢钻",
+  "tooltip.ccb.un_stainless_steel_drill": "§7概率消耗什么的，最讨厌了！",
+  "item.ccb.un_gold_drill": "坚不可摧的金钻",
+  "tooltip.ccb.un_gold_drill": "§7概率消耗什么的，最讨厌了！",
+  "item.ccb.un_digital_miner": "坚不可摧的数字型采矿🐔钻",
+  "tooltip.ccb.un_digital_miner": "§7概率消耗什么的，最讨厌了！"
 }

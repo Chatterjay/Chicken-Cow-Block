@@ -76,6 +76,13 @@ StartupEvents.registry("item", event => {
     // 草神 green.gold/gray
     createTooltipItem("grass_god");
 
+    // 注册不会消耗的钻们
+    global.DRILLS.forEach(key => {
+        createTooltipItem(`un_${key}`)
+        .rarity("rare")
+        .glow(true);
+    });
+    
     function createTooltipItem(id) {
         if (!id.includes(":")) id = `ccb:${id}`;
         return event.create(id)
