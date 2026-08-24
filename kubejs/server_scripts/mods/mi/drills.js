@@ -19,4 +19,16 @@ ServerEvents.recipes(event => {
             event.custom(newJson).id(recipe.getId() + '_unconsumed');
         });
     });
+
+    global.DRILLS.forEach(key => {
+        const base = key === 'digital_miner'
+            ? 'mekanism:digital_miner'
+            : `modern_industrialization:${key}`;
+        event.smithing(
+            `ccb:un_${key}`,
+            'smfcore:adamantine_upgrade_smithing_template',
+            base,
+            'smfcore:adamantine_ingot'
+        );
+    });
 });

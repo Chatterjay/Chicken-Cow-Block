@@ -1,4 +1,7 @@
 ServerEvents.recipes(event=>{
+    event.remove({output:'immersiveengineering:raw_aluminum'})
+    event.remove({output:'immersiveengineering:ore_aluminum'})
+    event.remove({output:'immersiveengineering:deepslate_ore_aluminum'})
     event.custom(
       {
   "type": "immersiveengineering:squeezer",

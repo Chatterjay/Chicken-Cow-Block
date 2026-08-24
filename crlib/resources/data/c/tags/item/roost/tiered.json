@@ -868,6 +868,14 @@
     {
       "id": "chicken_roost:c_neutron",
       "required": false
+    },
+    {
+      "id": "chicken_roost:c_adamantine",
+      "required": false
+    },
+    {
+      "id": "chicken_roost:c_carnallite",
+      "required": false
     }
   ]
 }

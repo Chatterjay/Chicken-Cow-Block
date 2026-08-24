@@ -112,6 +112,10 @@
     {
       "id": "chicken_roost:c_entrocrystal",
       "required": false
+    },
+    {
+      "id": "chicken_roost:c_carnallite",
+      "required": false
     }
   ]
 }

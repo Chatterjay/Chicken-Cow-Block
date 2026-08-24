@@ -275,7 +275,7 @@ const chickenRecipes = [
     breed: false,
      chickens: [
     { output: "c_sponge", item: "minecraft:sponge" },
-    { output: "c_aluminium", item: "immersiveengineering:ingot_aluminum"},
+    { output: "c_aluminium", item: 'modern_industrialization:bauxite_ore'},
     { output: "c_invar", item: "modern_industrialization:invar_ingot"},
     { output: "c_graphite", item: "immersiveengineering:dust_hop_graphite"},
     { output: "c_steel", item: "immersiveengineering:ingot_steel"},
@@ -435,7 +435,9 @@ const chickenRecipes = [
     { output: 'c_uranium', item: 'immersiveengineering:ingot_uranium'},
     { output: 'c_entrocrystal', item: 'extendedae:entro_crystal'},
     { output: 'c_datacrystal', item: 'data_energistics:data_crystal'},
-    { output: 'c_blazegold', item: 'justdirethings:blazegold_ingot'}
+    { output: 'c_blazegold', item: 'justdirethings:blazegold_ingot'},
+    { output: 'c_cobald', item: 'smfcore:raw_cobalt'},
+    { output: 'c_carnallite', item: 'smfcore:carnallite_ore'}
    ]
   },
   {
@@ -450,7 +452,8 @@ const chickenRecipes = [
     { output: 'c_draconium', item: 'draconicevolution:draconium_ingot'},
     { output: 'c_quantumalloy', item: 'advanced_ae:quantum_alloy'},
     { output: 'c_overloadcrystal', item:'ae2lt:overload_crystal'},
-    { output: 'c_celestigem', item: 'justdirethings:celestigem'}
+    { output: 'c_celestigem', item: 'justdirethings:celestigem'},
+    { output: 'c_adamantine', item: 'smfcore:adamantine_debris'}
    ]
   },
   {
@@ -509,14 +512,16 @@ ServerEvents.recipes((event) => {
       }
 
       // Same Chicken
-      addRecipeChickenBreeding(
-        event,
-        `c:seeds/tier${tier}orup`,
-        `chicken_roost:${chicken.output}`,
-        `chicken_roost:${chicken.output}`,
-        `chicken_roost:${chicken.output}`,
-        `ccb:roosts/copying/${chicken.output}`
-      )
+      if (tier !== 10) {
+        addRecipeChickenBreeding(
+          event,
+          `c:seeds/tier${tier}orup`,
+          `chicken_roost:${chicken.output}`,
+          `chicken_roost:${chicken.output}`,
+          `chicken_roost:${chicken.output}`,
+          `ccb:roosts/copying/${chicken.output}`
+        )
+      }
       // Roost Block Output
       if (chicken.item) {
         addRecipeChickenRoostOutput(

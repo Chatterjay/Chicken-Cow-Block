@@ -107,6 +107,87 @@ ServerEvents.recipes(event=>{
 		"#t": "data_energistics:data_flow",
 		"#": 2400
 	}
-}
-    )
+})
+ event.custom(
+        {
+	"type": "data_energistics:data_reassembler",
+	"item_inputs": [
+		{
+			"ingredient": {
+				"item": 'industrialforegoingsouls:soul_laser_base'
+            },
+			"count": 64
+		},
+		{
+			"ingredient": {
+				"item": 'industrialforegoingsouls:soul_surge'
+			},
+			"count": 64
+		},
+		{
+			"ingredient": {
+				"item": 'chicken_roost:chicken_essence_tier_9'
+			},
+			"count": 64
+		},
+		{
+			"ingredient": {
+				"item": 'projecte:soul_stone'
+			},
+			"count": 1
+		},
+		{
+			"ingredient": {
+				"type": "neoforge:components",
+				"items": "extendedcrafting:singularity",
+				"components": {
+					"extendedcrafting:singularity_id": "extendedcrafting:divine_soulshard"
+				}
+			},
+			"count": 1
+		},
+		{
+			"ingredient": {
+				"item": 'oritech:enchantment_catalyst_block'
+			},
+			"count": 1
+		},
+		{
+			"ingredient": {
+				"item": 'sauce:anima_essence'
+			},
+			"count":64
+		},
+		{
+			"ingredient": {
+				"item": 'occultism:trinity_gem'
+			},
+			"count": 1
+		},
+		{
+			"ingredient": {
+				"item": 'megacells:soul_storage_cell_256m'
+			},
+			"count": 1
+		}
+	],
+	"fluid_inputs": [
+		{
+			"#": 256000,
+			"#t": "ae2:f",
+			"id": "allthemodium:soul_lava"
+		}
+	],
+	"item_outputs": [
+		{
+			"id": 'ccb:soul_cry',
+			"count": 1
+		}
+	],
+	"key_input": {
+		"#t": "soulplied_energistics:soul",
+		"#": 25600000
+	}
+})
+
 })
