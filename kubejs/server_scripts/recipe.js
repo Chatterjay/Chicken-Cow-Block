@@ -49,17 +49,6 @@ event.shaped('modern_mekanistics:mass_generator',[
     D:'mekmm:ultimate_recycling_factory',
     E:'extended_industrialization:electric_waste_collector'
 })
-event.shaped('mi_tweaks:time_chicken',[
-    "ADA",
-    "BCB",
-    "AEA"
-],{
-    A:'mekmm:scrap_box',
-    B:'modern_industrialization:quantum_circuit',
-    C:'create:brass_casing',
-    D:'mekmm:ultimate_recycling_factory',
-    E:'extended_industrialization:electric_waste_collector'
-})
 event.shaped('modern_mekanistics:niuniu_brand_cooking_machine',[
     "ADA",
     "BCB",

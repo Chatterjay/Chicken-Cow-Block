@@ -68,6 +68,10 @@
     {
       "id": "chicken_roost:c_stainsteel",
       "required": false
+    },
+    {
+      "id": "chicken_roost:c_adamantine",
+      "required": false
     }
   ]
 }

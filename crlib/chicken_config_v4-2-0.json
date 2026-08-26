@@ -3976,5 +3976,41 @@
     "CanGetFreezingDamage": true,
     "CanGetLightningDamage": true,
     "CanGetWitherDamage": true
+  },
+  {
+    "ChickenName": "Adamantine Chicken",
+    "MobOrMonster": "Monster",
+    "id": "c_adamantine",
+    "itemtexture": "netherwartchicken",
+    "mobtexture": "netherwartchicken",
+    "dropitem": "smfcore:adamantine_debris",
+    "eggtime": 600,
+    "tier": 7,
+    "CanGetFireDamage": false,
+    "CanGetProjectileDamage": true,
+    "CanGetExplosionDamage": true,
+    "CanGetFallDamage": false,
+    "CanGetDrowningDamage": true,
+    "CanGetFreezingDamage": true,
+    "CanGetLightningDamage": true,
+    "CanGetWitherDamage": true
+  },
+  {
+    "ChickenName": "Carnallite Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_carnallite",
+    "itemtexture": "saltchicken",
+    "mobtexture": "saltchicken",
+    "dropitem": "smfcore:carnallite_ore",
+    "eggtime": 600,
+    "tier": 6,
+    "CanGetFireDamage": true,
+    "CanGetProjectileDamage": true,
+    "CanGetExplosionDamage": true,
+    "CanGetFallDamage": false,
+    "CanGetDrowningDamage": true,
+    "CanGetFreezingDamage": true,
+    "CanGetLightningDamage": true,
+    "CanGetWitherDamage": true
   }
 ]

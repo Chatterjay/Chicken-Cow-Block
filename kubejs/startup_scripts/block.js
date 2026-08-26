@@ -4,4 +4,10 @@ StartupEvents.registry("block", event => {
         .hardness(1.5)
         .resistance(1.5)
         .tagBlock("minecraft:mineable/pickaxe");
+
+    event.create("ccb:nether_roost")
+        .soundType("nether_wood")
+        .hardness(2.0)
+        .resistance(2.0)
+        .tagBlock("minecraft:mineable/axe");
 });
