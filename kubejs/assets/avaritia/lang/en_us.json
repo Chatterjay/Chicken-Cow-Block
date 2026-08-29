@@ -39,5 +39,7 @@
     "singularity.avaritia.uu_matter": "UU Matter",
     "singularity.avaritia.overworld_fluid": "Overworld Fluid",
     "singularity.avaritia.nether_fluid": "Nether Fluid",
-    "singularity.avaritia.end_fluid": "End Fluid"
+    "singularity.avaritia.end_fluid": "End Fluid",
+    "singularity.avaritia.life_fluid_source": "Life Fluid",
+    "singularity.avaritia.polytetrafluoroethylene": "Polytetrafluoroethylene"
 }

@@ -76,6 +76,15 @@ StartupEvents.registry("item", event => {
     // 草神 green.gold/gray
     createTooltipItem("grass_god");
 
+    // 混沌透镜
+    event.create("ccb:chaos_lens")
+        .texture("ccb:item/chaos_lens")
+        .rarity("epic")
+        .glow(true);
+
+    event.create("ccb:chaotic_space_fragment")
+        .texture("ccb:item/chaos_lens");
+
     // 哈气 aqua
     event.create("ccb:haqi");
 

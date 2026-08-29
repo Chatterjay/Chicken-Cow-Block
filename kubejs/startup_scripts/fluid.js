@@ -24,4 +24,9 @@ StartupEvents.registry("fluid", event => {
         .displayName('芬达等离子体')
         .tint(0xe59d12)
         .noBlock();
+    event.create('ccb:chaotic_polarization_fluid', 'thin')
+        .stillTexture("ccb:fluid/chaotic_polarization_fluid_still")
+        .flowingTexture("ccb:fluid/chaotic_polarization_fluid_flow")
+        .displayName('混沌偏振流体')
+        .noBlock();
 });
