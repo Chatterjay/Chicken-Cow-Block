@@ -39,4 +39,27 @@ ServerEvents.recipes(event => {
         'ccb:haqi',
         'ccb:haqi'
     ]);
+    event.shaped('ccb:gudao_talisman', [
+        "ABC",
+        "DEF",
+        "GHI"
+    ], {
+        A: 'modern_industrialization:quantum_helmet',
+        B: 'ccb:world_gear',
+        C: 'extended_industrialization:nano_quantum_helmet',
+        D: 'modern_industrialization:quantum_chestplate',
+        E: 'modern_industrialization:quantum_boots',
+        F: 'extended_industrialization:nano_quantum_chestplate',
+        G: 'modern_industrialization:quantum_leggings',
+        H: 'extended_industrialization:nano_quantum_boots',
+        I: 'extended_industrialization:nano_quantum_leggings'  
+    });
+    event.shaped('2x ccb:data_elder', [
+        "",
+        "ABA",
+        ""
+    ], {
+        A: 'extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:enhanced_basic_attack"]',
+        B:'ccb:data_elder'
+    }); 
 });

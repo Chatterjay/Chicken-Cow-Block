@@ -36,6 +36,10 @@ ServerEvents.recipes(event => {
         .itemOut('avaritia:singularity[avaritia:singularity_id="avaritia:latex_singularity"]');
 
     event.recipes.modern_industrialization.fluid_compressor(256, 100)
+        .fluidIn('10000000x jdte:life_fluid_source')
+        .itemOut('avaritia:singularity[avaritia:singularity_id="avaritia:life_fluid_source_singularity"]');
+
+    event.recipes.modern_industrialization.fluid_compressor(256, 100)
         .fluidIn('10000000x industrialforegoing:sewage')
         .itemOut('avaritia:singularity[avaritia:singularity_id="avaritia:sewage_singularity"]');
 
@@ -46,6 +50,10 @@ ServerEvents.recipes(event => {
     event.recipes.modern_industrialization.fluid_compressor(256, 100)
         .fluidIn('10000000x industrialforegoing:pink_slime')
         .itemOut('avaritia:singularity[avaritia:singularity_id="avaritia:pink_slime_singularity"]');
+
+    event.recipes.modern_industrialization.fluid_compressor(256, 100)
+        .fluidIn('10000000x smfcore:polytetrafluoroethylene')
+        .itemOut('avaritia:singularity[avaritia:singularity_id="avaritia:polytetrafluoroethylene_singularity"]');
 
     event.recipes.modern_industrialization.fluid_compressor(256, 100)
         .fluidIn('10000000x industrialforegoing:sludge')

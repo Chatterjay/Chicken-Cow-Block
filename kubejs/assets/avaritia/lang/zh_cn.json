@@ -39,5 +39,7 @@
     "singularity.avaritia.uu_matter": "UU物质",
     "singularity.avaritia.overworld_fluid": "主世界流体",
     "singularity.avaritia.nether_fluid": "下界流体",
-    "singularity.avaritia.end_fluid": "末地流体"
+    "singularity.avaritia.end_fluid": "末地流体",
+    "singularity.avaritia.life_fluid_source": "生命流体",
+    "singularity.avaritia.polytetrafluoroethylene": "聚四氟乙烯"
 }

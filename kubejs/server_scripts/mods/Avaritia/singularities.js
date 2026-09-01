@@ -65,6 +65,11 @@ const SINGULARITIES = [
         ingredient: 'industrialforegoing:latex_bucket'
     },
     {
+        id: 'life_fluid_source',
+        colors: [0xef4444, 0xb91c1c],
+        ingredient: 'jdte:life_fluid_bucket'
+    },
+    {
         id: 'lava',
         colors: [0xef4444, 0xf97316],
         ingredient: 'minecraft:lava_bucket'
@@ -128,6 +133,11 @@ const SINGULARITIES = [
         id: 'pink_slime',
         colors: [0xf472b6, 0xe879f9],
         ingredient: 'industrialforegoing:pink_slime_bucket'
+    },
+    {
+        id: 'polytetrafluoroethylene',
+        colors: [0xf5f5f4, 0xa8a29e],
+        ingredient: 'smfcore:polytetrafluoroethylene_bucket'
     },
     {
         id: 'polonium_containing_solution',

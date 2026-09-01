@@ -27,7 +27,9 @@ global.COW_TRANSMUTE_RULES = [
   { item: 'modern_industrialization:creosote_bucket', fluid: "modern_industrialization:lubricant" },
   { item: 'oritech:fluxite_block', fluid: "oritech:still_molten_fluxite" },
   { item: 'chicken_roost:c_uumatter', fluid: "modern_industrialization:uu_matter" },
-  { item: 'jdte:extended_bio_crusher', fluid: "jdte:life_fluid_source" }
+  { item: 'jdte:extended_bio_crusher', fluid: "jdte:life_fluid_source" },
+  { item: 'smfcore:polytetrafluoroethylene_bucket', fluid: "smfcore:polytetrafluoroethylene" },
+  { item: 'modern_industrialization:manganese_sulfuric_solution_bucket', fluid: "modern_industrialization:manganese_sulfuric_solution" }
 ]
 
 global.CHICKEN_TRANSMUTE_RULES = [

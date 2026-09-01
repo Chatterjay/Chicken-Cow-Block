@@ -186,7 +186,7 @@ ServerEvents.recipes(event=>{
 	],
 	"key_input": {
 		"#t": "soulplied_energistics:soul",
-		"#": 25600000
+		"#": 12800000
 	}
 })
 
