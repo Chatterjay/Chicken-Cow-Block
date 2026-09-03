@@ -3,5 +3,8 @@
     "rei_categories.modern_mekanistics.mass_generator" : "Mass Generator",
     "rei_categories.modern_mekanistics.niuniu_brand_cooking_machine" : "Niuniu Brand Cooking Machine",
     "rei_categories.modern_mekanistics.fluid_compressor" : "Fluid Compressor",
-    "rei_categories.modern_mekanistics.bigger_ambient_gas_collector" : "Bigger Ambient Gas Collector"
+    "rei_categories.modern_mekanistics.bigger_ambient_gas_collector" : "Bigger Ambient Gas Collector",
+      "block.modern_industrialization.giga_parallel_control_hatch":"Giga Parallel Control Hatch",
+      "rei_categories.modern_industrialization.hongmeng_chicken_eye":"Hongmeng Chicken Eye",
+      "block.modern_industrialization.hongmeng_chicken_eye":"Hongmeng Chicken Eye"
 }

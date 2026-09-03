@@ -55,11 +55,9 @@ ServerEvents.recipes(event => {
         I: 'extended_industrialization:nano_quantum_leggings'  
     });
     event.shaped('2x ccb:data_elder', [
-        "",
-        "ABA",
-        ""
+        "ABA"
     ], {
         A: 'extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:enhanced_basic_attack"]',
-        B:'ccb:data_elder'
+        B: 'ccb:data_elder'
     }); 
 });
