@@ -6,7 +6,10 @@ RecipeViewerEvents.addInformation("item", event => {
         "当你杀死一只原版鸡的时候，有概率生成一只羽毛鸡。"
     ]);
     event.add('#ars_nouveau:shady_wizard_fruits', [
-        "这些果实可以通过至高木森林造林之板获得。"
+        "这些果实可以分别通过对应的空岛构筑之板获得或者选择至高木森林造林之板一次性获得所有果实。"
+    ]);
+    event.add('ccb:chaotic_space_fragment', [
+        "当混沌守卫处于空间塔维度受到龙堆的爆炸伤害时，你将混沌空间碎片。"
     ]);
 
     global.COW_TRANSMUTE_RULES.forEach(rule => {

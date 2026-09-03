@@ -16,11 +16,14 @@ ServerEvents.recipes(event => {
     },
     contextual: [
       {
-        type: "lychee:location",
-        dimension: "ae2:spatial_storage"
+        type: "location",
+        predicate: {
+          dimension: "ae2:spatial_storage"
+        }
       }
     ],
     post: [
+       { type: "delay", s: 60 },
       { type: "drop_item", id: "ccb:chaotic_space_fragment", count: 1 }
     ]
   }).id("ccb:draconic_explosion/chaotic_space_fragment")
