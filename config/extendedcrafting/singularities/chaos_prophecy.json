@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.chaos_prophecy",
+  "colors": [
+    "8a2be2",
+    "4b0082"
+  ],
+  "ingredient": {
+    "item": "ccb:chaos_prophecy"
+  }
+}

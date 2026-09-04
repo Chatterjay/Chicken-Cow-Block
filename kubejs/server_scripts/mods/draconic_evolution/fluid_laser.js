@@ -33,4 +33,27 @@ ServerEvents.recipes(event => {
       }
     ]
   }).id("ccb:laser_drill_fluid/chaotic_polarization_fluid")
+
+  event.custom({
+    type: "industrialforegoing:dissolution_chamber",
+    input: [
+      { tag: "c:glass_panes/colorless" },
+      { tag: "c:glass_panes/colorless" },
+      { tag: "c:glass_panes/colorless" },
+      { tag: "c:glass_panes/colorless" },
+      { item: "ccb:chaotic_space_fragment" },
+      { item: "ccb:chaotic_space_fragment" },
+      { item: "ccb:chaotic_space_fragment" },
+      { item: "ccb:chaotic_space_fragment" }
+    ],
+    inputFluid: {
+      amount: 1000,
+      fluid: "industrialforegoing:ether_gas"
+    },
+    output: {
+      count: 1,
+      id: "ccb:chaos_lens"
+    },
+    processingTime: 200
+  }).id("ccb:dissolution_chamber/chaos_lens")
 })
