@@ -189,3 +189,21 @@
 	# Default: 0.5
 	# Range: 0.0 ~ 2.147483647E9
 	durationMultiplier = 0.5
+
+[HCE]
+	#Duration for generated recipes. Default: 72000
+	# Default: 72000
+	# Range: > 1
+	duration = 72000
+	#Energy per tick for generated recipes. Default: 1000000
+	# Default: 1000000
+	# Range: > 1
+	energy = 1000000
+	#Item amount for generated recipes. Default: 2147483647
+	# Default: 2147483647
+	# Range: > 1
+	itemAmount = 2147483647
+	#Fluid amount for generated recipes. Default: 2147483647
+	# Default: 2147483647
+	# Range: > 1
+	fluidAmount = 2147483647

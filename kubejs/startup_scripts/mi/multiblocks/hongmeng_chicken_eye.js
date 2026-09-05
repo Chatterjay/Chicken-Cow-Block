@@ -1,13 +1,4 @@
-let HONGMENG_CHICKEN_EYE;
-
-MIMachineEvents.registerRecipeTypes(event => {
-  HONGMENG_CHICKEN_EYE = event.register("hongmeng_chicken_eye")
-    .withItemInputs()
-    .withItemOutputs()
-    .withFluidOutputs();
-});
-
-MIMachineEvents.registerMachines(event => {
+MITweaksMachineEvents.registerBatchMultiblocks(event => {
   const hatch = event.hatchOf("item_input", "item_output", "fluid_output", "energy_input");
   const customMachineShape = event.layeredShape("quan_casing", [
     ["                                     ", "                                     ", "                                     ", "                                     ", "                                     ", "                                     ", "                                     ", "                                     ", "                                     ", "                                     ", "                                     ", "                                     ", "                 a a                 ", "                 a a                 ", "                 a a                 ", "              aaaaaaaaa              ", "                 a a                 ", "              aaaaaaaaa              ", "                 a a                 ", "                 a a                 ", "                 a a                 ", "                                     ", "                                     ", "                                     ", "                                     ", "                                     ", "                                     ", "                                     ", "                                     ", "                                     ", "                                     ", "                                     ", "                                     "],
@@ -53,15 +44,17 @@ MIMachineEvents.registerMachines(event => {
   .key("g", event.memberOfBlock("modern_industrialization:quantum_machine_casing"), event.noHatch())
   .build();
 
-  event.simpleElectricCraftingMultiBlock(
+  event.electricStandalone(
     "Hongmeng Chicken Eye", "hongmeng_chicken_eye",
-    HONGMENG_CHICKEN_EYE, customMachineShape,
+      event.getRecipeType("ccb_core:hongmeng_chicken_eye"), customMachineShape,
     event.progressBar(77, 33, "arrow"),
     itemInputs => itemInputs.addSlot(36, 35),
     itemOutputs => itemOutputs.addSlot(102, 35),
     fluidInputs => {
     },
     fluidOutputs => fluidOutputs.addSlot(122, 35),
-    "quan_casing", "artificial_star", true, false, false
+    "quan_casing", "artificial_star", true, false, false,
+    1, 1,
+    false
   );
 });
