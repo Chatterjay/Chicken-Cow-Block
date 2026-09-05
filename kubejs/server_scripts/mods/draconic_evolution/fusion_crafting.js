@@ -302,6 +302,26 @@ ServerEvents.recipes(event => {
             tag: "c:ingots/draconium_awakened",
           },
         },
+        {
+          consume: true,
+        "ingredient": {
+                    "type": "neoforge:components",
+                    "items": "extendedcrafting:singularity",
+                    "components": {
+                        "extendedcrafting:singularity_id": "extendedcrafting:chaos_prophecy"
+                    }
+                },
+        },
+        {
+          consume: true,
+         "ingredient": {
+                    "type": "neoforge:components",
+                    "items": "extendedcrafting:singularity",
+                    "components": {
+                        "extendedcrafting:singularity_id": "extendedcrafting:chaos_prophecy"
+                    }
+                },
+        }
       ],
       result: {
         count: 1,
@@ -396,6 +416,366 @@ ServerEvents.recipes(event => {
       },
       techLevel: "chaotic",
       totalEnergy: 100000000000,
+    })
+    event
+    .custom({
+      type: "draconicevolution:fusion_crafting",
+      catalyst: {
+        item: 'ccb:strongest_record',
+      },
+      ingredients: [
+        {
+          consume: true,
+          ingredient: {
+            item:'ccb:chaotic_space_fragment',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'ccb:chaotic_polarization_fluid_bucket',
+          },
+        },
+        {
+          consume: true,
+           "ingredient": {
+                    "type": "neoforge:components",
+                    "items": "extendedcrafting:singularity",
+                    "components": {
+                        "extendedcrafting:singularity_id": "extendedcrafting:chaos_prophecy"
+                    }
+                },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'ccb:draconic_proxy_chaotic_sword',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item:'ccb:draconic_proxy_chaotic_staff',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item:'ccb:draconic_proxy_chaotic_staff',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'ccb:draconic_proxy_chaotic_pickaxe',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item:'ccb:draconic_proxy_chaotic_axe',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'ccb:draconic_proxy_chaotic_bow',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item:'ccb:draconic_proxy_chaotic_chestpiece',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'ccb:draconic_proxy_chaotic_hoe',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'ccb:draconic_proxy_chaotic_capacitor',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_energy_link',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_undying',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_energy',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item:'draconicevolution:item_chaotic_aoe',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_large_shield_capacity',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_speed',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_flight',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_large_shield_capacity',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_shield_recovery',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_shield_control',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:chaotic_core',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:chaotic_energy_core',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:reactor_core',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:chaos_shard',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:chaotic_crafting_injector',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'mekanism_extras:qio_drive_singularity',
+          },
+        },
+             {
+          consume: true,
+          ingredient: {
+            item:'ccb:chaotic_space_fragment',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'ccb:chaotic_polarization_fluid_bucket',
+          },
+        },
+        {
+          consume: true,
+           "ingredient": {
+                    "type": "neoforge:components",
+                    "items": "extendedcrafting:singularity",
+                    "components": {
+                        "extendedcrafting:singularity_id": "extendedcrafting:chaos_prophecy"
+                    }
+                },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'ccb:draconic_proxy_chaotic_sword',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item:'ccb:draconic_proxy_chaotic_staff',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item:'ccb:draconic_proxy_chaotic_staff',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'ccb:draconic_proxy_chaotic_pickaxe',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item:'ccb:draconic_proxy_chaotic_axe',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'ccb:draconic_proxy_chaotic_bow',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item:'ccb:draconic_proxy_chaotic_chestpiece',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'ccb:draconic_proxy_chaotic_hoe',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'ccb:draconic_proxy_chaotic_capacitor',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_energy_link',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_undying',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_energy',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item:'draconicevolution:item_chaotic_aoe',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_large_shield_capacity',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_speed',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_flight',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_large_shield_capacity',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_shield_recovery',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:item_chaotic_shield_control',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:chaotic_core',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:chaotic_energy_core',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:reactor_core',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:chaos_shard',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'draconicevolution:chaotic_crafting_injector',
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: 'mekanism_extras:qio_drive_singularity',
+          },
+        },
+
+      ],
+      result: {
+        count: 1,
+        id: 'ccb:hengyin_gui',
+      },
+      techLevel: "chaotic",
+      totalEnergy: 10000000000,
     })
 });
 
