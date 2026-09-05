@@ -34,6 +34,14 @@ ServerEvents.recipes(event => {
     ], {
         A: catPrediction
     });
+    const chaosGuardianPrediction = 'hostilenetworks:prediction[hostilenetworks:data_model="hostilenetworks:draconicevolution/draconic_guardian"]';
+    event.shaped('ccb:chaos_prophecy', [
+        "AAA",
+        "AAA",
+        "AAA"
+    ], {
+        A: chaosGuardianPrediction
+    });
     event.shapeless('ccb:enhanced_basic_attack', [
         'ccb:haqi',
         'ccb:haqi',
@@ -59,5 +67,13 @@ ServerEvents.recipes(event => {
     ], {
         A: 'extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:enhanced_basic_attack"]',
         B: 'ccb:data_elder'
-    }); 
+    });
+    event.shaped('2x ccb:chaotic_space_fragment', [
+        " A ",
+        "ABA",
+        " A "
+    ], {
+        A: 'draconicevolution:small_chaos_frag',
+        B: 'ccb:chaotic_space_fragment'
+    });  
 });

@@ -108,7 +108,7 @@ ServerEvents.recipes(event=>{
 		"#": 2400
 	}
 })
- event.custom(
+event.custom(
         {
 	"type": "data_energistics:data_reassembler",
 	"item_inputs": [
@@ -186,7 +186,8 @@ ServerEvents.recipes(event=>{
 	],
 	"key_input": {
 		"#t": "soulplied_energistics:soul",
-		"#": 12800000
+		"#": 12800000,
+		"uhhh_idk": ""
 	}
 })
 

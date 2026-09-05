@@ -85,6 +85,9 @@ StartupEvents.registry("item", event => {
     event.create("ccb:chaotic_space_fragment")
         .texture("ccb:item/chaos_lens");
 
+    event.create("ccb:chaos_prophecy")
+        .texture("ccb:item/chaos_lens");
+
     // 哈气 aqua
     event.create("ccb:haqi");
 

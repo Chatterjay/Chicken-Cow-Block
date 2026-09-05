@@ -30,5 +30,6 @@
     "singularity.extendedcrafting.overworld_prediction": "Overworld Prediction",
     "singularity.extendedcrafting.nether_prediction": "Nether Prediction",
     "singularity.extendedcrafting.end_prediction": "End Prediction",
-    "singularity.extendedcrafting.blood_upgrade_orb": "Life"
+    "singularity.extendedcrafting.blood_upgrade_orb": "Life",
+    "singularity.extendedcrafting.chaos_prophecy": "Chaos Prophecy"
 }
