@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 4,
+  "preferences": {
+    "uploadEnabled": true,
+    "patternSourceEnabled": true,
+    "previewPanel": {
+      "offsetX": 0,
+      "offsetY": 0
+    }
+  },
+  "serverProfiles": {
+    "sha256:a879702b859e91519dc34010f480f35c8521f9ea31c5fdc6a973c23944e81e8c": {
+      "lastAccessEpochMillis": 1788696477419,
+      "clickStatistics": []
+    }
+  }
+}

@@ -1,0 +1,42 @@
+#Master switch for Matter Orb dropped-item compression.
+enabled = true
+#Capacity/performance preset. EMERGENCY is the default for maximum accident protection. Edited capacity/performance values switch the effective preset to CUSTOM.
+#Allowed Values: CUSTOM, SAFE, BALANCED, PERFORMANCE, EMERGENCY
+preset = "EMERGENCY"
+#A new Matter Orb is created when at least this many loose item entities are found in range.
+# Default: 48
+# Range: 2 ~ 512
+triggerItemEntities = 48
+#Loose unstackable item entities needed to form a Temporary Matter Orb. 0 follows triggerItemEntities.
+# Default: 0
+# Range: 0 ~ 512
+temporaryTriggerItemEntities = 0
+#Radius used to find loose item entities around drops and Matter Orbs. This is a radius, not width: 4 means about 4 blocks outward from the center, roughly 9 blocks across.
+# Default: 4.0
+# Range: 1.0 ~ 16.0
+scanRadius = 4.0
+#Base output speed per tick. Matter Orbs ramp up automatically when the target has enough space.
+# Default: 128
+# Range: 1 ~ 4096
+transferItemsPerTick = 128
+#Maximum block gap from the Matter Orb collision box for automatic output to players. 0 requires direct collision; 1 allows up to one block of space.
+# Default: 0
+# Range: 0 ~ 16
+playerTransferRadius = 0
+#Matter Orbs try to export into nearby item containers before transferring items to players.
+containerExport = false
+#Maximum total virtual item count held by one Matter Orb.
+# Default: 9210000000000000000
+# Range: 1 ~ 9223372036854775807
+maxStoredItems = 9210000000000000000
+#Ticks before an inactive Matter Orb is deleted. Defaults to 15 minutes; 0 disables automatic expiry.
+# Default: 18000
+# Range: 0 ~ 12096000
+orbExpiryTicks = 18000
+#Controls when player-tossed drops may enter Matter Orbs. OFF protects tossed drops. NEAR_ORB lets tossed drops enter existing nearby orbs. SNEAK_NEAR_ORB only lets crouch-tossed drops enter existing nearby orbs. INTENTIONAL also lets crouch-tossed batches create new orbs. THRESHOLD waits 30 seconds before storing drops near an existing orb, and otherwise captures after the type-specific threshold. ALWAYS treats tossed drops like normal world drops.
+#Allowed Values: OFF, NEAR_ORB, SNEAK_NEAR_ORB, INTENTIONAL, THRESHOLD, ALWAYS
+playerDropCaptureMode = "THRESHOLD"
+#Directly captures all player death drops into Matter Orbs. This is independent of playerDropCaptureMode.
+capturePlayerDeathDrops = true
+#Prints detailed Matter Orb diagnostics to the log.
+debug = false

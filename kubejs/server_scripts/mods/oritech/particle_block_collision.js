@@ -15,7 +15,13 @@ ServerEvents.recipes(event => {
             state: {
                 waterlogged: 'false'
             },
-            nbt: '{Items:[{Slot:0b,count:1,id:"projecte:watch_of_flowing_time"}],Size:1}'
+            nbt: {
+                Items: [
+                    {
+                        id: 'projecte:watch_of_flowing_time'
+                    }
+                ]
+            }
         },
         momentum_cost: 100000,
         post: [

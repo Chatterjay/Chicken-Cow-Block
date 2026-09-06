@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.chicken_food_tier_10",
+  "colors": [
+    "f6df73",
+    "9b7018"
+  ],
+  "ingredient": {
+    "item": "chicken_roost:chicken_food_tier_10"
+  }
+}
