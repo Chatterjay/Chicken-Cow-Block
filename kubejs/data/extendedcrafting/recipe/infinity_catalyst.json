@@ -1,0 +1,70 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AB  C  BA",
+    "BDEEFEEDB",
+    " EGHIHJE ",
+    " EHKKKHE ",
+    "CFLKMKNFC",
+    " EHKKKHE ",
+    " EOHPHQE ",
+    "BDEEFEEDB",
+    "AB  C  BA"
+  ],
+  "key": {
+    "A": {
+      "item": "avaritia:full_matter_cluster"
+    },
+    "B": {
+      "item": "projectexpansion:gargantuan_star_ein"
+    },
+    "C": {
+      "item": "projectexpansion:final_star"
+    },
+    "D": {
+      "item": "avaritia:ultimate_stew"
+    },
+    "E": {
+      "item": "minecraft:bedrock"
+    },
+    "F": {
+      "item": "avaritia:cosmic_meatballs"
+    },
+    "G": {
+      "item": "extendedcrafting:enhanced_redstone_catalyst"
+    },
+    "H": {
+      "item": "avaritia:endest_pearl"
+    },
+    "I": {
+      "item": "extendedcrafting:redstone_catalyst"
+    },
+    "J": {
+      "item": "extendedcrafting:advanced_catalyst"
+    },
+    "K": {
+      "item": "allthetweaks:allthecatalystium"
+    },
+    "L": {
+      "item": "extendedcrafting:ultimate_catalyst"
+    },
+    "M": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "N": {
+      "item": "extendedcrafting:elite_catalyst"
+    },
+    "O": {
+      "item": "extendedcrafting:crystaltine_catalyst"
+    },
+    "P": {
+      "item": "extendedcrafting:enhanced_ender_catalyst"
+    },
+    "Q": {
+      "item": "extendedcrafting:ender_catalyst"
+    }
+  },
+  "result": {
+    "id": "avaritia:infinity_catalyst"
+  }
+}

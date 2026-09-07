@@ -1,0 +1,97 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "    ABBBC",
+    "   BDEFGB",
+    "  BHIJKB ",
+    " BLMNOPB ",
+    " BQRSTB  ",
+    "BUVWXB   ",
+    "YBBBZ    ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "modern_industrialization:he_uranium_block"
+    },
+    "B": {
+      "item": "modern_industrialization:mixed_ingot_blastproof"
+    },
+    "C": {
+      "item": "modern_industrialization:le_mox_block"
+    },
+    "D": {
+      "item": "draconicevolution:draconium_ingot"
+    },
+    "E": {
+      "item": "modern_industrialization:plutonium_ingot"
+    },
+    "F": {
+      "item": "modern_industrialization:stainless_steel_ingot"
+    },
+    "G": {
+      "item": "modern_industrialization:silicon_ingot"
+    },
+    "H": {
+      "item": "modern_industrialization:kanthal_ingot"
+    },
+    "I": {
+      "item": "irons_spellbooks:mithril_ingot"
+    },
+    "J": {
+      "item": "ae2lt:overload_alloy"
+    },
+    "K": {
+      "item": "modern_industrialization:titanium_ingot"
+    },
+    "L": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "M": {
+      "item": "smfcore:adamantine_ingot"
+    },
+    "N": {
+      "item": "modern_industrialization:uranium_235_ingot"
+    },
+    "O": {
+      "item": "smfcore:cobalt_ingot"
+    },
+    "P": {
+      "item": "avaritia:neutron_ingot"
+    },
+    "Q": {
+      "item": "modern_industrialization:uranium_238_ingot"
+    },
+    "R": {
+      "item": "neoecoae:energized_superconductive_ingot"
+    },
+    "S": {
+      "item": "occultism:iesnium_ingot"
+    },
+    "T": {
+      "item": "modern_industrialization:superconductor_ingot"
+    },
+    "U": {
+      "item": "allthemodium:vibranium_ingot"
+    },
+    "V": {
+      "item": "allthemodium:unobtainium_ingot"
+    },
+    "W": {
+      "item": "allthemodium:allthemodium_ingot"
+    },
+    "X": {
+      "item": "draconicevolution:awakened_draconium_ingot"
+    },
+    "Y": {
+      "item": "modern_industrialization:le_uranium_block"
+    },
+    "Z": {
+      "item": "modern_industrialization:he_mox_block"
+    }
+  },
+  "result": {
+    "id": "extendedcrafting:the_ultimate_ingot"
+  }
+}

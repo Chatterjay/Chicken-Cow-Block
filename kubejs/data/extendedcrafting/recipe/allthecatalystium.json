@@ -1,0 +1,50 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AB C BD",
+    "B EEE B",
+    " EFGFH ",
+    "CEGIGHC",
+    " EFGFH ",
+    "B HHH B",
+    "JB C BK"
+  ],
+  "key": {
+    "A": {
+      "item": "enderio_evolution:capacitor_piglich"
+    },
+    "B": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_block"
+    },
+    "C": {
+      "item": "allthemodium:piglich_heart_block"
+    },
+    "D": {
+      "item": "enderio_evolution:capacitor_unobtainium"
+    },
+    "E": {
+      "item": "allthemodium:vibranium_allthemodium_alloy_block"
+    },
+    "F": {
+      "item": "allthemodium:allthemodium_apple"
+    },
+    "G": {
+      "item": "allthemodium:allthemodium_carrot"
+    },
+    "H": {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_block"
+    },
+    "I": {
+      "item": "ccb:atm_vibranium_unobtainium_alloy_ingot"
+    },
+    "J": {
+      "item": "enderio_evolution:capacitor_atm"
+    },
+    "K": {
+      "item": "enderio_evolution:capacitor_vibranium"
+    }
+  },
+  "result": {
+    "id": "allthetweaks:allthecatalystium"
+  }
+}
