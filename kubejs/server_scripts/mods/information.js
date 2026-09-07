@@ -9,7 +9,19 @@ RecipeViewerEvents.addInformation("item", event => {
         "这些果实可以分别通过对应的空岛构筑之板获得或者选择至高木森林造林之板一次性获得所有果实。"
     ]);
     event.add('ccb:chaotic_space_fragment', [
-        "当混沌守卫处于空间塔维度受到龙堆的爆炸伤害时，你将获得混沌空间碎片。"
+        "当混沌守卫处于空间塔维度受到龙堆的爆炸伤害时，它会掉落混沌空间碎片。"
+    ]);
+    event.add('ae2lt:tianshu_supercomputer_controller', [
+        "该物品无法制作，只能使用天枢矩阵之板召唤"
+    ]);
+    event.add('ae2lt:matter_warping_matrix_controller', [
+        "该物品无法制作，只能使用天枢矩阵之板召唤"
+    ]);
+    event.add('data_energistics:trinity_data_core', [
+        "该物品无法制作，只能使用三位一体数据核心之板召唤"
+    ]);
+    event.add('advanced_ae:quantum_core', [
+        "该物品无法制作，只能使用超级装配矩阵之板召唤"
     ]);
 
     global.COW_TRANSMUTE_RULES.forEach(rule => {
