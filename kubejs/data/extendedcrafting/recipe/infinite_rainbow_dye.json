@@ -1,0 +1,146 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABBBCBBBA",
+    "BDDDDDDDB",
+    "BDEFGFHDB",
+    "BDFIJKFDB",
+    "CDLMDNODC",
+    "BDFPQRFDB",
+    "BDSFTFUDB",
+    "BDDDDDDDB",
+    "ABBBCBBBA"
+  ],
+  "key": {
+    "A": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "B": {
+      "item": "avaritia:neutron_ingot"
+    },
+    "C": {
+      "item": "avaritia:blaze_cube"
+    },
+    "D": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "E": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:white_dye"
+      },
+      "type": "neoforge:components"
+    },
+    "F": {
+      "item": "avaritia:endest_pearl"
+    },
+    "G": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:blue_dye"
+      },
+      "type": "neoforge:components"
+    },
+    "H": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:purple_dye"
+      },
+      "type": "neoforge:components"
+    },
+    "I": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:brown_dye"
+      },
+      "type": "neoforge:components"
+    },
+    "J": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:black_dye"
+      },
+      "type": "neoforge:components"
+    },
+    "K": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:gray_dye"
+      },
+      "type": "neoforge:components"
+    },
+    "L": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:cyan_dye"
+      },
+      "type": "neoforge:components"
+    },
+    "M": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:red_dye"
+      },
+      "type": "neoforge:components"
+    },
+    "N": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:light_gray_dye"
+      },
+      "type": "neoforge:components"
+    },
+    "O": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:green_dye"
+      },
+      "type": "neoforge:components"
+    },
+    "P": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:orange_dye"
+      },
+      "type": "neoforge:components"
+    },
+    "Q": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:yellow_dye"
+      },
+      "type": "neoforge:components"
+    },
+    "R": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:lime_dye"
+      },
+      "type": "neoforge:components"
+    },
+    "S": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:magenta_dye"
+      },
+      "type": "neoforge:components"
+    },
+    "T": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:light_blue_dye"
+      },
+      "type": "neoforge:components"
+    },
+    "U": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:pink_dye"
+      },
+      "type": "neoforge:components"
+    }
+  },
+  "result": {
+    "id": "ccb:infinite_rainbow_dye"
+  }
+}

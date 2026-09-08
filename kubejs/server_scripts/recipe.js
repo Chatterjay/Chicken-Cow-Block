@@ -117,4 +117,12 @@ event.shapeless('justdirethings:goosoil_tier1', [
         C: 'extendedcrafting:enhanced_ender_catalyst',
         D: 'extendedcrafting:enhanced_redstone_catalyst'
     });
+    event.shaped('avaritia:infinity_ingot', [
+        'AAA',
+        'ABA',
+        'AAA'
+    ], {
+        A: 'ccb:infinite_rainbow_dye',
+        B: 'minecraft:iron_ingot'
+    });
 });

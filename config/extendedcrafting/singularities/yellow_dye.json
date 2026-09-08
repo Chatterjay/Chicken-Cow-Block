@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.yellow_dye",
+  "colors": [
+    "fed83d",
+    "c9a81a"
+  ],
+  "ingredient": {
+    "item": "minecraft:yellow_dye"
+  }
+}

@@ -76,6 +76,9 @@ StartupEvents.registry("item", event => {
     // 草神 green.gold/gray
     createTooltipItem("grass_god");
 
+    // 无尽彩虹之染料 */gray
+    createTooltipItem("infinite_rainbow_dye");
+
     // 混沌透镜
     event.create("ccb:chaos_lens")
         .texture("ccb:item/chaos_lens")

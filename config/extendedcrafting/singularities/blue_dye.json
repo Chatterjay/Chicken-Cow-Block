@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.blue_dye",
+  "colors": [
+    "3c44aa",
+    "1e2260"
+  ],
+  "ingredient": {
+    "item": "minecraft:blue_dye"
+  }
+}

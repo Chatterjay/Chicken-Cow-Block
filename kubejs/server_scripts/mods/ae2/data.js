@@ -95,4 +95,27 @@ ServerEvents.recipes(event => {
             ]
         }
     }).id('ccb:data_reassembler/soul_cry');
+
+    event.custom({
+        type: 'data_energistics:data_reassembler',
+        inputs: {
+            items: [
+                { item: 'ae2lt:electro_chime_crystal' },
+                { item: 'ccb_core:natural_lightning_spawner', count: 10 }
+            ],
+            fluids: [
+                { fluid: 'data_energistics:data_corrosion_liquid', amount: 1000 }
+            ],
+            resource: {
+                key_type: 'ae2lt:lightning',
+                resource: 'ae2lt:extreme_high_voltage',
+                amount: 2048
+            }
+        },
+        outputs: {
+            items: [
+                { id: 'ae2lt:perfect_electro_chime_crystal' }
+            ]
+        }
+    }).id('ccb:data_reassembler/perfect_electro_chime_crystal');
 });
