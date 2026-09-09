@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.black_dye",
+  "colors": [
+    "1d1d21",
+    "0a0a0a"
+  ],
+  "ingredient": {
+    "item": "minecraft:black_dye"
+  }
+}

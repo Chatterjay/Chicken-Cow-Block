@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
     const item = id => ({ item: `draconicevolution:${id}` });
+    const proxy = id => ({ item: `ccb:draconic_proxy_${id}` });
     const tag = id => ({ tag: id });
     const consumed = function(ingredient) {
         return { consume: true, ingredient: ingredient };
@@ -52,9 +53,9 @@ ServerEvents.recipes(event => {
         fusion(`draconic_${id}`, `ccb:draconic_proxy_wyvern_${id}`, draconic, 'draconic', 32000000);
     });
     fusion('draconic_staff', 'awakened_core', [
-        tag('c:ingots/draconium_awakened'), item('draconic_pickaxe'),
+        tag('c:ingots/draconium_awakened'), proxy('draconic_pickaxe'),
         tag('c:ingots/draconium_awakened'), tag('c:ingots/draconium_awakened'),
-        item('draconic_sword'), item('draconic_shovel'),
+        proxy('draconic_sword'), proxy('draconic_shovel'),
         tag('c:ingots/draconium_awakened'), item('draconic_energy_core'),
         tag('c:ingots/draconium_awakened'), tag('c:ingots/draconium_awakened')
     ], 'draconic', 256000000);
@@ -69,8 +70,8 @@ ServerEvents.recipes(event => {
         fusion(`chaotic_${id}`, `ccb:draconic_proxy_draconic_${id}`, chaotic, 'chaotic', 128000000);
     });
     fusion('chaotic_staff', 'chaotic_core', [
-        item('medium_chaos_frag'), item('chaotic_pickaxe'), item('medium_chaos_frag'),
-        item('medium_chaos_frag'), item('chaotic_sword'), item('chaotic_shovel'),
+        item('medium_chaos_frag'), proxy('chaotic_pickaxe'), item('medium_chaos_frag'),
+        item('medium_chaos_frag'), proxy('chaotic_sword'), proxy('chaotic_shovel'),
         item('medium_chaos_frag'), item('chaotic_energy_core'), item('medium_chaos_frag'),
         item('medium_chaos_frag')
     ], 'chaotic', 1024000000);

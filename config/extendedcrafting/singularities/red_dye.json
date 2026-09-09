@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.red_dye",
+  "colors": [
+    "b02e26",
+    "6b1510"
+  ],
+  "ingredient": {
+    "item": "minecraft:red_dye"
+  }
+}

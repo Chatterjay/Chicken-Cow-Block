@@ -120,4 +120,36 @@ ServerEvents.recipes(event => {
         .itemIn('irons_spellbooks:hogskin')
         .fluidIn('1000x irons_spellbooks:blood')
         .itemOut('irons_spellbooks:bloody_vellum');
+    event.recipes.modern_industrialization.magic_chicken(32, 100)
+        .itemIn('minecraft:dragon_breath')
+        .fluidIn('3200x ifeu:liquid_sculk_matter')
+        .itemOut('3x apothic_enchanting:infused_breath');
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('apotheosis:mythic_material')
+        .itemIn('irons_spellbooks:energized_core')
+        .itemIn('irons_spellbooks:holy_upgrade_orb')
+        .itemIn('apothic_enchanting:infused_breath')
+        .fluidIn('3200x industrialforegoing:ether_gas')
+        .itemOut('apotheosis:god_fused_pearl');
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('industrialforegoing:mechanical_dirt')
+        .itemIn('occultism:cursed_honey')
+        .itemIn('occultism:demonic_meat')
+        .fluidIn('8000x irons_spellbooks:blood')
+        .itemOut('apotheosis:boss_summoner');
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('8x apotheosis:gem_fused_slate')
+        .itemIn('apotheosis:boss_summoner')
+        .itemOut('8x apotheosis:sigil_of_malice');
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('irons_spellbooks:heavy_chain_necklace')
+        .itemIn('irons_spellbooks:arcane_ingot')
+        .itemIn('minecraft:tnt')
+        .fluidIn('100x #c:experience')
+        .itemOut('apotheosis:spawner_chain');
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('apotheosis:spawner_rune')
+        .fluidIn('8000x #c:experience')
+        .itemOut('apotheosis:infused_spawner_rune');
+
 });

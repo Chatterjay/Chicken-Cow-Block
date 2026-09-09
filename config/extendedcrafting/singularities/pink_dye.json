@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.pink_dye",
+  "colors": [
+    "f38baa",
+    "c45a72"
+  ],
+  "ingredient": {
+    "item": "minecraft:pink_dye"
+  }
+}

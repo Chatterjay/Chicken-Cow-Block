@@ -1,0 +1,43 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "   AAA   ",
+    " AABCBAA ",
+    " ADEFEDA ",
+    "ABEGGGEBA",
+    "ACFGHGFCA",
+    "ABEGGGEBA",
+    " ADEFEDA ",
+    " AABCBAA ",
+    "   AAA   "
+  ],
+  "key": {
+    "A": {
+      "item": "occultism:otherstone"
+    },
+    "B": {
+      "item": "apothic_enchanting:infused_breath"
+    },
+    "C": {
+      "item": "apotheosis:pinnacle_spawner_upgrade_rune"
+    },
+    "D": {
+      "item": "rftoolsbase:infused_enderpearl"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "F": {
+      "item": "ae2:fluix_pearl"
+    },
+    "G": {
+      "item": "apotheosis:godforged_pearl"
+    },
+    "H": {
+      "item": "apotheosis:god_fused_pearl"
+    }
+  },
+  "result": {
+    "id": "avaritia:endest_pearl"
+  }
+}
