@@ -75,5 +75,41 @@ ServerEvents.recipes(event => {
     ], {
         A: 'draconicevolution:small_chaos_frag',
         B: 'ccb:chaotic_space_fragment'
-    });  
+    });
+    event.shaped('2x ccb:data_elder', [
+        "ABA"
+    ], {
+        A: 'extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:enhanced_basic_attack"]',
+        B: 'ccb:data_elder'
+    });
+    event.shaped('ccb:cow_bucket', [
+        " A ",
+        "ABA",
+        " A "
+    ], {
+        A: 'ae2:sky_stone_tank',
+        B: 'enderio:drain'
+    });
+    event.custom({
+        type: 'extendedcrafting:combination',
+        input: {
+            item: 'allthecompressed:nether_star_block_6x'
+        },
+        ingredients: [
+            { item:'avaritia:infinity_totem' },
+            { item: 'ccb:life_crystal' },
+            { item: 'apotheosis:initial_health_spawner_rune' },
+            {
+                type: 'neoforge:components',
+                items: 'avaritia:singularity',
+                components: {
+                    'avaritia:singularity_id': 'avaritia:life_fluid_source_singularity'
+                }
+            }
+        ],
+        result: {
+            id: 'ccb:metastable_annihilation_life'
+        },
+        power_cost: 100000
+    }).id('ccb:combination/metastable_annihilation_life');
 });

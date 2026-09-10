@@ -1,0 +1,95 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "   AAA   ",
+    " AABCDAA ",
+    " AEFFFGA ",
+    "AHFFIFFJA",
+    "AKFILIFMA",
+    "ANFFIFFOA",
+    " APFFFQA ",
+    " AARSTAA ",
+    "   AAA   "
+  ],
+  "key": {
+    "A": {
+      "item": "oritech:machine_core_7"
+    },
+    "B": {
+      "item": "ae2omnicells:creative_ae_cell_long"
+    },
+    "C": {
+      "item": "chicken_roost:c_chaos"
+    },
+    "D": {
+      "item": "neoecoae:eco_infinite_cell_component"
+    },
+    "E": {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:polonium_containing_solution_singularity"
+      },
+      "type": "neoforge:components"
+    },
+    "F": {
+      "item": "avaritia:infinity"
+    },
+    "G": {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:deuterium_singularity"
+      },
+      "type": "neoforge:components"
+    },
+    "H": {
+      "item": "ae2omnicells:creative_ae_cell_biginteger"
+    },
+    "I": {
+      "item": "modern_industrialization:giga_parallel_control_hatch"
+    },
+    "J": {
+      "item": "data_energistics:me_digital_storage_core_256m"
+    },
+    "K": {
+      "item": "chicken_roost:c_infinity"
+    },
+    "L": {
+      "item": "modern_industrialization:artificial_star"
+    },
+    "M": {
+      "item": "chicken_roost:c_uumatter"
+    },
+    "N": {
+      "item": "ae2omnicells:spent_nuclear_waste_component"
+    },
+    "O": {
+      "item": "data_energistics:me_digital_merged_storage_core_256m"
+    },
+    "P": {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:uu_matter_singularity"
+      },
+      "type": "neoforge:components"
+    },
+    "Q": {
+      "items": "avaritia:singularity",
+      "components": {
+        "avaritia:singularity_id": "avaritia:tritium_singularity"
+      },
+      "type": "neoforge:components"
+    },
+    "R": {
+      "item": "ae2lt:tianshu_overload_main_core"
+    },
+    "S": {
+      "item": "chicken_roost:c_antimatter"
+    },
+    "T": {
+      "item": "ae2lt:matter_warping_matrix_overload_main_core"
+    }
+  },
+  "result": {
+    "id": "mi_tweaks:hongmeng_chicken_eye"
+  }
+}
