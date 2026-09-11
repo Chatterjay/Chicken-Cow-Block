@@ -10,4 +10,10 @@ StartupEvents.registry("block", event => {
         .hardness(2.0)
         .resistance(2.0)
         .tagBlock("minecraft:mineable/axe");
+
+    event.create("ccb:metastable_annihilation_life")
+        .soundType("amethyst")
+        .hardness(1.5)
+        .resistance(1.5)
+        .tagBlock("minecraft:mineable/pickaxe");
 });

@@ -123,4 +123,42 @@ ServerEvents.recipes(event=>{
   ],
   "time": 15000
 })
+event.custom(
+{
+   "type": "oritech:particle_collision",
+  "ingredients": [
+    {
+      "item": 'ae2omnicells:quantum_omni_cell_256m'
+    },
+    {
+      "item": 'projectexpansion:white_matter_block'
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": 'ae2omnicells:creative_ae_cell_long'
+    }
+  ],
+  "time": 1000000
+})
+event.custom(
+{
+   "type": "oritech:particle_collision",
+  "ingredients": [
+    {
+      "item": 'ae2omnicells:portable_quantum_omni_cell_256m'
+    },
+    {
+      "item": 'projecte:dm_pedestal'
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": 'ae2omnicells:creative_ae_cell_biginteger'
+    }
+  ],
+  "time": 1000000
+})
 })

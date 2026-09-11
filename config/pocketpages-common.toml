@@ -1,0 +1,35 @@
+[server]
+	#Total inventory slots managed by PocketPages, excluding the hotbar. Must match between client and server.
+	# Default: 54
+	# Range: 36 ~ 2160
+	totalExtraSlots = 54
+	#Number of PocketPages slots unlocked for new players. Set this to totalExtraSlots to start with every slot unlocked.
+	# Default: 54
+	# Range: 0 ~ 2160
+	startUnlockedSlots = 54
+	#Whether non-creative players must spend experience to unlock slots. When false, every configured slot is unlocked.
+	requireExperienceToUnlock = false
+	#Base cost to unlock one slot. This is levels by default, or experience points when useExperiencePoints is enabled.
+	# Default: 10
+	# Range: 0 ~ 10000
+	unlockCost = 10
+	#Additional unlock cost for each slot already unlocked beyond the initial amount.
+	# Default: 1
+	# Range: 0 ~ 10000
+	unlockCostIncrease = 1
+	#Charge raw experience points instead of experience levels when unlocking slots.
+	useExperiencePoints = false
+	#Whether unlocked extra slots survive death when keepInventory is false.
+	keepUnlocksOnDeath = true
+	#Server ticks between locked-slot safety checks. One tick gives immediate cleanup; increase only to reduce work for very large player counts.
+	# Default: 1
+	# Range: 1 ~ 1200
+	lockedItemDropCheckIntervalTicks = 1
+
+[client]
+	#Whether regular container screens reopen on the last extended inventory page.
+	rememberContainerPage = true
+
+[debug]
+	#Whether to log detailed virtual inventory paging and item synchronization. Disable during normal play.
+	debugLogging = false

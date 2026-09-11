@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.recipes.modern_industrialization.artificial_star(1, 100)
+    event.recipes.modern_industrialization.artificial_star(1, 1)
         .itemIn('mekanism:pellet_antimatter')
         .itemIn('mekmm:uu_matter')
         .itemOut('draconicevolution:chaos_shard')

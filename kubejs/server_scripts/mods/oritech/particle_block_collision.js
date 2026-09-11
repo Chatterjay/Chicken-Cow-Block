@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
                 ]
             }
         },
-        momentum_cost: 100000,
+        momentum_cost: 1000000,
         post: [
             {
                 type: 'drop_item',
