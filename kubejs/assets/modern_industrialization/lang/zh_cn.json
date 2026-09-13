@@ -11,5 +11,9 @@
     "block.modern_industrialization.fluid_compressor":"流体压缩机",
     "rei_categories.modern_mekanistics.bigger_ambient_gas_collector" : "更大的环境气体收集器",
     "block.modern_mekanistics.bigger_ambient_gas_collector":"更大的环境气体收集器",
-    "block.modern_industrialization.giga_parallel_control_hatch":"千兆并行控制仓"
+    "block.modern_industrialization.giga_parallel_control_hatch":"千兆并行控制仓",
+    "block.modern_industrialization.equivalent_tree":"等价之树",
+    "rei_categories.modern_industrialization.equivalent_tree":"等价之树",
+    "block.modern_industrialization.steel_equivalent_tree":"等价之树",
+    "rei_categories.modern_industrialization.steel_equivalent_tree":"等价之树"
 }

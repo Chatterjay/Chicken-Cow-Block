@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "236e1c74caef2a99"
 	group: "011A008512DB29FA"
+	hide_quest_until_deps_complete: true
 	icon: {
 		id: "ccb_core:daipaibulaotie_fumo"
 	}
@@ -10,25 +11,39 @@
 	images: [ ]
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "75B783C5CB59A942"
-		rewards: [{
-			id: "50395168CA8D4746"
-			item: {
-				count: 1
-				id: "ccb:world_filling_food"
-			}
-			type: "item"
-		}]
-		tasks: [{
-			id: "3D5522E7EC7E9262"
-			item: "chicken_roost:chicken_food_tier_10"
-			tags: [""]
-			throughput: 2100000000L
-			type: "throughput_quest:throughput"
-			workroutine: "second"
-		}]
-		x: -4.5d
-		y: -1.0d
-	}]
+	quests: [
+		{
+			dependencies: ["70B13491F36CE3AD"]
+			id: "75B783C5CB59A942"
+			rewards: [{
+				id: "50395168CA8D4746"
+				item: {
+					count: 1
+					id: "ccb:world_filling_food"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D5522E7EC7E9262"
+				item: "chicken_roost:chicken_food_tier_10"
+				tags: [""]
+				throughput: 2100000000L
+				type: "throughput_quest:throughput"
+				workroutine: "second"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75B783C5CB59A942"]
+			id: "1E5459F1562F6D6B"
+			tasks: [{
+				id: "79CF6227C97B6934"
+				item: { count: 1, id: "ccb:grass_god" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+	]
 }

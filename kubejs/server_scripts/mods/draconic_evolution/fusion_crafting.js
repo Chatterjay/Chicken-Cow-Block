@@ -364,7 +364,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           ingredient: {
-            item:'jdte:dimensional_collapse_solar_panel',
+            item: 'justdynathings:eclipse_alloy_solar_panel',
           },
         },
         {

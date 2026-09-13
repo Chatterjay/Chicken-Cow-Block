@@ -55,7 +55,7 @@ MITweaksMachineEvents.registerTieredMultiblocks(event => {
         tiers => tiers.add(t1).add(t2).add(t3).add(t4).add(t5).add(t6),
         event.progressBar(77, 33, "arrow"),
         itemInputs => itemInputs.addSlots(56, 35, 1, 2),
-        itemOutputs => itemOutputs.addSlot(102, 35),
+        itemOutputs => itemOutputs.addSlots(102, 35, 1, 2),
         fluidInputs => fluidInputs.addSlot(36, 35),
         fluidOutputs => fluidOutputs.addSlot(122, 35),
         "green_casing", "greenhouse", true, false, false

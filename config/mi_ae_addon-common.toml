@@ -1,0 +1,21 @@
+[general]
+	#Pages for ME stocking input devices, with 16 markers per page. Reload the world after changing this value.
+	# Default: 4
+	# Range: 1 ~ 64
+	stocking_pages = 4
+
+[diagnostics]
+	#Enable the full MI AE Addon diagnostic pipeline log.
+	enabled = false
+	#Include periodic transfer tick summaries. This can be noisy on large bases.
+	tick_diagnostics = false
+	#Log ME grid availability, extraction and insertion amounts.
+	network_diagnostics = true
+	#Log MI inventory slot changes and external capability transfers.
+	inventory_diagnostics = true
+	#Log queue and displayed-output save/load operations.
+	persistence_diagnostics = true
+	#Number of game ticks between periodic tick diagnostics.
+	# Default: 20
+	# Range: 1 ~ 1200
+	tick_interval = 20

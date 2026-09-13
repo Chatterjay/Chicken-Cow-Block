@@ -80,3 +80,20 @@ LootJS.modifiers(event => {
         .matchMainHand("mahoutsukai:hammer")
         .addLoot('chicken_roost:c_tnt');
 })
+
+LootJS.modifiers(event => {
+    event.addBlockModifier('ccb:nether_roost')
+        .matchMainHand('modern_industrialization:steam_mining_drill')
+        .removeLoot(ItemFilter.item(Item.of('ccb:nether_roost'), false))
+        .addLoot('chicken_roost:c_carnallite');
+
+    event.addBlockModifier('ccb:nether_roost')
+        .matchMainHand('modern_industrialization:diesel_mining_drill')
+        .removeLoot(ItemFilter.item(Item.of('ccb:nether_roost'), false))
+        .addLoot('chicken_roost:c_cobald');
+
+    event.addBlockModifier('ccb:nether_roost')
+        .matchMainHand('extended_industrialization:electric_mining_drill')
+        .removeLoot(ItemFilter.item(Item.of('ccb:nether_roost'), false))
+        .addLoot('chicken_roost:c_adamantine');
+});

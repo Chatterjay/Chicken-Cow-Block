@@ -10,6 +10,16 @@ StartupEvents.registry("item", event => {
         .fluidType('minecraft:lava')
         .cellModel('ccb:block/drive/lava_cell');
 
+    event.create('ccb:time_fluid_cell', 'custom_infinity_cell')
+        .texture('ccb:item/lava_cell')
+        .fluidType('justdirethings:time_fluid_source')
+        .cellModel('ccb:block/drive/lava_cell');
+
+    event.create('ccb:npk_fertilizer_cell', 'custom_infinity_cell')
+        .texture('ccb:item/lava_cell')
+        .fluidType('extended_industrialization:npk_fertilizer')
+        .cellModel('ccb:block/drive/lava_cell');
+
     // 运转于世界之基的齿轮 gold/gray
     createTooltipItem("world_gear");
 
@@ -24,6 +34,15 @@ StartupEvents.registry("item", event => {
 
     // 托举于灵魂之中的呐喊 aqua/gray
     createTooltipItem("soul_cry");
+
+    // 永恒苦痛之魂 darkRed/gray
+    createTooltipItem("eternal_pain_soul");
+
+    // 温暖万世之魂 gold/gray
+    createTooltipItem("warm_eon_soul");
+
+    // 容纳世界之魂 aqua/gray
+    createTooltipItem("world_containing_soul");
 
     // 逆流于光阴长河之上的寒蜩 gold/gray
     createTooltipItem("time_cicada");

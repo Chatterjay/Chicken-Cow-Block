@@ -57,6 +57,22 @@ event.custom(
     "id": "ccb:goo_jelly"
   }
 })
+event.custom({
+  type: 'farmersdelight:cooking',
+  container: { id: 'draconicevolution:draconium_ingot' },
+  experience: 1.0,
+  ingredients: [
+    { item: 'ends_delight:liquid_dragon_egg' },
+    { item: 'irons_spellbooks:dragonskin' },
+    { item: 'jdte:ender_dragon_essence' },
+    { item: 'draconicevolution:awakened_draconium_dust' },
+    { item: 'apothic_enchanting:draconic_endshelf' }
+  ],
+  result: {
+    count: 1,
+    id: 'ccb:drangon_rice_bowl'
+  }
+}).id('ccb:cooking/drangon_rice_bowl')
 event.custom(
 {
   "type": "farmersdelight:cutting",

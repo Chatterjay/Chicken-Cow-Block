@@ -1,0 +1,25 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "hostilenetworks:block_data_models_enabled"
+        }
+    ],
+    "type": "hostilenetworks:block_data_model",
+    "block": "data_energistics:residual_data_ore",
+    "name_color": "#6A5ACD",
+    "display": { "scale": 3 },
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "minecraft:end_stone"
+    },
+    "trivia": "hostilenetworks.trivia.residual_data_ore",
+    "fabricator_drops": [
+        {
+            "id": "data_energistics:residual_data_ore",
+            "count": 1
+        }
+    ]
+}
