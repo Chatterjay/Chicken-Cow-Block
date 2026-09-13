@@ -434,7 +434,6 @@ const chickenRecipes = [
     { output: 'c_singularity', item: 'ae2:singularity'},
     { output: 'c_uranium', item: 'immersiveengineering:ingot_uranium'},
     { output: 'c_entrocrystal', item: 'extendedae:entro_crystal'},
-    { output: 'c_datacrystal', item: 'data_energistics:data_crystal'},
     { output: 'c_blazegold', item: 'justdirethings:blazegold_ingot'},
     { output: 'c_cobald', item: 'smfcore:raw_cobalt'},
     { output: 'c_carnallite', item: 'smfcore:carnallite_ore'}
@@ -453,7 +452,8 @@ const chickenRecipes = [
     { output: 'c_quantumalloy', item: 'advanced_ae:quantum_alloy'},
     { output: 'c_overloadcrystal', item:'ae2lt:overload_crystal'},
     { output: 'c_celestigem', item: 'justdirethings:celestigem'},
-    { output: 'c_adamantine', item: 'smfcore:adamantine_debris'}
+     { output: 'c_adamantine', item: 'smfcore:adamantine_debris'},
+     { output: 'c_datacrystal', item: 'data_energistics:data_crystal'}
    ]
   },
   {

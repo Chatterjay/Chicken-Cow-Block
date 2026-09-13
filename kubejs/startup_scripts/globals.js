@@ -29,7 +29,8 @@ global.COW_TRANSMUTE_RULES = [
   { item: 'chicken_roost:c_uumatter', fluid: "modern_industrialization:uu_matter" },
   { item: 'jdte:extended_bio_crusher', fluid: "jdte:life_fluid_source" },
   { item: 'smfcore:polytetrafluoroethylene_bucket', fluid: "smfcore:polytetrafluoroethylene" },
-  { item: 'modern_industrialization:manganese_sulfuric_solution_bucket', fluid: "modern_industrialization:manganese_sulfuric_solution" }
+  { item: 'modern_industrialization:manganese_sulfuric_solution_bucket', fluid: "modern_industrialization:manganese_sulfuric_solution" },
+  { item: 'minecraft:sculk_catalyst', fluid: "ifeu:liquid_sculk_matter" }
 ]
 
 global.CHICKEN_TRANSMUTE_RULES = [

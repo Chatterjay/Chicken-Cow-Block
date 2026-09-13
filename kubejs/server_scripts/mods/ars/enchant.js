@@ -76,5 +76,15 @@ event.recipes.ars_nouveau.enchanting_apparatus(
     'extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:iesnium_block"]', 
     'ccb:fate_eyes', 
     100000, 
-)}
 )
+event.recipes.ars_nouveau.enchanting_apparatus(
+        [
+            'ccb:eternal_pain_soul',
+            'ccb:warm_eon_soul',
+            'ccb:world_containing_soul'
+        ],
+    'ccb:soul_cry',
+    'ccb:fengdu',
+    100000,
+)
+})

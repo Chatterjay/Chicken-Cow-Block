@@ -17,7 +17,7 @@
 		#最高效率附魔等级限制（-1 为无限制）。
 		# Default: 5
 		# Range: -1 ~ 255
-		maxEnchantLimit = 5
+		maxEnchantLimit = -1
 
 	#耐久附魔相关设置
 	[UndyingTotemCapacitor.UnbreakingSettings]
@@ -28,4 +28,4 @@
 		#最高耐久附魔等级限制（-1 为无限制）。
 		# Default: 3
 		# Range: -1 ~ 255
-		maxUnbreakingLimit = 3
+		maxUnbreakingLimit = -1

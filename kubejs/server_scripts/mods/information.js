@@ -23,6 +23,12 @@ RecipeViewerEvents.addInformation("item", event => {
     event.add('advanced_ae:quantum_core', [
         "该物品无法制作，只能使用超级装配矩阵之板召唤"
     ]);
+    event.add('ccb:eternal_pain_soul', [
+        "Ender Chicken被奥术触媒吸收灵魂时,会掉落该物品"
+    ]);
+    event.add('ccb:warm_eon_soul', [
+        "灵魂之花被奥术触媒吸收灵魂是，会掉落该物品"
+    ]);
 
     global.COW_TRANSMUTE_RULES.forEach(rule => {
         const {item, fluid} = rule;

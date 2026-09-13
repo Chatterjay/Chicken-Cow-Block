@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2de49fd847149cc1"
+	group: "011A008512DB29FA"
+	id: "2DE49FD847149CC1"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "70B13491F36CE3AD"
+		tasks: [{
+			id: "4DCC62653F5C2EAA"
+			item: { count: 1, id: "ccb:broken_world_fragment" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

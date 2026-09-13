@@ -116,4 +116,18 @@ event.shaped('chicken_roost:chicken_food_tier_9',[
     G:'ccb:life_water'
 
 })
+event.shaped('chicken_roost:chicken_food_tier_10',[
+    "ABD",
+    "HC ",
+    "EFG"
+],{
+    A:'ccb:antimatter_soup',
+    B:'ccb:uumatter_soup',
+    C:'chicken_roost:chicken_food_tier_9',
+    D:'ccb:real_soul_boom',
+    F:'ccb:exhaust_nuclear_waste_sauce',
+    E:'ccb:plasma_coke',
+    G:'ccb:aged_dragon_wings',
+    H:'ccb:world_tree'
+})
 })

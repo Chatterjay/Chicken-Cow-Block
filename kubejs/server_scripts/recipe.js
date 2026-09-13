@@ -11,6 +11,16 @@ ServerEvents.recipes(event =>{
     event.shapeless('chicken_roost:white_egg',[
         'minecraft:egg','minecraft:white_dye'
     ])
+    event.shapeless('6x minecraft:deepslate', [
+        'chicken_roost:stone_essence',
+        'chicken_roost:stone_essence',
+        'chicken_roost:stone_essence'
+    ])
+    event.shapeless('6x xycraft_world:kivi', [
+        'chicken_roost:stone_essence',
+        'chicken_roost:stone_essence',
+        'chicken_roost:stone_essence'
+    ])
     event.shaped('8x irons_spellbooks:arcane_essence',[
     "A",
     "B",
@@ -124,5 +134,13 @@ event.shapeless('justdirethings:goosoil_tier1', [
     ], {
         A: 'ccb:infinite_rainbow_dye',
         B: 'minecraft:iron_ingot'
+    });
+    event.shaped('ars_caelum:ritual_conjure_island_end_portal', [
+        ' A ',
+        'ABA',
+        ' A '
+    ], {
+        A:'ars_nouveau:purple_archwood_log',
+        B: 'minecraft:end_portal_frame'
     });
 });

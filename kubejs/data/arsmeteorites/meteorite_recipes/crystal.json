@@ -14,7 +14,8 @@
     "neoecoae:energized_crystal_block",
     "neoecoae:energized_fluix_crystal_block",
     "ae2cs:quantum_crystal_block",
-    "ae2lt:overload_crystal_block"
+    "ae2lt:overload_crystal_block",
+    "extendedae_plus:lattra_crystal_block"
   ],
-  "weights": [150,80,70,60,60,50,40,30,20,10,5]
+  "weights": [150,80,70,60,60,50,40,30,20,10,5,30]
 }

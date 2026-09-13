@@ -81,7 +81,6 @@ ServerEvents.recipes(event => {
             ],
             fluids: [
                 { fluid: 'allthemodium:soul_lava', amount: 51200 },
-                { fluid: 'allthemodium:soul_lava', amount: 51200 }
             ],
             resource: {
                 key_type: 'soulplied_energistics:soul',
@@ -118,4 +117,71 @@ ServerEvents.recipes(event => {
             ]
         }
     }).id('ccb:data_reassembler/perfect_electro_chime_crystal');
+
+    event.custom({
+        type: 'data_energistics:data_reassembler',
+        inputs: {
+            items: [
+                { item: 'ccb:data_elder' },
+                { item: 'data_energistics:me_digital_merged_storage_core_256m', count: 512 },
+                { item: 'data_energistics:overlimit_me_digital_pattern_processing_core', count: 512 },
+                { item: 'data_energistics:me_digital_storage_core_256m', count: 512 }
+            ],
+            fluids: [
+                { fluid: 'data_energistics:data_corrosion_liquid', amount: 51200 },
+                { fluid: 'data_energistics:data_corrosion_liquid', amount: 51200 }
+            ],
+            resource: {
+                key_type: 'data_energistics:digitalization',
+                resource: 'data_energistics:data_flow',
+                amount: 51200000
+            }
+        },
+        outputs: {
+            items: [
+                { id: 'ccb:epoch_orb' }
+            ]
+        }
+    }).id('ccb:data_reassembler/epoch_orb');
+
+    event.custom({
+        type: 'data_energistics:data_reassembler',
+        inputs: {
+            items: [
+                {
+                    ingredient: {
+                        type: 'neoforge:components',
+                        items: 'extendedcrafting:singularity',
+                        components: {
+                            'extendedcrafting:singularity_id': 'extendedcrafting:data_residual_crystal'
+                        }
+                    },
+                    count: 10
+                },
+                {
+                    ingredient: {
+                        type: 'neoforge:components',
+                        items: 'extendedcrafting:singularity',
+                        components: {
+                            'extendedcrafting:singularity_id': 'extendedcrafting:enhanced_basic_attack'
+                        }
+                    },
+                    count: 1
+                }
+            ],
+            fluids: [
+                { fluid: 'data_energistics:data_corrosion_liquid', amount: 51200 }
+            ],
+            resource: {
+                key_type: 'data_energistics:digitalization',
+                resource: 'data_energistics:data_flow',
+                amount: 51200000
+            }
+        },
+        outputs: {
+            items: [
+                { id: 'ccb:data_elder' }
+            ]
+        }
+    }).id('ccb:data_reassembler/residual_data_ore');
 });

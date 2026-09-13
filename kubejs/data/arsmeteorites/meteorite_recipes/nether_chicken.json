@@ -1,0 +1,16 @@
+{
+  "input": "chicken_roost:c_blood",
+  "source": 100,
+  "default": 1,
+  "catalysts": "chicken_roost:c_netherwart",
+  "meteorites": [
+    "minecraft:netherrack",
+    "minecraft:nether_bricks",
+    "minecraft:nether_gold_ore",
+    "minecraft:nether_quartz_ore",
+    "minecraft:warped_stem",
+    "minecraft:crimson_stem",
+    "ccb:nether_roost"
+  ],
+  "weights": [50,50,30,30,40,40,1]
+}

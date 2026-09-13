@@ -2761,7 +2761,7 @@
     "mobtexture": "datacrystalchicken",
     "dropitem": "justdirethings:blazegold_ingot",
     "eggtime": 600,
-    "tier": 6,
+    "tier": 7,
     "CanGetFireDamage": false,
     "CanGetProjectileDamage": true,
     "CanGetExplosionDamage": true,

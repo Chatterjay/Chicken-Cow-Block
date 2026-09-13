@@ -167,6 +167,21 @@ event.recipes.occultism.ritual(
 'apotheosis:gem[apotheosis:gem="apotheosis:the_nether/blood_lord",apotheosis:purity="perfect"]',
 "occultism:contact_eldritch_spirit"
     ).dummy('occultism:ritual_dummy/custom_ritual_craft')
-    
-    
+    event.recipes.occultism.ritual(
+      'mecrh:ender_chicken_spawn_egg',
+        [
+            'minecraft:dragon_egg',
+            'ifeu:dead_dragon_egg',
+            'ifeu:arcane_dragon_egg_forging',
+            'draconicevolution:dragon_heart'
+        ],
+        'ends_delight:non_hatchable_dragon_egg',
+        'occultism:summon_unbound_marid'
+    )
+        .ritualType('occultism:summon')
+        .entityToSummon('mecrh:ender_chicken')
+        .duration(210)
+        .useItem('minecraft:ender_pearl')
+        .condition(IsInDimensionCondition.of(Java.loadClass('net.minecraft.world.level.Level').END))
+        .dummy('occultism:ritual_dummy/custom_ritual_summon')
 });

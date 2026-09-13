@@ -16,4 +16,10 @@ StartupEvents.registry("block", event => {
         .hardness(1.5)
         .resistance(1.5)
         .tagBlock("minecraft:mineable/pickaxe");
+
+    event.create("ccb:fengdu")
+        .soundType("nether_wood")
+        .hardness(2.0)
+        .resistance(6.0)
+        .tagBlock("minecraft:mineable/pickaxe");
 });

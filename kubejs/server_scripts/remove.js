@@ -5,4 +5,5 @@ ServerEvents.recipes(event =>{
      event.remove({id:'avaritia:infinity_catalyst'})
      event.remove({id:'avaritia:endest_pearl'})
      event.remove({id:'avaritia:infinity_ingot'})
+    event.remove({id:'fluidsneo:extended_fluid_cow_jar'})
 })

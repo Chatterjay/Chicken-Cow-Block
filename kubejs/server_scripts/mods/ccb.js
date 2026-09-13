@@ -68,6 +68,12 @@ ServerEvents.recipes(event => {
         A: 'extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:enhanced_basic_attack"]',
         B: 'ccb:data_elder'
     });
+    event.shaped('2x ccb:soul_cry', [
+        "ABA"
+    ], {
+        A: 'extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:divine_soulshard"]',
+        B: 'ccb:soul_cry'
+    });
     event.shaped('2x ccb:chaotic_space_fragment', [
         " A ",
         "ABA",
@@ -76,19 +82,14 @@ ServerEvents.recipes(event => {
         A: 'draconicevolution:small_chaos_frag',
         B: 'ccb:chaotic_space_fragment'
     });
-    event.shaped('2x ccb:data_elder', [
-        "ABA"
-    ], {
-        A: 'extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:enhanced_basic_attack"]',
-        B: 'ccb:data_elder'
-    });
     event.shaped('ccb:cow_bucket', [
-        " A ",
+        "CAC",
         "ABA",
-        " A "
+        "CAC"
     ], {
         A: 'ae2:sky_stone_tank',
-        B: 'enderio:drain'
+        B: 'enderio:drain',
+        C:'modern_industrialization:steel_tank'
     });
     event.custom({
         type: 'extendedcrafting:combination',

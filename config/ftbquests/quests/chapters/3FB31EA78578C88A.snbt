@@ -117,13 +117,26 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["3D96EECE58AA9A0E"]
+			dependencies: [
+				"3D96EECE58AA9A0E"
+				"4C75F5CD51D0E9A1"
+			]
 			id: "527679334AB5748E"
-			rewards: [{
-				id: "1A114654E1BFEBEB"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "1A114654E1BFEBEB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "568DC2DAFBFA4E96"
+					item: {
+						count: 1
+						id: "justdirethings:clickert1"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "315F0159022934AE"
 				item: { count: 1, id: "chicken_roost:chicken_food_tier_1" }
@@ -488,16 +501,15 @@
 			tasks: [
 				{
 					count: 12L
-					id: "30E97247E8E299D8"
-					item: { count: 1, id: "minecraft:end_portal_frame" }
-					type: "item"
-				}
-				{
-					count: 12L
 					disable_toast: true
 					id: "0D4F88BBF580B44C"
 					item: { count: 1, id: "minecraft:ender_eye" }
 					optional_task: true
+					type: "item"
+				}
+				{
+					id: "61B7F141854CA5E6"
+					item: { count: 1, id: "ars_caelum:ritual_conjure_island_end_portal" }
 					type: "item"
 				}
 			]
@@ -539,6 +551,16 @@
 			}]
 			x: -8.5d
 			y: -8.0d
+		}
+		{
+			id: "4C75F5CD51D0E9A1"
+			tasks: [{
+				id: "5567718AD6B20D65"
+				item: { count: 1, id: "minecraft:egg" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
 		}
 	]
 }
