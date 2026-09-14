@@ -177,10 +177,6 @@
 	maxResistForCoreReduction = 1.0E7
 
 [roost]
-	#Parallel count for generated roost_output recipes. Default: 1
-	# Default: 1
-	# Range: > 1
-	parallel = 1
 	#Energy per tick for generated recipes. Default: 16
 	# Default: 16
 	# Range: > 1
@@ -189,6 +185,12 @@
 	# Default: 0.5
 	# Range: 0.0 ~ 2.147483647E9
 	durationMultiplier = 0.5
+	#How the multipliers of all speed hatches are combined.
+	#"add"      -> 1 + (m1 - 1) + (m2 - 1) + ...
+	#"multiply" -> m1 * m2 * ...
+	#"max"      -> max(m1, m2, ...), multiple hatches do not stack
+	#Unknown values fall back to "multiply". Default: multiply
+	mode = "max"
 
 [HCE]
 	#Duration for generated recipes. Default: 72000
