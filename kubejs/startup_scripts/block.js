@@ -22,4 +22,10 @@ StartupEvents.registry("block", event => {
         .hardness(2.0)
         .resistance(6.0)
         .tagBlock("minecraft:mineable/pickaxe");
+
+    event.create("ccb:feijibei")
+        .soundType("wool")
+        .hardness(0.8)
+        .resistance(0.8)
+        .tagBlock("minecraft:mineable/axe");
 });

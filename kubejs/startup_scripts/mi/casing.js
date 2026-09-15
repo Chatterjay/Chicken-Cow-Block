@@ -22,4 +22,10 @@ MIMachineEvents.registerCasings(event => {
 
     event.registerBlockImitation('plastic_casing', 'pneumaticcraft:plastic_brick_white');
 
+    event.registerBlockImitation('time_crystal_casing', 'justdirethings:time_crystal_block');
+
+    event.registerBlockImitation('ultimate_core_casing', 'oritech:machine_core_7');
+
+    event.registerBlockImitation('feijibei_casing', 'ccb:feijibei');
+
 });

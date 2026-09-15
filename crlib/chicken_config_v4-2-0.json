@@ -4012,5 +4012,23 @@
     "CanGetFreezingDamage": true,
     "CanGetLightningDamage": true,
     "CanGetWitherDamage": true
+  },
+  {
+    "ChickenName": "Concrete Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_concrete",
+    "itemtexture": "graychicken",
+    "mobtexture": "graychicken",
+    "dropitem": "ccb:concrete_essence",
+    "eggtime": 600,
+    "tier": 1,
+    "CanGetFireDamage": true,
+    "CanGetProjectileDamage": true,
+    "CanGetExplosionDamage": true,
+    "CanGetFallDamage": false,
+    "CanGetDrowningDamage": true,
+    "CanGetFreezingDamage": true,
+    "CanGetLightningDamage": true,
+    "CanGetWitherDamage": true
   }
 ]

@@ -44,6 +44,9 @@ StartupEvents.registry("item", event => {
     // 容纳世界之魂 aqua/gray
     createTooltipItem("world_containing_soul");
 
+    // 混凝土精华
+    createTooltipItem("concrete_essence");
+
     // 逆流于光阴长河之上的寒蜩 gold/gray
     createTooltipItem("time_cicada");
 

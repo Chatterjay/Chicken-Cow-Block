@@ -24,8 +24,9 @@ const chickenRecipes = [
       { output: "c_nautilusshell", item: "minecraft:nautilus_shell"},
       { output: "c_gravel", item: "minecraft:gravel"},
       { output: "c_feather", item: "minecraft:feather"},
-     { output: "c_oakwood", item: "chicken_roost:wood_essence"},
-     { output: "c_quartz", item: "minecraft:quartz"},
+      { output: "c_oakwood", item: "chicken_roost:wood_essence"},
+      { output: "c_quartz", item: "minecraft:quartz"},
+      { output: "c_concrete", item: "ccb:concrete_essence"},
     ]
   },
   {
@@ -267,6 +268,12 @@ const chickenRecipes = [
         parent_2: "c_gravel",
         item: "immersiveengineering:slag"
       },
+      {
+        output: "c_rotten",
+        parent_1: "c_leather",
+        parent_2: "c_brown",
+        item: "minecraft:rotten_flesh"
+      },
      ]
   },
   {
@@ -300,12 +307,6 @@ const chickenRecipes = [
         parent_1: "c_osmium",
         parent_2: "c_gray",
         item: "mekanism:ingot_tin"
-      },
-      {
-        output: "c_rotten",
-        parent_1: "c_leather",
-        parent_2: "c_brown",
-        item: "minecraft:rotten_flesh"
       },
       {
         output: "c_niter",
@@ -503,7 +504,7 @@ ServerEvents.recipes((event) => {
       if (recipe.breed) {
         addRecipeChickenBreeding(
           event,
-          `c:seeds/tier${tier - 1}orup`,
+          `c:seeds/tier${Math.max(1, tier - 1)}orup`,
           `chicken_roost:${chicken.parent_1}`,
           `chicken_roost:${chicken.parent_2}`,
           `chicken_roost:${chicken.output}`,

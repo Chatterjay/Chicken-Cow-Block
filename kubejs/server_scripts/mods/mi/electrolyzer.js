@@ -22,7 +22,6 @@ ServerEvents.recipes(event => {
 });
 ServerEvents.recipes(event => {
     event.remove({id: 'modern_industrialization:materials/electrolyzer/uu_matter'});
-    event.remove({id: 'modern_industrialization:materials/electrolyzer/bauxite'});
     event.remove({id: 'modern_industrialization:materials/electrolyzer/lapis'});
     event.remove({id: 'modern_industrialization:materials/electrolyzer/beryllium_dust'});
     event.custom({

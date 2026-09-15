@@ -2,5 +2,7 @@
   "item.asr.super_assembler_matrix": "Tablet of Trinity Digitalization",
   "asr.ritual_desc.super_assembler_matrix": "Builds the Super Assembler Matrix without its two controller cores.",
   "item.asr.tianshu_array": "Tablet of Tianshu Array",
-  "asr.ritual_desc.tianshu_array": "Builds the Tianshu supercomputer and matter warping matrix."
+  "asr.ritual_desc.tianshu_array": "Builds the Tianshu supercomputer and matter warping matrix.",
+  "item.asr.end_portal": "Conjure Island: End Portal",
+  "asr.ritual_desc.end_portal": "Builds an end portal structure."
 }

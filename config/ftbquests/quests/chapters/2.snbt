@@ -1,0 +1,204 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2"
+	group: "6D3716139366C83E"
+	icon: {
+		components: {
+			"ftbquests:icon": "ae2:block/controller"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "3038B2586F306436"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["27FA4097EA4B2C0A"]
+			id: "266577887733CED2"
+			rewards: [{
+				id: "5B909EDE7CE8A542"
+				item: {
+					count: 1
+					id: "asr:super_assembler_matrix"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "19A2C18E58F0F187"
+				item: { count: 1, id: "extendedae_plus:xbai" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27FA4097EA4B2C0A"]
+			id: "44FE8CAE0B4DAE9F"
+			rewards: [{
+				id: "75FDF853D065B859"
+				item: {
+					count: 1
+					id: "asr:tianshu_matrix"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "555E014930819A1A"
+					item: { count: 1, id: "ae2lt:pigmee_fumo" }
+					type: "item"
+				}
+				{
+					id: "77320BBA73C74092"
+					item: { count: 1, id: "ae2lt:tianshu_quantum_main_core" }
+					type: "item"
+				}
+				{
+					id: "44039B8D78A73D36"
+					item: { count: 1, id: "ae2lt:matter_warping_matrix_quantum_main_core" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27FA4097EA4B2C0A"]
+			id: "0CFE0C3420657C5F"
+			rewards: [{
+				id: "6FC2CDD0E7ED6EC8"
+				item: {
+					count: 1
+					id: "asr:trinity_data_core"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "09C42523BAD15440"
+					item: { count: 1, id: "data_energistics:qiuyeqaq2024" }
+					type: "item"
+				}
+				{
+					id: "5AC20163F1CFBA53"
+					item: { count: 1, id: "data_energistics:fish_dan_" }
+					type: "item"
+				}
+				{
+					id: "5398DA163D83D4FA"
+					item: { count: 1, id: "extendedae_plus:infinity_core" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6BD4E7DBBDD71F9A"
+					item: { count: 1, id: "data_energistics:overlimit_me_digital_pattern_processing_core" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1AAA04046CD9B2D4"
+					item: { count: 1, id: "data_energistics:me_digital_merged_storage_core_256m" }
+					type: "item"
+				}
+				{
+					id: "68640A1552BC4D19"
+					item: { count: 1, id: "data_energistics:tedxenon" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "27FA4097EA4B2C0A"
+			tasks: [{
+				consume_items: true
+				id: "12F435D78C3039EE"
+				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "2C8115814EC6D888"
+			rewards: [{
+				id: "7081AB4EB58AC57A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0566CAE7544DEA33"
+				item: { count: 1, id: "arsmeteorites:ritual_conjure_meteorites" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2C8115814EC6D888"]
+			id: "7EDEE806878A164F"
+			rewards: [
+				{
+					count: 64
+					id: "7DEEC00595E4AF5C"
+					item: {
+						count: 1
+						id: "ars_nouveau:bastion_pod"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5DD514B100031065"
+					item: {
+						count: 1
+						id: "ars_nouveau:mendosteen_pod"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1FAB12C4F062F4E1"
+					item: {
+						count: 1
+						id: "ars_nouveau:bombegranate_pod"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5FD266BEAABE11A8"
+					item: {
+						count: 1
+						id: "ars_nouveau:frostaya_pod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "632AAE9266D21E50"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2C8115814EC6D888"]
+			id: "1BBC81FC2C1FDA19"
+			tasks: [{
+				id: "21A0077F2CDBF291"
+				item: { count: 1, id: "chicken_roost:c_certusquartz" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7a76a0d36cc4af98"
+	group: "69D05EB4F2B8C83C"
+	icon: {
+		components: {
+			"ftbquests:icon": "projecte:block/transmutation_stone/top"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "7A76A0D36CC4AF98"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["574B272F5078AD8A"]
+			id: "0613309AF45FB182"
+			rewards: [{
+				count: 64
+				id: "5E78F757BECACF75"
+				item: {
+					count: 1
+					id: "projectexpansion:final_power_flower"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F5404DED4AB53A8"
+				item: { count: 1, id: "projecte:tome" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "574B272F5078AD8A"
+			tasks: [{
+				id: "11CDF01FEE91E0F8"
+				item: { count: 1, id: "projecte:philosophers_stone" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+	]
+}

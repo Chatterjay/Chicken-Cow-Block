@@ -190,7 +190,7 @@
 	#"multiply" -> m1 * m2 * ...
 	#"max"      -> max(m1, m2, ...), multiple hatches do not stack
 	#Unknown values fall back to "multiply". Default: multiply
-	mode = "max"
+	mode = "multiply"
 
 [HCE]
 	#Duration for generated recipes. Default: 72000

@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
     added.add(seed)
     const recipe = event.recipes.modern_industrialization.greenhouse(32, 100)
       .itemIn(seed, 0)
-      .fluidIn(`${fluidAmount}x extended_industrialization:npk_fertilizer`)
+      .fluidIn("1x extended_industrialization:npk_fertilizer")
     outputs.forEach(output => recipe.itemOut(output))
   }
 

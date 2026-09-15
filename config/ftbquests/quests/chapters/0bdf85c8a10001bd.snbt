@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0bdf85c8a10001bd"
+	group: "776C6CE13442DD6F"
+	icon: {
+		components: {
+			"ftbquests:icon": "oritech:block/fluid/fluid_molten_colorshifting"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "0BDF85C8A10001BD"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "5FDFB699DDF02E13"
+		rewards: [{
+			id: "3A147CA891E76F15"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "3E7898C35F6E967B"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: 0.0d
+	}]
+}

@@ -6,4 +6,6 @@ ServerEvents.recipes(event =>{
      event.remove({id:'avaritia:endest_pearl'})
      event.remove({id:'avaritia:infinity_ingot'})
     event.remove({id:'fluidsneo:extended_fluid_cow_jar'})
+    event.remove({output:'ars_caelum:ritual_conjure_island_end_portal'})
+    event.remove({output:'allthemodium:teleport_pad'})
 })

@@ -88,6 +88,11 @@ const transmuteCow = function (
 
   // Transform
   event.level.server.scheduleInTicks(wiggleTicks, (_) => {
+    if (cow.isRemoved()) {
+      event.player.tell(Text.translate("ccb.clapple.transmutation.failed"));
+      return;
+    }
+
     const ex = cow.x;
     const ey = cow.y + 0.1;
     const ez = cow.z;
@@ -153,16 +158,12 @@ const transmuteCow = function (
         10,
         0.1
       );
-      var nice =
-        targetFluidId.indexOf(":") >= 0
-          ? targetFluidId.split(":")[1]
-          : targetFluidId;
-      if (nice.indexOf("molten_") === 0)
-        nice = nice.substring("molten_".length);
-      nice = nice.split("_")[0];
-      if (nice.length > 0) nice = nice.charAt(0).toUpperCase() + nice.slice(1);
+      let fluidName = targetFluidId;
+      try {
+        fluidName = Fluid.of(targetFluidId).getDisplayName();
+      } catch (e) {}
 
-      event.player.tell(Text.translate(completeMsgKey, [nice]).gold());
+      event.player.tell(Text.translate(completeMsgKey, fluidName).gold());
       console.log("不错的转化: " + targetFluidId);
     });
   });
@@ -213,4 +214,33 @@ ItemEvents.entityInteracted(function (event) {
     "ccb.clapple.transmutation.start",
     "ccb.clapple.transmutation.complete"
   );
+});
+
+ItemEvents.entityInteracted("chicken_roost:chicken_stick", (event) => {
+  if (event.level.isClientSide()) return;
+  if (String(event.hand || "") !== "MAIN_HAND") return;
+
+  const cow = event.target;
+  if (String(cow.type) !== "moofluids:fluid_cow") return;
+  if (cow.isBaby && cow.isBaby()) return;
+
+  let fluidId = "";
+  try {
+    fluidId = cow.nbt && cow.nbt.getString
+      ? cow.nbt.getString("FluidRegistryName")
+      : String(cow.nbt.FluidRegistryName || "");
+  } catch (e) {}
+  if (!fluidId) {
+    try {
+      const fluid = cow.getFluid();
+      if (fluid) fluidId = String(fluid.id || fluid);
+    } catch (e) {}
+  }
+  if (!fluidId || fluidId === "minecraft:empty") return;
+
+  event.player.give(
+    Item.of(`fluidsneo:fluid_cow_spawn_egg[fluidsneo:fluid_type="${fluidId}"]`)
+  );
+  cow.discard();
+  event.cancel();
 });

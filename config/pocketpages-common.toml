@@ -8,7 +8,7 @@
 	# Range: 0 ~ 2160
 	startUnlockedSlots = 54
 	#Whether non-creative players must spend experience to unlock slots. When false, every configured slot is unlocked.
-	requireExperienceToUnlock = false
+	requireExperienceToUnlock = true
 	#Base cost to unlock one slot. This is levels by default, or experience points when useExperiencePoints is enabled.
 	# Default: 10
 	# Range: 0 ~ 10000

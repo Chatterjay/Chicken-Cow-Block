@@ -11,4 +11,8 @@ RitualEvents.registry(event => {
         'super_assembler_matrix',
         'super_assembler_matrix'
     );
+    event.createStructureRitual(
+        'end_portal',
+        'end_portal'
+    );
 });

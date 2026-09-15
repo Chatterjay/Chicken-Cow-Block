@@ -11,16 +11,43 @@ ServerEvents.recipes(event =>{
     event.shapeless('chicken_roost:white_egg',[
         'minecraft:egg','minecraft:white_dye'
     ])
-    event.shapeless('6x minecraft:deepslate', [
-        'chicken_roost:stone_essence',
-        'chicken_roost:stone_essence',
-        'chicken_roost:stone_essence'
-    ])
-    event.shapeless('6x xycraft_world:kivi', [
-        'chicken_roost:stone_essence',
-        'chicken_roost:stone_essence',
-        'chicken_roost:stone_essence'
-    ])
+    event.shaped('6x minecraft:deepslate', [
+        '  A',
+        ' A ',
+        'A  '
+    ], {
+        A: 'chicken_roost:stone_essence'
+    }).noMirror().noShrink().id('ccb:stone_essence_to_deepslate')
+    event.shaped('6x xycraft_world:kivi', [
+        'A  ',
+        'A  ',
+        'A  '
+    ], {
+        A: 'chicken_roost:stone_essence'
+    }).noMirror().noShrink().id('ccb:stone_essence_to_kivi')
+    const concreteEssencePatterns = {
+        white: ['AAA', '   ', '   '],
+        orange: ['A  ', 'A  ', 'A  '],
+        magenta: ['A  ', ' A ', '  A'],
+        light_blue: ['  A', ' A ', 'A  '],
+        yellow: ['AA ', 'A  ', '   '],
+        lime: ['AA ', ' A ', '   '],
+        pink: ['A  ', 'AA ', '   '],
+        gray: [' A ', 'AA ', '   '],
+        light_gray: ['A A', ' A ', '   '],
+        cyan: [' A ', 'A A', '   '],
+        purple: ['AA ', '   ', '  A'],
+        blue: [' AA', '   ', 'A  '],
+        brown: ['A  ', '   ', 'A A'],
+        green: ['  A', '   ', 'A A'],
+        red: ['A A', '   ', 'A  '],
+        black: ['A A', '   ', '  A']
+    }
+    Object.entries(concreteEssencePatterns).forEach(([color, pattern]) => {
+        event.shaped(`6x minecraft:${color}_concrete`, pattern, {
+            A: 'ccb:concrete_essence'
+        }).noMirror().noShrink().id(`ccb:concrete_essence_to_${color}_concrete`)
+    })
     event.shaped('8x irons_spellbooks:arcane_essence',[
     "A",
     "B",
@@ -70,7 +97,7 @@ event.shaped('modern_mekanistics:niuniu_brand_cooking_machine',[
     D:'mi_tweaks:cutting_board',
     E:'mi_tweaks:cooking_pot'
 })
-event.shaped('modern_mekanistics:niuniu_brand_cooking_machine',[
+event.shaped('mi_tweaks:cutting_board',[
     "A B",
     "DCE",
     " F "
@@ -82,7 +109,7 @@ event.shaped('modern_mekanistics:niuniu_brand_cooking_machine',[
     E:'farmersdelight:diamond_knife',
     F:'mekck:atomic_knife'
 })
-event.shaped('modern_mekanistics:niuniu_brand_cooking_machine',[
+event.shaped('mi_tweaks:cooking_pot',[
     "D E",
     "BFC",
     "AAA"
@@ -135,12 +162,13 @@ event.shapeless('justdirethings:goosoil_tier1', [
         A: 'ccb:infinite_rainbow_dye',
         B: 'minecraft:iron_ingot'
     });
-    event.shaped('ars_caelum:ritual_conjure_island_end_portal', [
+    event.remove({ output: 'ars_caelum:ritual_conjure_island_end_portal' });
+    event.shaped('asr:end_portal', [
         ' A ',
         'ABA',
         ' A '
     ], {
-        A:'ars_nouveau:purple_archwood_log',
-        B: 'minecraft:end_portal_frame'
+        B:'ars_nouveau:purple_archwood_log',
+        A: 'minecraft:end_portal_frame'
     });
 });
