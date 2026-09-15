@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.data_residual_crystal",
+  "colors": [
+    "6A5ACD",
+    "191970"
+  ],
+  "materialCount": 10000000,
+  "ingredient": {
+    "item": "data_energistics:data_residual_crystal"
+  }
+}

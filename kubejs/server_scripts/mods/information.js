@@ -23,11 +23,20 @@ RecipeViewerEvents.addInformation("item", event => {
     event.add('advanced_ae:quantum_core', [
         "该物品无法制作，只能使用超级装配矩阵之板召唤"
     ]);
-    event.add('ccb:eternal_pain_soul', [
+    event.add('ars_nouveau:ritual_brazier', [
+        "潜行空手右键仪式火盆可进入鸡基岩层。在该维度再次潜行空手右键火盆可返回。"
+    ]);
+    event.add('ccb:nether_roost', [
+        "用8个下界鸡窝摆成4×4边框并去掉四角，再向内侧倒入一桶灵魂熔岩，即可开启通往异界的传送门。走进传送门前往异界，在异界同样建造可返回。"
+    ]);
+    event.add(['ccb:eternal_pain_soul', 'mecrh:ender_chicken_spawn_egg'],[
         "Ender Chicken被奥术触媒吸收灵魂时,会掉落该物品"
     ]);
-    event.add('ccb:warm_eon_soul', [
-        "灵魂之花被奥术触媒吸收灵魂是，会掉落该物品"
+    event.add(['ccb:warm_eon_soul','oritech:wither_crop_block'], [
+        "灵魂之花被奥术触媒吸收灵魂时，会掉落该物品"
+    ]);
+    event.add(['chicken_roost:c_gravel','chicken_roost:c_sand','chicken_roost:c_tnt','mahoutsukai:hammer'], [
+        "想要获得这几只鸡，请使用魔法使模组的锤击杀对应的鸡。"
     ]);
 
     global.COW_TRANSMUTE_RULES.forEach(rule => {

@@ -67,4 +67,11 @@ event.shaped('fluidsneo:capacity_upgrade_3', [
     B: 'fluidsneo:capacity_upgrade_2',
     C: 'ccb:cow_bucket'
 })
+event.shaped('fluidsneo:auto_output_upgrade', [
+    'A',
+    'B'
+], {
+    A: 'ccb:cow_bucket',
+    B: 'utilitarian:fluid_hopper'
+})
 });

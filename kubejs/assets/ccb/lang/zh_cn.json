@@ -68,6 +68,8 @@
   "tooltip.ccb.warm_eon_soul": "§7万世更迭，仍有余温未散。",
   "item.ccb.world_containing_soul": "§b容纳世界之魂",
   "tooltip.ccb.world_containing_soul": "§7世界被收纳其中，却不知是囚笼还是归宿。",
+  "item.ccb.concrete_essence": "混凝土精华",
+  "tooltip.ccb.concrete_essence": "§7凝聚混凝土规则的精华。",
   "item.ccb.time_cicada": "§6逆流于光阴长河之上的寒蜩",
   "tooltip.ccb.time_cicada": "§7不知处于何处的光阴长河之中存在独特昆虫，以光阴长河为食，但是它身上的生机却在缓慢流逝...",
   "item.ccb.fate_eyes": "§5祈求于命星之上的双眼",
@@ -142,6 +144,9 @@
   "block.ccb.nether_roost": "§4下界鸡窝",
   "block.ccb.metastable_annihilation_life": "半稳态湮灭固态生命",
   "block.ccb.fengdu": "§4酆都",
+  "block.ccb.feijibei": "斐济北",
+  "tooltip.ccb.feijibei": "§7要被榨干了💀",
+  "dimension.ccb.chicken_void": "鸡基岩层",
   "item.ccb.un_aluminum_drill": "坚不可摧的铝钻",
   "tooltip.ccb.un_aluminum_drill": "§7概率消耗什么的，最讨厌了！",
   "item.ccb.un_bronze_drill": "坚不可摧的青铜钻",
@@ -158,5 +163,9 @@
   "tooltip.ccb.un_gold_drill": "§7概率消耗什么的，最讨厌了！",
   "item.ccb.un_digital_miner": "坚不可摧的数字型采矿🐔钻",
   "tooltip.ccb.un_digital_miner": "§7概率消耗什么的，最讨厌了！",
-  "tooltip.ccb_core.eye_of_harmony": "§a草草草鸿蒙鸡眼草草草"
+  "tooltip.ccb_core.eye_of_harmony": "§a草草草鸿蒙鸡眼草草草",
+  "ccb.clapple.transmutation.start": "§c牛§6牛§e变§a身",
+  "ccb.clapple.transmutation.complete": "%s牛牛马猴烧酒闪亮登场Ciallo～(∠・ω< )⌒★",
+  "ccb.clapple.transmutation.in_progress": "牛牛变身ing...",
+  "ccb.clapple.transmutation.failed": "牛牛变身失败，没有变成马猴烧酒的资格😮‍💨"
 }

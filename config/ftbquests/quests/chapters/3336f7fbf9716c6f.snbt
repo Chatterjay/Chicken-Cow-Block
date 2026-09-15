@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3336f7fbf9716c6f"
+	group: "776C6CE13442DD6F"
+	icon: {
+		components: {
+			"ftbquests:icon": "chicken_roost:textures/bh_ru_logo.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "3336F7FBF9716C6F"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1E42043994BB474D"
+			tasks: [
+				{
+					id: "5CEE5C703BE96823"
+					item: { count: 1, id: "ccb_core:roost" }
+					type: "item"
+				}
+				{
+					id: "396C7FEC5642346C"
+					item: { count: 1, id: "ccb_core:trainer" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "7245D0AF2FD3DE65"
+			tasks: [
+				{
+					id: "4AF1EFE9B01F93C5"
+					item: { count: 1, id: "chicken_roost:feeder" }
+					type: "item"
+				}
+				{
+					id: "1B262A3595609271"
+					item: { count: 1, id: "chicken_roost:collector" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "04FD8297B56D912C"
+			tasks: [{
+				id: "7C20C64E8EC7CBA7"
+				item: { count: 1, id: "chicken_roost:trainer" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+	]
+}

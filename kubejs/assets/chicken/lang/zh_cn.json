@@ -41,5 +41,7 @@
     "item.chicken_roost.c_adamantine": "精金鸡",
     "entity.chicken_roost.c_adamantine": "精金鸡",
     "item.chicken_roost.c_carnallite": "光卤石鸡",
-    "entity.chicken_roost.c_carnallite": "光卤石鸡"
+    "entity.chicken_roost.c_carnallite": "光卤石鸡",
+    "item.chicken_roost.c_concrete": "混凝土鸡",
+    "entity.chicken_roost.c_concrete": "混凝土鸡"
 }

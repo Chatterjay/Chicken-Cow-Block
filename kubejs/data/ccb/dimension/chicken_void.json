@@ -1,0 +1,18 @@
+{
+  "type": "ccb:chicken_void",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "ccb:chicken_void",
+      "lakes": false,
+      "features": false,
+      "structure_overrides": [],
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 5
+        }
+      ]
+    }
+  }
+}

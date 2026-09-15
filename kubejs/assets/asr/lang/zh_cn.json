@@ -4,5 +4,7 @@
   "item.asr.tianshu_matrix": "天枢矩阵",
   "asr.ritual_desc.tianshu_matrix": "生成天枢超级计算机与物质弯曲矩阵结构。",
   "item.asr.super_assembler_matrix": "超级装配矩阵",
-  "asr.ritual_desc.super_assembler_matrix": "生成超级装配矩阵结构。"
+  "asr.ritual_desc.super_assembler_matrix": "生成超级装配矩阵结构。",
+  "item.asr.end_portal": "召唤岛屿：末地传送门",
+  "asr.ritual_desc.end_portal": "生成末地传送门结构。"
 }

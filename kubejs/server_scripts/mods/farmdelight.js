@@ -37,9 +37,6 @@ event.custom(
       "item": 'justdirethings:gooblock_tier1'
     },
     {
-      "item": 'justdirethings:gooblock_tier2'
-    },
-    {
       "item": 'justdirethings:upgrade_blank'
     },
     {

@@ -27,6 +27,7 @@ ServerEvents.recipes(event => {
         event.recipes.modern_industrialization.assembler(32, 200)
         .itemIn('mi_ae_addon:me_stocking_item_input_hatch')
         .itemIn('mi_ae_addon:me_stocking_fluid_input_hatch')
+        .itemIn('mi_ae_addon:me_stocking_chemical_input_hatch')
         .itemIn('16x ae2:engineering_processor')
         .itemIn('extendedae:mod_storage_bus')
         .itemOut('mi_ae_addon:me_stocking_output_input_assembly');
@@ -42,6 +43,31 @@ ServerEvents.recipes(event => {
         .itemIn('extendedae:oversize_interface')
         .itemIn('8x ae2:engineering_processor')
         .itemOut('mi_ae_addon:me_stocking_chemical_input_hatch');
+        event.recipes.modern_industrialization.assembler(256, 100)
+        .itemIn('modern_industrialization:advanced_machine_hull')
+        .itemIn('64x chicken_roost:roost')
+        .itemIn('64x occultism:otherworld_log')
+        .itemIn('8x modern_industrialization:electronic_circuit')
+        .fluidIn('500x modern_industrialization:soldering_alloy')
+        .fluidIn('500x occultengineering:spirit_solution')
+        .itemOut('ccb_core:roost');
+        event.recipes.modern_industrialization.assembler(256, 100)
+        .itemIn('modern_industrialization:advanced_machine_hull')
+        .itemIn('64x chicken_roost:trainer')
+        .itemIn('64x occultism:otherstone')
+        .itemIn('8x modern_industrialization:electronic_circuit')
+        .fluidIn('500x modern_industrialization:soldering_alloy')
+        .fluidIn('500x occultengineering:spirit_solution')
+        .itemOut('ccb_core:trainer');
+        event.recipes.modern_industrialization.assembler(256, 100)
+        .itemIn('modern_industrialization:highly_advanced_machine_hull')
+        .itemIn('64x fluidsneo:extended_fluid_cow_jar')
+        .itemIn('64x fluidsneo:capacity_upgrade_3')
+        .itemIn('64x fluidsneo:capacity_upgrade_3')
+        .itemIn('64x fluidsneo:auto_output_upgrade')
+        .fluidIn('8000x jdte:life_fluid_source')
+        .fluidIn('8000x justdirethings:time_fluid_source')
+        .itemOut('ccb:feijibei');
 
         event.shaped('modern_mekanistics:bronze_chemical_input_hatch', [
             'U',

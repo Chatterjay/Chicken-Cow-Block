@@ -528,7 +528,7 @@
 	#Particle curve requirement factor
 	# Default: 2.5
 	# Range: 0.0 ~ 100.0
-	bendFactor = 80.0
+	bendFactor = 60.0
 	#Base RF cost per particle acceleration step
 	# Default: 10
 	# Range: > 0

@@ -91,6 +91,33 @@ ServerEvents.recipes(event => {
         B: 'enderio:drain',
         C:'modern_industrialization:steel_tank'
     });
+    event.shaped('modern_industrialization:time_crystal_roost_speed_hatch', [
+        "CAC",
+        "ABA",
+        "CAC"
+    ], {
+        A: 'extendedae_plus:entity_speed_card[custom_data={"EAS:mult":4b}]',
+        B: 'justdirethings:time_crystal_block',
+        C:'neoecoae:computation_parallel_core_l4'
+    });
+    event.shaped('modern_industrialization:ultimate_roost_speed_hatch', [
+        "CAC",
+        "ABA",
+        "CAC"
+    ], {
+        A: 'extendedae_plus:entity_speed_card[custom_data={"EAS:mult":8b}]',
+        B: 'oritech:machine_core_7',
+        C:'modern_industrialization:time_crystal_roost_speed_hatch'
+    });
+    event.shaped('modern_industrialization:feijibei_roost_speed_hatch', [
+        "CAC",
+        "ABA",
+        "CAC"
+    ], {
+        A:'extendedae_plus:entity_speed_card[custom_data={"EAS:mult":16b}]',
+        B: 'ccb:feijibei',
+        C:'modern_industrialization:ultimate_roost_speed_hatch'
+    });
     event.custom({
         type: 'extendedcrafting:combination',
         input: {

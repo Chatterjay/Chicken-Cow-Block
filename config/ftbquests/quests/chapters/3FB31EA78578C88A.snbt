@@ -19,6 +19,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 3.5d
 			tasks: [{
 				id: "3A7427A291224174"
 				type: "checkmark"
@@ -117,26 +118,13 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"3D96EECE58AA9A0E"
-				"4C75F5CD51D0E9A1"
-			]
+			dependencies: ["3D96EECE58AA9A0E"]
 			id: "527679334AB5748E"
-			rewards: [
-				{
-					id: "1A114654E1BFEBEB"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "568DC2DAFBFA4E96"
-					item: {
-						count: 1
-						id: "justdirethings:clickert1"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1A114654E1BFEBEB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "315F0159022934AE"
 				item: { count: 1, id: "chicken_roost:chicken_food_tier_1" }
@@ -269,6 +257,7 @@
 			dependencies: [
 				"29DA48258A6B3B9C"
 				"7C9E582343B7777F"
+				"3B610DD48899D762"
 			]
 			icon: {
 				id: "minecraft:cow_spawn_egg"
@@ -295,7 +284,10 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["3CEF5060B9724CC8"]
+			dependencies: [
+				"3CEF5060B9724CC8"
+				"476C0B961AF4227B"
+			]
 			id: "61E6A8844426FA38"
 			rewards: [{
 				id: "166BA0AFE90E427B"
@@ -372,10 +364,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: [
-				"379C02B8386DC58A"
-				"0FE76C0A2BDF3B8B"
-			]
+			dependencies: ["379C02B8386DC58A"]
 			id: "5E7A4A7F790875E4"
 			rewards: [{
 				id: "188AE94A878C4128"
@@ -402,8 +391,8 @@
 				item: { count: 1, id: "mahoutsukai:hammer" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: -2.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["0FE76C0A2BDF3B8B"]
@@ -418,8 +407,8 @@
 				item: { count: 1, id: "chicken_roost:c_gravel" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.0d
+			x: 1.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["7813D234C592E8F9"]
@@ -434,14 +423,14 @@
 				item: { count: 1, id: "chicken_roost:c_sand" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -3.0d
+			x: 6.0d
+			y: -11.0d
 		}
 		{
 			dependencies: [
 				"5E7A4A7F790875E4"
-				"32B38D7A692A0152"
 				"4A037AB4519E6DC7"
+				"32B38D7A692A0152"
 			]
 			id: "43ABC342597E9D59"
 			rewards: [{
@@ -466,11 +455,21 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "4EEBE4A5E16A0686"
-			rewards: [{
-				id: "2B2159FE4EDD6DC7"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "2B2159FE4EDD6DC7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5BEDF286C4B8D007"
+					item: {
+						count: 1
+						id: "create:creative_motor"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					dimension: "minecraft:the_nether"
@@ -509,7 +508,7 @@
 				}
 				{
 					id: "61B7F141854CA5E6"
-					item: { count: 1, id: "ars_caelum:ritual_conjure_island_end_portal" }
+					item: { count: 1, id: "asr:end_portal" }
 					type: "item"
 				}
 			]
@@ -537,14 +536,6 @@
 		}
 		{
 			id: "2DE04164B6E41DF8"
-			rewards: [{
-				id: "358C61FD30CBCA22"
-				item: {
-					count: 1
-					id: "chicken_roost:c_oakwood"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "733B0A5EA167EC49"
 				type: "checkmark"
@@ -553,14 +544,158 @@
 			y: -8.0d
 		}
 		{
+			dependencies: [
+				"21BA422235FF4C7D"
+				"18D965CBA6840024"
+			]
 			id: "4C75F5CD51D0E9A1"
 			tasks: [{
 				id: "5567718AD6B20D65"
 				item: { count: 1, id: "minecraft:egg" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -3.0d
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["18D965CBA6840024"]
+			id: "22D7FCD9B35790DA"
+			rewards: [
+				{
+					id: "0B7FCB4C8C6539DA"
+					item: {
+						count: 1
+						id: "justdirethings:clickert1"
+					}
+					type: "item"
+				}
+				{
+					id: "5D9411A863683707"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "350CEE8EA4FD9606"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:netherite_backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "279D8AC132F05605"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+					}
+					type: "item"
+				}
+				{
+					id: "441479E4B98B5A78"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:crafting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "2DABD4C49BBF6C21"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "apothic_attributes:extra_long_flying"
+							}
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "apotheosis:potion_charm"
+					}
+					type: "item"
+				}
+				{
+					id: "525ED07EEBECDF44"
+					item: {
+						count: 1
+						id: "chicken_roost:feeder"
+					}
+					type: "item"
+				}
+				{
+					id: "208FF18ED3189D1C"
+					item: {
+						count: 1
+						id: "chicken_roost:collector"
+					}
+					type: "item"
+				}
+				{
+					id: "63A3D5F8C668263A"
+					item: {
+						count: 1
+						id: "chicken_roost:c_concrete"
+					}
+					type: "item"
+				}
+				{
+					id: "6CB7B7A31D60DB10"
+					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"apothic_enchanting:natures_blessing": 7
+									"minecraft:fortune": 8
+								}
+							}
+							"minecraft:repair_cost": 3
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "ae2:fluix_hoe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D81AD32BF39BFE9"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7813D234C592E8F9"]
+			id: "476C0B961AF4227B"
+			rewards: [{
+				id: "1B321BE4B21FC578"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "781373B6E521D7A8"
+				item: { count: 1, id: "chicken_roost:c_iron" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["29DA48258A6B3B9C"]
+			id: "3B610DD48899D762"
+			rewards: [{
+				id: "04DC143C1FE00D33"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0BCD786E9E7B6E05"
+				item: { count: 1, id: "chicken_roost:c_string" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
 		}
 	]
 }

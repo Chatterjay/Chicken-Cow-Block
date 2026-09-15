@@ -4,5 +4,8 @@
     "rei_categories.modern_mekanistics.niuniu_brand_cooking_machine" : "Niuniu Brand Cooking Machine",
     "rei_categories.modern_mekanistics.fluid_compressor" : "Fluid Compressor",
     "rei_categories.modern_mekanistics.bigger_ambient_gas_collector" : "Bigger Ambient Gas Collector",
-      "block.modern_industrialization.giga_parallel_control_hatch":"Giga Parallel Control Hatch"
+      "block.modern_industrialization.giga_parallel_control_hatch":"Giga Parallel Control Hatch",
+      "block.modern_industrialization.time_crystal_roost_speed_hatch":"Time Crystal Roost Speed Hatch",
+      "block.modern_industrialization.ultimate_roost_speed_hatch":"Ultimate Roost Speed Hatch",
+      "block.modern_industrialization.feijibei_roost_speed_hatch":"Feijibei Roost Speed Hatch"
 }

@@ -1,5 +1,5 @@
 ServerEvents.recipes(event =>{
-event.shaped('ccb:raw_sandwich',[
+event.shaped('8x ccb:raw_sandwich',[
     "C",
     "B",
     "A"
@@ -8,7 +8,7 @@ event.shaped('ccb:raw_sandwich',[
     B:'chicken_roost:chicken_essence_tier_1',
     C:'minecraft:oak_log',
 })
-event.shaped('ccb:soul_boom',[
+event.shaped('4x ccb:soul_boom',[
     "ABA",
     "BCB",
     "ABA"

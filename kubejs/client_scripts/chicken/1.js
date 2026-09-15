@@ -67,5 +67,6 @@ event.remove ('chicken_roost:c_adamantium')
 event.remove ('chicken_roost:c_demonmetal')
 event.remove ('chicken_roost:c_moonstone')
 event.remove ('chicken_roost:c_manainfused')
+event.remove('ars_caelum:ritual_conjure_island_end_portal')
 })
 
