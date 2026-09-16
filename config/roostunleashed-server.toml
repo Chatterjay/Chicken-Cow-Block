@@ -1,6 +1,22 @@
 #extraTierMaxLevels
 extraTierMaxLevels = [128]
 #extraTierXPs
-extraTierXPs = [55000]
+extraTierXPs = [50000]
 #extraTierFoodXps
-extraTierFoodXps = [50000000]
+extraTierFoodXps = [5000]
+#金库每个 (鸡种类, 等级, XP) 桶的容量上限。
+# Default: 2147483647
+# Range: > 1
+vaultCapacityPerBucket = 2147483647
+#金库允许的最大桶数。达到上限后新的 (鸡种类, 等级, XP) 组合会被拒绝入库，原物品退回给调用方（不会丢失）。
+# Default: 4096
+# Range: 16 ~ 65536
+vaultMaxBuckets = 4096
+#带额外组件（如 AGE）的鸡的最大存放只数，逐只原样保存。超过后拒绝入库。
+# Default: 4096
+# Range: 0 ~ 65536
+vaultMaxExotic = 4096
+#是否接受鸡种子（Chicken Seed）入库。
+vaultAcceptSeeds = true
+#是否接受鸡魂等 RoostUltimateItem 入库。
+vaultAcceptSouls = true
