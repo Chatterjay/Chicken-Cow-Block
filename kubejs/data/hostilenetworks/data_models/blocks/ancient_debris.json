@@ -6,7 +6,7 @@
     ],
     "type": "hostilenetworks:block_data_model",
     "block": "minecraft:ancient_debris",
-    "variants": [],
+    "variants": [ "minecraft:netherite_block" ],
     "name_color": "#6B3E36",
     "display": {
         "scale": 3

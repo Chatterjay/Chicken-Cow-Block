@@ -17,5 +17,5 @@
     "data_energistics:data_corrosion_liquid",
     "ae2:mysterious_cube"
   ],
-  "weights": [150,80,70,60,60,50,40,30,20,10,20,1]
+  "weights": [150,70,60,60,60,10,8,7,1,10,20,1]
 }

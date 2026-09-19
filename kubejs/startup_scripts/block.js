@@ -28,4 +28,10 @@ StartupEvents.registry("block", event => {
         .hardness(0.8)
         .resistance(0.8)
         .tagBlock("minecraft:mineable/axe");
+
+    event.create("chicken_roost:chicken_vault")
+        .soundType("metal")
+        .hardness(1.5)
+        .resistance(1.5)
+        .tagBlock("minecraft:mineable/pickaxe");
 });

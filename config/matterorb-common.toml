@@ -2,11 +2,11 @@
 enabled = true
 #Capacity/performance preset. EMERGENCY is the default for maximum accident protection. Edited capacity/performance values switch the effective preset to CUSTOM.
 #Allowed Values: CUSTOM, SAFE, BALANCED, PERFORMANCE, EMERGENCY
-preset = "EMERGENCY"
+preset = "CUSTOM"
 #A new Matter Orb is created when at least this many loose item entities are found in range.
 # Default: 48
 # Range: 2 ~ 512
-triggerItemEntities = 48
+triggerItemEntities = 512
 #Loose unstackable item entities needed to form a Temporary Matter Orb. 0 follows triggerItemEntities.
 # Default: 0
 # Range: 0 ~ 512
@@ -40,3 +40,7 @@ playerDropCaptureMode = "THRESHOLD"
 capturePlayerDeathDrops = true
 #Prints detailed Matter Orb diagnostics to the log.
 debug = false
+#Blocks above the ground below a newly created Matter Orb that it floats up to. The orb rises straight through blocks until it reaches an air slot, then hovers there without gravity or collision. 0 keeps orbs at their spawn position.
+# Default: 4
+# Range: 0 ~ 256
+orbFloatHeight = 4

@@ -13,7 +13,7 @@ ServerEvents.recipes(event =>{
     ])
     event.shaped('6x minecraft:deepslate', [
         '  A',
-        ' A ',
+        'AA ',
         'A  '
     ], {
         A: 'chicken_roost:stone_essence'

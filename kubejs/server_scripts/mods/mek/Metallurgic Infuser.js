@@ -20,4 +20,16 @@ event.recipes.mekanismMetallurgicInfusing(
     "100x starbunclemania:source_gas",
     false
   )
+  event.recipes.mekanismMetallurgicInfusing(
+    '2x avaritia:ultimate_stew',
+    'avaritia:ultimate_stew',
+    '1000x mekanism_extras:spectrum',
+    false
+  )
+  event.recipes.mekanismMetallurgicInfusing(
+    '2x avaritia:cosmic_meatballs',
+    'avaritia:cosmic_meatballs',
+    '1000x mekanism_extras:spectrum',
+    false
+  )
 })

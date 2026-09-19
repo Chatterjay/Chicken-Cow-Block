@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [{ "condition": "minecraft:survives_explosion" }],
+      "entries": [{ "type": "minecraft:item", "name": "mi_tweaks:hongmeng_chicken_eye" }],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mi_tweaks:blocks/hongmeng_chicken_eye"
+}

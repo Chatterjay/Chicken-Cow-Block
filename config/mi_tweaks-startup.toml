@@ -76,7 +76,7 @@ machine_namespace = "mi_tweaks"
 
 [tweaks]
 	#Whether wrenches should render multiblock shapes in world. If false, then only blueprints will be able to render multiblock shapes in world
-	wrenches_render_multiblock_shapes = false
+	wrenches_render_multiblock_shapes = true
 	#Whether item fuels should be blocked in multiblock boilers
 	disable_item_fuel_in_multiblock_boilers = false
 	#Whether temperature and fuel consumption should be locked when a redstone module locks a multiblock boiler, rather than losing fuel and heat

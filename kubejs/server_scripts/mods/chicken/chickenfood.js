@@ -1,5 +1,22 @@
 ServerEvents.tags("item",event => {
     event.add('chicken_roost:chicken_food_tier_0','minecraft:wheat_seeds')
+    event.add('ftb:chicken_stick','chicken_roost:chicken_stick')
+    event.add('ccb:meteorite_crystal_blocks', [
+        'ae2:quartz_block',
+        'ae2:fluix_block',
+        'ae2cs:meteor_crystal_block',
+        'ae2cs:ender_quartz_block',
+        'ae2cs:link_crystal_block',
+        'ae2cs:redstone_crystal_block',
+        'extendedae:entro_block',
+        'ae2cs:crystal_grid_block',
+        'ae2cs:resonating_crystal_block',
+        'neoecoae:energized_crystal_block',
+        'neoecoae:energized_fluix_crystal_block',
+        'ae2cs:quantum_crystal_block',
+        'ae2lt:overload_crystal_block',
+        'extendedae_plus:lattra_crystal_block'
+    ])
 })
 ServerEvents.tags("item",event => {
     event.add('c:seeds/tier0','minecraft:wheat_seeds')

@@ -170,7 +170,8 @@ const chickenRecipes = [
        { output: "c_beetroot", item: "minecraft:beetroot" },
        { output: "c_water", item: "chicken_roost:water_egg" },
        { output: "c_lava", item: "chicken_roost:lava_egg" },
-       { output: "c_pumpkin", item: "minecraft:pumpkin" }
+       { output: "c_pumpkin", item: "minecraft:pumpkin" },
+       { output: "c_kelp", item: "minecraft:kelp" }
      ]
   },
   {
@@ -274,6 +275,12 @@ const chickenRecipes = [
         parent_2: "c_brown",
         item: "minecraft:rotten_flesh"
       },
+      {
+        output: "c_aluminium",
+        parent_1: "c_iron",
+        parent_2: "c_lapis",
+        item: "modern_industrialization:aluminum_ingot"
+      },
      ]
   },
   {
@@ -282,13 +289,13 @@ const chickenRecipes = [
     breed: false,
      chickens: [
     { output: "c_sponge", item: "minecraft:sponge" },
-    { output: "c_aluminium", item: 'modern_industrialization:bauxite_ore'},
     { output: "c_invar", item: "modern_industrialization:invar_ingot"},
     { output: "c_graphite", item: "immersiveengineering:dust_hop_graphite"},
     { output: "c_steel", item: "immersiveengineering:ingot_steel"},
     { output: "c_restoniacrystal", item: "actuallyadditions:restonia_crystal"},
     { output: "c_paliscrystal", item: "actuallyadditions:palis_crystal"},
-    { output: "c_conductiveiron", item: "enderio:conductive_alloy_ingot"},     
+    { output: "c_conductiveiron", item: "enderio:conductive_alloy_ingot"},
+    { output: "c_zinc", item: "create:zinc_ingot" },
    ]
  },
   {
@@ -353,7 +360,6 @@ const chickenRecipes = [
      chickens: [
     { output: "c_slime", item: "minecraft:slime_ball" },
     { output: "c_biofuel", item: "mekanism:bio_fuel" },
-    { output: "c_zinc", item: "create:zinc_ingot" },
     { output: "c_silicon", item: "ae2:silicon" },
     { output: "c_electrum", item: "immersiveengineering:ingot_electrum" },
     { output: "c_soularium", item: "enderio:soularium_ingot" },
@@ -437,36 +443,36 @@ const chickenRecipes = [
     { output: 'c_entrocrystal', item: 'extendedae:entro_crystal'},
     { output: 'c_blazegold', item: 'justdirethings:blazegold_ingot'},
     { output: 'c_cobald', item: 'smfcore:raw_cobalt'},
-    { output: 'c_carnallite', item: 'smfcore:carnallite_ore'}
-   ]
-  },
-  {
-  tier: 7,
-    time: 180,
-    breed: false,
-     chickens: [
-    { output: 'c_stainsteel', item: 'modern_industrialization:stainless_steel_ingot'},
-    { output: 'c_diamantinecrystal', item: 'actuallyadditions:diamatine_crystal'},
+    { output: 'c_carnallite', item: 'smfcore:carnallite_ore'},
+    { output: 'c_overloadcrystal', item:'ae2lt:overload_crystal'},
+     { output: 'c_datacrystal', item: 'data_energistics:data_crystal'},
+     { output: 'c_stainsteel', item: 'modern_industrialization:stainless_steel_ingot'}
+    ]
+   },
+   {
+   tier: 7,
+     time: 180,
+     breed: false,
+      chickens: [
+     { output: 'c_diamantinecrystal', item: 'actuallyadditions:diamatine_crystal'},
     { output: 'c_allthemodium', item: 'allthemodium:allthemodium_ingot'},
     { output: 'c_vibranium', item: 'allthemodium:vibranium_ingot'},
     { output: 'c_draconium', item: 'draconicevolution:draconium_ingot'},
     { output: 'c_quantumalloy', item: 'advanced_ae:quantum_alloy'},
-    { output: 'c_overloadcrystal', item:'ae2lt:overload_crystal'},
     { output: 'c_celestigem', item: 'justdirethings:celestigem'},
-     { output: 'c_adamantine', item: 'smfcore:adamantine_debris'},
-     { output: 'c_datacrystal', item: 'data_energistics:data_crystal'}
-   ]
-  },
-  {
-  tier: 8,
-    time: 200,
-    breed: false,
-     chickens: [
-    { output: 'c_titanium', item: 'modern_industrialization:raw_titanium'},
-    { output: 'c_iridium', item: 'modern_industrialization:iridium_ingot'},
-    { output: 'c_netherstar', item: 'minecraft:nether_star'},
-    { output: 'c_monazite', item: 'modern_industrialization:monazite_dust'},
-    { output: 'c_eclipsealloy', item:'justdirethings:eclipsealloy_ingot'}
+      { output: 'c_adamantine', item: 'smfcore:adamantine_debris'},
+     { output: 'c_titanium', item: 'modern_industrialization:raw_titanium'},
+     { output: 'c_monazite', item: 'modern_industrialization:monazite_dust'}
+    ]
+   },
+   {
+   tier: 8,
+     time: 200,
+     breed: false,
+      chickens: [
+     { output: 'c_iridium', item: 'modern_industrialization:iridium_ingot'},
+     { output: 'c_netherstar', item: 'minecraft:nether_star'},
+     { output: 'c_eclipsealloy', item:'justdirethings:eclipsealloy_ingot'}
    ]
   },
   {

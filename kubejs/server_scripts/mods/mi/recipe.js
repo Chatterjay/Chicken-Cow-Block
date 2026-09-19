@@ -31,4 +31,20 @@ event.shaped('modern_industrialization:giga_parallel_control_hatch',[
     D:'ae2lt:lightning_collapse_matrix',
     E:'extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:neutron_gear"]'
 })
+event.shaped('modern_industrialization:milk_chicken_steak_ex_item_fluid_input_hatch',[
+    "ABA",
+    " C "
+],{
+    A:'ccb:cow_bucket',
+    B:'data_energistics:data_framework',
+    C:'minecraft:hopper'
+})
+event.shaped('modern_industrialization:milk_chicken_steak_ex_item_fluid_output_hatch',[
+    " C ",
+    "ABA"
+],{
+    A:'ccb:cow_bucket',
+    B:'data_energistics:data_framework',
+    C:'minecraft:hopper'
+})
 });

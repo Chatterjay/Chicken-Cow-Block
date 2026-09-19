@@ -9,7 +9,9 @@
     "allow_list": true,
     "elements": [
       "minecraft:end_spike",
-      "minecraft:end_gateway_return"
+      "minecraft:end_gateway_return",
+      "minecraft:end_island",
+      "minecraft:chorus_plant"
     ]
   },
   
@@ -21,7 +23,8 @@
     "allow_list": true,
     "elements": [
       "minecraft:fortress",
-      "minecraft:bastion_remnant"
+      "minecraft:bastion_remnant",
+      "minecraft:end_city"
     ]
   }
 }

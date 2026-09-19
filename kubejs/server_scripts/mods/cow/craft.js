@@ -19,7 +19,7 @@ event.shaped('fluidsneo:yield_upgrade_1', [
     'CCC'
 ], {
     A: 'fluidsneo:extended_fluid_cow_jar',
-    B: 'modern_industrialization:aluminum_tank',
+    B: 'modern_industrialization:bronze_tank',
     C: 'ccb:cow_bucket'
 })
 event.shaped('fluidsneo:yield_upgrade_2', [
@@ -28,7 +28,7 @@ event.shaped('fluidsneo:yield_upgrade_2', [
     'CCC'
 ], {
     A:'fluidsneo:yield_upgrade_1',
-    B: 'modern_industrialization:stainless_steel_tank',
+    B: 'modern_industrialization:steel_tank',
     C: 'ccb:cow_bucket'
 })
 event.shaped('fluidsneo:yield_upgrade_3', [
@@ -37,7 +37,7 @@ event.shaped('fluidsneo:yield_upgrade_3', [
     'CCC'
 ], {
     A: 'fluidsneo:yield_upgrade_2',
-    B:'modern_industrialization:titanium_tank',
+    B:'modern_industrialization:aluminum_tank',
     C: 'ccb:cow_bucket'
 })
 event.shaped('fluidsneo:capacity_upgrade_1', [

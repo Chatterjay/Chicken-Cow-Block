@@ -39,10 +39,12 @@
 				id: "136FB2A58B99E7F5"
 				type: "checkmark"
 			}]
-			x: -10.0d
-			y: -12.0d
+			x: -12.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["759F09209F874236"]
+			dependency_requirement: "all_started"
 			icon: {
 				components: {
 					"ftbquests:icon": "ldlib2:textures/gui/icon/color.png"
@@ -578,14 +580,6 @@
 					type: "item"
 				}
 				{
-					id: "350CEE8EA4FD9606"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:netherite_backpack"
-					}
-					type: "item"
-				}
-				{
 					id: "279D8AC132F05605"
 					item: {
 						count: 1
@@ -654,6 +648,67 @@
 						}
 						count: 1
 						id: "ae2:fluix_hoe"
+					}
+					type: "item"
+				}
+				{
+					id: "3E3F923974BE0615"
+					item: {
+						count: 1
+						id: "rainshield:rain_shield"
+					}
+					type: "item"
+				}
+				{
+					id: "487AD4BC672CEEF6"
+					item: {
+						components: {
+							"sophisticatedcore:number_of_inventory_slots": 300
+							"sophisticatedcore:number_of_upgrade_slots": 7
+							"sophisticatedcore:render_info_tag": {
+								upgradeItems: [
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+								]
+							}
+							"sophisticatedcore:storage_uuid": [I;
+								2048115330
+								2067218432
+								-1702188559
+								930791498
+							]
+						}
+						count: 1
+						id: "sophisticatedbackpacks:netherite_backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "639036A8F613E7E8"
+					item: {
+						count: 1
+						id: "industrialization_overdrive:terminal"
+					}
+					type: "item"
+				}
+				{
+					id: "5E5980A9A6959661"
+					item: {
+						count: 1
+						id: "ccb_core:roost_vault"
+					}
+					type: "item"
+				}
+				{
+					id: "0A7095CD0D23C729"
+					item: {
+						count: 1
+						id: "explorerscompass:explorerscompass"
 					}
 					type: "item"
 				}
