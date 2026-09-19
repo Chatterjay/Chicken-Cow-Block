@@ -781,4 +781,8 @@ ServerEvents.recipes(event => {
 
 ServerEvents.tags('block', event => {
     event.add('minecraft:snow_layer_cannot_survive_on', 'draconicevolution:structure_block');
+    event.add('mekanism:cardboard_blacklist', [
+        'ae2:drive',
+        'extendedae:ex_drive'
+    ]);
 });

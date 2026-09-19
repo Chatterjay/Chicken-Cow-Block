@@ -5,20 +5,20 @@ StartupEvents.registry("item", event => {
 
     // ME Infinity Cell
     // 无限熔岩元件
-    event.create('lava_cell', 'custom_infinity_cell')
+    event.create('ccb:lava_cell', 'custom_infinity_cell')
         .texture('ccb:item/lava_cell')
         .fluidType('minecraft:lava')
         .cellModel('ccb:block/drive/lava_cell');
 
     event.create('ccb:time_fluid_cell', 'custom_infinity_cell')
-        .texture('ccb:item/lava_cell')
+        .texture('ccb:item/time_fluid_cell')
         .fluidType('justdirethings:time_fluid_source')
-        .cellModel('ccb:block/drive/lava_cell');
+        .cellModel('ccb:block/drive/time_fluid_cell');
 
     event.create('ccb:npk_fertilizer_cell', 'custom_infinity_cell')
-        .texture('ccb:item/lava_cell')
+        .texture('ccb:item/npk_fertilizer_cell')
         .fluidType('extended_industrialization:npk_fertilizer')
-        .cellModel('ccb:block/drive/lava_cell');
+        .cellModel('ccb:block/drive/npk_fertilizer_cell');
 
     // 运转于世界之基的齿轮 gold/gray
     createTooltipItem("world_gear");

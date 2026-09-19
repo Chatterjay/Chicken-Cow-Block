@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         D: 'fluidsneo:fluid_cow_spawn_egg[fluidsneo:fluid_type="minecraft:water"]',
         E: 'ae2:quartz_glass'
     })
-    event.shaped('kubejs:lava_cell', [
+    event.shaped('ccb:lava_cell', [
         'EDE',
         'CBC',
         'AAA'

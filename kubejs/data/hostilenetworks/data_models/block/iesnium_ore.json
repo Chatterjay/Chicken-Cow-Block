@@ -7,6 +7,7 @@
   "type": "hostilenetworks:block_data_model",
   "block": "occultism:iesnium_ore",
   "variants": [
+    "occultism:iesnium_ore_natural",
     "occultism:iesnium_block"
   ],
   "name_color": "#6CA6B2",

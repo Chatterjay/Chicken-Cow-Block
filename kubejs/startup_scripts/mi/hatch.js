@@ -11,4 +11,6 @@ MIMachineEvents.registerHatches(event => {
     event.roostSpeed("Time Crystal", "time_crystal", "time_crystal_casing", 4.0);
     event.roostSpeed("Ultimate", "ultimate", "ultimate_core_casing", 8.0);
     event.roostSpeed("Feijibei", "feijibei", "feijibei_casing", 16.0);
+
+    event.itemFluidExtended("Milk Chicken Steak", "milk_chicken_steak_ex", "data_casing", 64, 3, 3);
 });

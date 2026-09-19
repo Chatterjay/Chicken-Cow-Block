@@ -15,6 +15,14 @@ ServerEvents.recipes(event => {
     D:'minecraft:copper_ingot',
     E:'immersiveengineering:slag_glass'
 })
+    event.shaped('ccb_core:kudikan_fumo', [
+        'AAA',
+        'ABA',
+        'AAA'
+    ], {
+        A: 'minecraft:pink_petals',
+        B: 'minecraft:brown_wool'
+    });
     event.shapeless('ccb:broken_world_fragment', [
         'ccb:world_gear',
         'ccb:fallen_star_glow',

@@ -1,26 +1,4 @@
 ServerEvents.recipes(event => {
-    event.custom(
-        {
-            "type": "modern_industrialization:electrolyzer",
-            "eu": 32,
-            "duration": 2400,
-            "item_inputs": [
-                {
-                    "item": "chicken_roost:c_lapis",
-                    "amount": 6,
-                    "probability": 1
-                }
-            ],
-            "item_outputs": [
-                {
-                    "item": "chicken_roost:c_aluminium",
-                    "amount": 1
-                }
-            ]
-        }
-    );
-});
-ServerEvents.recipes(event => {
     event.remove({id: 'modern_industrialization:materials/electrolyzer/uu_matter'});
     event.remove({id: 'modern_industrialization:materials/electrolyzer/lapis'});
     event.remove({id: 'modern_industrialization:materials/electrolyzer/beryllium_dust'});

@@ -13,9 +13,9 @@ event.shaped('projecte:philosophers_stone',[
     "BCB",
     "ABA"
 ],{
-    A:'modern_industrialization:ruby_dust',
-    B:'data_energistics:data_dust',
-    C:'minecraft:diamond'
+    A:'minecraft:diamond',
+    B:'cognition:cognitive_flux',
+    C:'alltheores:signalum_dust'
 })
 });
 ServerEvents.recipes(event => {

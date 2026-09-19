@@ -8,4 +8,7 @@ ServerEvents.recipes(event =>{
     event.remove({id:'fluidsneo:extended_fluid_cow_jar'})
     event.remove({output:'ars_caelum:ritual_conjure_island_end_portal'})
     event.remove({output:'allthemodium:teleport_pad'})
+    event.remove({output:'mekmm:replicator'})
+    event.remove({output:'mekmm:fluid_replicator'})
+    event.remove({output:'mekmm:chemical_replicator'})
 })

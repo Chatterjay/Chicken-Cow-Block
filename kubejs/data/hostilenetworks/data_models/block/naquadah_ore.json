@@ -11,7 +11,9 @@
     "type": "hostilenetworks:block_data_model",
     "block": "mekanism_extras:naquadah_ore",
     "variants": [
-        "mekanism_extras:end_naquadah_ore"
+        "mekanism_extras:end_naquadah_ore",
+        "mekanism_extras:block_raw_naquadah",
+        "mekanism_extras:block_naquadah"
     ],
     "name_color": "#8A7DFF",
     "display": {

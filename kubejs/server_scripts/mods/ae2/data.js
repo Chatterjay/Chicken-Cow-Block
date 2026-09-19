@@ -4,8 +4,6 @@ ServerEvents.recipes(event => {
         inputs: {
             items: [
                 { item: 'ae2:wireless_terminal' },
-                { item: 'data_energistics:data_mimetic_field' },
-                { item: 'data_energistics:data_extractor' },
                 { item: 'data_energistics:data_dust', count: 8 },
                 { item: 'farmersdelight:rice', count: 2 },
                 { item: 'farmersdelight:onion', count: 2 },
@@ -18,7 +16,7 @@ ServerEvents.recipes(event => {
             resource: {
                 key_type: 'data_energistics:digitalization',
                 resource: 'data_energistics:data_flow',
-                amount: 2400
+                amount: 100
             }
         },
         outputs: {

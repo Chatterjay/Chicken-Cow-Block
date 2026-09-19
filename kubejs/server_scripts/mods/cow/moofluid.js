@@ -114,11 +114,10 @@ const transmuteCow = function (
 
     cow.discard();
 
-    // Spawn baby cow after the boom resolves
     event.level.server.scheduleInTicks(2, (_) => {
       let fluidCow = event.level.createEntity("moofluids:fluid_cow");
       fluidCow.setPos(ex, ey, ez);
-      fluidCow.mergeNbt({ FluidRegistryName: targetFluidId, Age: -6000 });
+      fluidCow.mergeNbt({ FluidRegistryName: targetFluidId, Age: 0 });
       fluidCow.spawn();
 
       // Particles + SFX

@@ -13,26 +13,60 @@
 	images: [ ]
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "07D52DB5305BFE61"
-		rewards: [{
-			id: "3DAE8C3ABF8D9495"
-			type: "xp"
-			xp: 100
-		}]
-		tasks: [
-			{
-				id: "000A85542CEEE6E8"
-				item: { components: { "fluidsneo:fluid_type": "sauce:source_fluid" }, count: 1, id: "fluidsneo:fluid_cow_spawn_egg" }
-				type: "item"
-			}
-			{
-				id: "0AAF19626CE0DE06"
-				item: { count: 1, id: "starbunclemania:fluid_sourcelink" }
-				type: "item"
-			}
-		]
-		x: 0.0d
-		y: -1.5d
-	}]
+	quests: [
+		{
+			id: "07D52DB5305BFE61"
+			rewards: [{
+				id: "3DAE8C3ABF8D9495"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "000A85542CEEE6E8"
+					item: { components: { "fluidsneo:fluid_type": "sauce:source_fluid" }, count: 1, id: "fluidsneo:fluid_cow_spawn_egg" }
+					type: "item"
+				}
+				{
+					id: "0AAF19626CE0DE06"
+					item: { count: 1, id: "starbunclemania:fluid_sourcelink" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "722E094BD3E6C400"
+			tasks: [
+				{
+					id: "595410D769D0119E"
+					item: { count: 1, id: "ars_nouveau:bastion_pod" }
+					type: "item"
+				}
+				{
+					id: "1AC61D8C7F9B1C25"
+					item: { count: 1, id: "ars_nouveau:bombegranate_pod" }
+					type: "item"
+				}
+				{
+					id: "4F449909D7FAD4CD"
+					item: { count: 1, id: "ars_nouveau:frostaya_pod" }
+					type: "item"
+				}
+				{
+					id: "38EB4B1C3423C12E"
+					item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
+					type: "item"
+				}
+				{
+					id: "4A301E3323483C88"
+					item: { count: 1, id: "ars_elemental:flashpine_pod" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.0d
+		}
+	]
 }

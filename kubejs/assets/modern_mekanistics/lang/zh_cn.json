@@ -1,0 +1,22 @@
+{
+  "block.modern_mekanistics.bronze_chemical_input_hatch": "青铜化学品输入仓",
+  "block.modern_mekanistics.bronze_chemical_output_hatch": "青铜化学品输出仓",
+  "block.modern_mekanistics.steel_chemical_input_hatch": "钢制化学品输入仓",
+  "block.modern_mekanistics.steel_chemical_output_hatch": "钢制化学品输出仓",
+  "block.modern_mekanistics.advanced_chemical_input_hatch": "高级化学品输入仓",
+  "block.modern_mekanistics.advanced_chemical_output_hatch": "高级化学品输出仓",
+  "block.modern_mekanistics.turbo_chemical_input_hatch": "涡轮化学品输入仓",
+  "block.modern_mekanistics.turbo_chemical_output_hatch": "涡轮化学品输出仓",
+  "block.modern_mekanistics.highly_advanced_chemical_input_hatch": "超高级化学品输入仓",
+  "block.modern_mekanistics.highly_advanced_chemical_output_hatch": "超高级化学品输出仓",
+  "text.modern_mekanistics.chemical_input_hatch": "化学品输入仓",
+  "text.modern_mekanistics.chemical_output_hatch": "化学品输出仓",
+  "text.modern_mekanistics.chemical": "化学品",
+  "text.modern_mekanistics.chemical_input": "化学品输入，左键放入",
+  "text.modern_mekanistics.chemical_output": "化学品输出，左键取出",
+  "text.modern_mekanistics.chemical_io": "化学品输入/输出，左键放入或取出",
+  "text.modern_mekanistics.chemical_auto_extract_off": "已关闭化学品自动输出",
+  "text.modern_mekanistics.chemical_auto_extract_on": "已开启化学品自动输出",
+  "text.modern_mekanistics.chemical_auto_insert_off": "已关闭化学品自动输入",
+  "text.modern_mekanistics.chemical_auto_insert_on": "已开启化学品自动输入"
+}

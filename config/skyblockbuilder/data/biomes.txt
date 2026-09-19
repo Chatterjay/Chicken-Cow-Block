@@ -15,6 +15,7 @@ ars_elemental:flourishing_forest
 ars_elemental:vexing_caves
 ars_nouveau:archwood_forest
 ars_nouveau:jar
+ccb:chicken_void
 compactmachines:machine
 data_energistics:meteorite_cluster
 integrateddynamics:meneglin

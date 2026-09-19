@@ -146,7 +146,7 @@
 			id: "7EDEE806878A164F"
 			rewards: [
 				{
-					count: 64
+					count: 256
 					id: "7DEEC00595E4AF5C"
 					item: {
 						count: 1
@@ -155,7 +155,7 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 256
 					id: "5DD514B100031065"
 					item: {
 						count: 1
@@ -164,7 +164,7 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 256
 					id: "1FAB12C4F062F4E1"
 					item: {
 						count: 1
@@ -173,7 +173,7 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 256
 					id: "5FD266BEAABE11A8"
 					item: {
 						count: 1
@@ -199,6 +199,24 @@
 			}]
 			x: -5.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["7EDEE806878A164F"]
+			id: "75D0A4E76EB2131E"
+			rewards: [{
+				id: "67190FED7F242145"
+				item: {
+					count: 1
+					id: "mekanism:digital_miner"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A78979B808FBD39"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 6.0d
 		}
 	]
 }
