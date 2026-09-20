@@ -45,5 +45,7 @@
     "item.chicken_roost.c_concrete": "混凝土鸡",
     "entity.chicken_roost.c_concrete": "混凝土鸡",
     "item.chicken_roost.c_kelp": "海带鸡",
-    "entity.chicken_roost.c_kelp": "海带鸡"
+    "entity.chicken_roost.c_kelp": "海带鸡",
+    "item.chicken_roost.c_electric": "电鸡",
+    "entity.chicken_roost.c_electric": "电鸡"
 }

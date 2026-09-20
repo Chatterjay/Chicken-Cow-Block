@@ -279,7 +279,7 @@ const chickenRecipes = [
         output: "c_aluminium",
         parent_1: "c_iron",
         parent_2: "c_lapis",
-        item: "modern_industrialization:aluminum_ingot"
+        item: 'immersiveengineering:ingot_aluminum'
       },
      ]
   },

@@ -38,6 +38,13 @@ RecipeViewerEvents.addInformation("item", event => {
     event.add(['chicken_roost:c_gravel','chicken_roost:c_sand','chicken_roost:c_tnt','mahoutsukai:hammer'], [
         "想要获得这几只鸡，请使用魔法使模组的锤击杀对应的鸡。"
     ]);
+    event.add('ccb:unique_meat', [
+        "当你受到mek模组激光的伤害时，你将获得它。"
+    ]);
+      event.add('chicken_roost:c_electric', [
+        "若想获得它，你必须使用自然闪电。"
+    ]);
+
 
     global.COW_TRANSMUTE_RULES.forEach(rule => {
         const {item, fluid} = rule;

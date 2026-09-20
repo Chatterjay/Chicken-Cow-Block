@@ -6,7 +6,7 @@ ModernMekMachineEvents.registerChemicalRecipeTypes(event => {
         .withChemicalOutputs()
 })
 ModernMekMachineEvents.registerChemicalMachines(event => {
-  const hatch = event.hatchOf("item_input", "chemical_output", "energy_input");
+  const hatch = event.hatchOf("item_input", "chemical_output", "item_fluid_chemical_input", "item_fluid_chemical_output", "energy_input");
   const shape = event.layeredShape("plastic_casing", [
     [" aaa ", " cdc ", " dbd ", "bbbbb"],
     ["accca", "ceeec", "dfffd", "bgggb"],

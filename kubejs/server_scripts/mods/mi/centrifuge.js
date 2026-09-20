@@ -13,4 +13,8 @@ ServerEvents.recipes(event => {
         .itemIn('8x fluidsneo:fluid_cow_spawn_egg[fluidsneo:fluid_type="minecraft:water"]')
         .itemOut('fluidsneo:fluid_cow_spawn_egg[fluidsneo:fluid_type="modern_industrialization:deuterium"]')
         .itemOut('fluidsneo:fluid_cow_spawn_egg[fluidsneo:fluid_type="modern_industrialization:tritium"]')
+    event.recipes.modern_industrialization.centrifuge(32, 600)
+        .itemIn('9x modern_industrialization:uranium_238_dust')
+        .itemOut('2x modern_industrialization:uranium_235_dust')
+        .fluidOut('100x modern_industrialization:helium')
 });

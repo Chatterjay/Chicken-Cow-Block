@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [{ "condition": "minecraft:survives_explosion" }],
+      "entries": [{ "type": "minecraft:item", "name": "modern_industrialization:ultimate_roost_speed_hatch" }],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "modern_industrialization:blocks/ultimate_roost_speed_hatch"
+}

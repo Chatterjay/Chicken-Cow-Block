@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [{ "condition": "minecraft:survives_explosion" }],
+      "entries": [{ "type": "minecraft:item", "name": "modern_mekanistics:milk_chicken_steak_ex_item_fluid_chemical_output_hatch" }],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "modern_mekanistics:blocks/milk_chicken_steak_ex_item_fluid_chemical_output_hatch"
+}

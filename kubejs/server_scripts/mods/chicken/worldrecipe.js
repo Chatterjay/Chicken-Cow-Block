@@ -25,6 +25,32 @@ PlayerEvents.tick(event => {
 });
 
 ServerEvents.recipes(event => {
+    event.custom({
+        type: 'lychee:lightning_channeling',
+        item_in: [
+            { item: 'chicken_roost:c_vanilla' }
+        ],
+        contextual: [
+            {
+                type: 'or',
+                contextual: [
+                    {
+                        type: 'execute',
+                        command: 'execute if data entity @s NeoForgeData."ae2lt.natural_weather_lightning"'
+                    },
+                    {
+                        type: 'execute',
+                        command: 'execute if data entity @s ForgeData."ae2lt.natural_weather_lightning"'
+                    }
+                ]
+            }
+        ],
+        max_repeats: 1,
+        post: [
+            { type: 'drop_item', id: 'chicken_roost:c_electric' }
+        ]
+    }).id('ccb:lightning_channeling/electric_chicken')
+
     // 石英鸡
     event.recipes.lychee.block_crushing(
         BlockPredicateWrapper.ANVIL,

@@ -8,7 +8,7 @@ ModernMekMachineEvents.registerChemicalRecipeTypes(event => {
 })
 
   ModernMekMachineEvents.registerChemicalMachines(event => {
-  const hatch = event.hatchOf("item_input", "item_output", "chemical_input", "energy_input");
+  const hatch = event.hatchOf("item_input", "item_output", "chemical_input", "item_fluid_chemical_input", "item_fluid_chemical_output", "energy_input");
   const shape = event.layeredShape("white_casing", [
     ["aaaaaaaaaaaaaaaa", "abbbbbbbbbbbbbba", "aaaaaaaaaaaaaaaa", "cddddddddddddddc", "cddddddddddddddc", "cddddddddddddddc", "aaaaaaaaaaaaaaaa", "aeeeeeeeeeeeeeea", "aaaaaaaaaaaaaaaa", "cddddddddddddddc", "cddddddddddddddc", "cddddddddddddddc", "bbbbbbbbbbbbbbbb", "bffffffffffffffb", "bggggggggggggggb", "hhhhhhhhhhhhhhhh"],
     ["aiiiiiiiiiiiiiia", "b              b", "a              a", "d              d", "d              d", "d              d", "a              a", "ejjjjjjjjjjjjjje", "a              a", "d              d", "d              d", "d              d", "b              b", "f              f", "g              g", "hggggggggggggggh"],

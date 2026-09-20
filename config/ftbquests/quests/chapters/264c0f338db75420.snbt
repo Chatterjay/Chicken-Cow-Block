@@ -590,9 +590,10 @@
 			y: -20.667346938775502d
 		}
 		{
+			click_action: "none:"
 			height: 5.0d
 			id: "6120FA794F62D65D"
-			image: "ftb:textures/quests/titles_and_logos/milogo.png"
+			image: "modern_industrialization:block/casings/superconductor/bottom"
 			rotation: 0.0d
 			width: 5.0d
 			x: -9.0d
@@ -5845,6 +5846,68 @@
 			}]
 			x: 1.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["51F2FC13FA7C3A89"]
+			id: "6B396586BA3C5845"
+			rewards: [{
+				id: "5CA49D2181DE379F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6452F967D06E2B29"
+				item: { count: 1, id: "industrialization_overdrive:terminal" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["51F2FC13FA7C3A89"]
+			id: "25E7019FFE13DA2C"
+			tasks: [
+				{
+					id: "1D2B534E8C1AB515"
+					item: { count: 1, id: "modern_mekanistics:milk_chicken_steak_ex_item_fluid_chemical_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "7631CCC45BC01A26"
+					item: { count: 1, id: "modern_mekanistics:milk_chicken_steak_ex_item_fluid_chemical_output_hatch" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["51F2FC13FA7C3A89"]
+			id: "726B5A2C7ECC1147"
+			tasks: [
+				{
+					id: "2D900371F92C8778"
+					item: { count: 1, id: "ccb_core:daipaibulaotie_fumo" }
+					type: "item"
+				}
+				{
+					id: "6A1B75B2DF4820E7"
+					item: { count: 1, id: "ccb_core:kudikan_fumo" }
+					type: "item"
+				}
+				{
+					id: "77CEBB5D02C59752"
+					item: { count: 1, id: "data_energistics:fish_dan_" }
+					type: "item"
+				}
+				{
+					id: "42564C0BD0F2702E"
+					item: { count: 1, id: "data_energistics:qiuyeqaq2024" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -0.5d
 		}
 	]
 }
