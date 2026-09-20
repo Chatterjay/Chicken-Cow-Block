@@ -3,8 +3,8 @@
   "default_overlays": {
     "fluid_auto": "modern_industrialization:block/overlays/fluid_auto",
     "item_auto": "modern_industrialization:block/overlays/item_auto",
-    "output": "modern_industrialization:block/overlays/output_misc",
-    "side": "modern_industrialization:block/machines/hatch_misc/overlay_side"
+    "output": "modern_mekanistics:block/overlays/output_chemical",
+    "side": "modern_mekanistics:block/machines/hatch_chemical/overlay_side"
   },
   "loader": "modern_industrialization:machine"
 }

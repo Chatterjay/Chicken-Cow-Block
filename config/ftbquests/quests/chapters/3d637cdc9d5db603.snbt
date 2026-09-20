@@ -1,0 +1,346 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3d637cdc9d5db603"
+	group: "6A39560B4558E909"
+	icon: {
+		components: {
+			"ftbquests:icon": "chicken_roost:block/9_crop_stage7"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "3D637CDC9D5DB603"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"26F50AD524ED5CDD"
+				"4C8527A822AE45D0"
+			]
+			id: "5564752B2EFEF077"
+			tasks: [{
+				id: "0E07521AB523B9B2"
+				item: { count: 1, id: "chicken_roost:chicken_food_tier_4" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"34C4234CF5DE3E92"
+				"0057078B25CB2E89"
+			]
+			id: "1070328A42411848"
+			tasks: [{
+				id: "5AF95DC700A01868"
+				item: { count: 1, id: "chicken_roost:chicken_food_tier_5" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6066D848426F92B7"
+				"63641744AC754032"
+				"0F4DFCE651DE2773"
+				"3BB725A19499FDB9"
+				"2354C1DA06DD0E1D"
+			]
+			id: "0B26F08A55BD0C21"
+			tasks: [{
+				id: "60898EB3F94AC40A"
+				item: { count: 1, id: "chicken_roost:chicken_food_tier_6" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4F89FB1BCC05492B"
+				"606B6DAC5E92BBDB"
+				"7D88EBCE84065526"
+				"2083F1CEE5149F64"
+				"2C6C126138FC7B7B"
+				"3DC0A404942FA250"
+			]
+			id: "179DE456C8BA1EA6"
+			tasks: [{
+				id: "62BE2546E48AEA5C"
+				item: { count: 1, id: "chicken_roost:chicken_food_tier_7" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"226B7ABA79369E09"
+				"2A5E8EF81C82F947"
+				"1B9ADD9F826DAE08"
+				"45E86C040A4C6544"
+				"73EC4F902131E198"
+				"02E99E01EF46655D"
+			]
+			id: "497F75BD78D82E7B"
+			tasks: [{
+				id: "7BDC7623EC514FA3"
+				item: { count: 1, id: "chicken_roost:chicken_food_tier_8" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "76B2150821B6F674"
+			tasks: [{
+				id: "74A1F8F732B5AF17"
+				item: { count: 1, id: "chicken_roost:chicken_food_tier_9" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			id: "1EF66D26CD97CE81"
+			tasks: [{
+				id: "704B2EF245AC7CBC"
+				item: { count: 1, id: "chicken_roost:chicken_food_tier_10" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			id: "26F50AD524ED5CDD"
+			tasks: [{
+				id: "34E4341B84542CAB"
+				item: { count: 1, id: "ccb:magic_drink" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			id: "4C8527A822AE45D0"
+			tasks: [{
+				id: "525B59A6F26CAC1A"
+				item: { count: 1, id: "ccb:goo_jelly" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "34C4234CF5DE3E92"
+			tasks: [{
+				id: "30905C8A6A7B87AA"
+				item: { count: 1, id: "ccb:source_soul_fudge" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "0057078B25CB2E89"
+			tasks: [
+				{
+					id: "5E957459661CEDE8"
+					item: { count: 1, id: "arsdelight:mendosteen_pie" }
+					type: "item"
+				}
+				{
+					id: "602C0D3DDBEF0E47"
+					item: { count: 1, id: "arsdelight:bastion_pie" }
+					type: "item"
+				}
+				{
+					id: "5B886A6E36F6F72E"
+					item: { count: 1, id: "arsdelight:bombegrante_pie" }
+					type: "item"
+				}
+				{
+					id: "7CB164E6B15EBB7A"
+					item: { count: 1, id: "arsdelight:frostaya_pie" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "2354C1DA06DD0E1D"
+			tasks: [{
+				id: "796A3449413F2A72"
+				item: { count: 1, id: "ccb:terminal_fried_rice" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "3BB725A19499FDB9"
+			tasks: [{
+				id: "77ED4D56C37DABF9"
+				item: { count: 1, id: "ccb:crystal_thin_sheet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "63641744AC754032"
+			tasks: [{
+				id: "3A8D1C44C2FEB148"
+				item: { count: 1, id: "ccb:ranbow_matter_fudge" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "0F4DFCE651DE2773"
+			tasks: [{
+				id: "57C2D1BBFB231E48"
+				item: { count: 1, id: "ccb:singularity_cookie" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			id: "6066D848426F92B7"
+			tasks: [{
+				id: "633093FC3CA18BDA"
+				item: { count: 1, id: "ccb:sample_pizza" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "2C6C126138FC7B7B"
+			tasks: [{
+				id: "1DFE1943614DD77E"
+				item: { count: 1, id: "ccb:power_drink" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			id: "606B6DAC5E92BBDB"
+			tasks: [{
+				id: "69AD34C69CE877D2"
+				item: { count: 1, id: "ccb:qio_special_toast_bread" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			id: "3DC0A404942FA250"
+			tasks: [{
+				id: "585128B004BDE368"
+				item: { count: 1, id: "ccb:unique_meat" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "7D88EBCE84065526"
+			tasks: [{
+				id: "547FB7189BB899C7"
+				item: { count: 1, id: "ccb:bacterial_juice_ranbow" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "2083F1CEE5149F64"
+			tasks: [{
+				id: "6F709CB95FE949DB"
+				item: { count: 1, id: "ccb:mineral_processing_molecular_cuisine" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "4F89FB1BCC05492B"
+			tasks: [{
+				id: "112B3A01EEB0EEBA"
+				item: { components: { "mekanism:fluids": { fluid_tanks: [{ amount: 64000, id: "mekanism:nutritional_paste" }] } }, count: 1, id: "mekanism:canteen" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "226B7ABA79369E09"
+			tasks: [{
+				id: "62B9FECF53AB23F4"
+				item: { count: 1, id: "ccb:roasted_drangon_heart" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "45E86C040A4C6544"
+			tasks: [{
+				id: "074CFAACC96C6D9A"
+				item: { count: 1, id: "modern_industrialization:mixed_ingot_iridium" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "2A5E8EF81C82F947"
+			tasks: [{
+				id: "1E027E0D9B7B3E89"
+				item: { count: 1, id: "ccb:drangon_rice_bowl" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "1B9ADD9F826DAE08"
+			tasks: [{
+				id: "529F7BE3D056D8C2"
+				item: { count: 1, id: "ccb:drangon_ice_cream" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "02E99E01EF46655D"
+			tasks: [{
+				id: "1FBF48174513804F"
+				item: { count: 1, id: "ccb:frozen_battery_stick_ice" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "73EC4F902131E198"
+			tasks: [{
+				id: "686B1D895BBA3F78"
+				item: { count: 1, id: "ccb:beef_balls" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+	]
+}

@@ -31,7 +31,14 @@ global.COW_TRANSMUTE_RULES = [
   { item: 'smfcore:polytetrafluoroethylene_bucket', fluid: "smfcore:polytetrafluoroethylene" },
   { item: 'modern_industrialization:manganese_sulfuric_solution_bucket', fluid: "modern_industrialization:manganese_sulfuric_solution" },
   { item: 'minecraft:sculk_catalyst', fluid: "ifeu:liquid_sculk_matter" },
-   { item: 'chicken_roost:c_sulfur', fluid: "mekanism:sulfuric_acid" }
+  { item: 'chicken_roost:c_sulfur', fluid: "mekanism:sulfuric_acid" },
+  { item: 'modern_industrialization:rubber_sheet', fluid: "modern_industrialization:synthetic_rubber" },
+  { item: 'ifeu:rubber_sapling', fluid: "modern_industrialization:styrene_butadiene_rubber" },
+  { item: 'modern_industrialization:helium_bucket', fluid: "modern_industrialization:helium" },
+  { item: 'modern_industrialization:soldering_alloy_dust', fluid: "modern_industrialization:soldering_alloy" },
+  { item: 'jdte:extended_experience_holder', fluid: "justdirethings:xp_fluid_source" },
+  { item: 'oritech:refinery_block', fluid: "oritech:still_naphtha" },
+  { item: 'mekanism:nutritional_liquifier', fluid: "mekanism:nutritional_paste" }
 ]
 
 global.CHICKEN_TRANSMUTE_RULES = [

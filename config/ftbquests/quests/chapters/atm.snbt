@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "atm"
+	group: "776C6CE13442DD6F"
+	icon: {
+		components: {
+			"ftbquests:icon": "allthetweaks:block/atm_star_block"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "284B2E1257CE96CA"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4BC5AA2DF74879D0"
+			tasks: [{
+				id: "5F6378E28B84F6E2"
+				item: { count: 1, id: "allthemodium:allthemodium_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4BC5AA2DF74879D0"
+				"3EEE338AA255EBD2"
+			]
+			id: "27A454332DE17DC0"
+			tasks: [{
+				id: "3494DD80B243CD97"
+				item: { count: 1, id: "allthemodium:vibranium_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4BC5AA2DF74879D0"]
+			id: "3EEE338AA255EBD2"
+			tasks: [
+				{
+					count: 8L
+					id: "01A8CCF857C4B431"
+					item: { count: 1, id: "ccb:nether_roost" }
+					type: "item"
+				}
+				{
+					id: "4A8820410A3B1FAB"
+					item: { count: 1, id: "allthemodium:soul_lava_bucket" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27A454332DE17DC0"]
+			id: "2B16E25629321E16"
+			tasks: [{
+				id: "0A863B8F93466E86"
+				item: { count: 1, id: "allthemodium:unobtainium_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+	]
+}

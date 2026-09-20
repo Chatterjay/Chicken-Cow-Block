@@ -191,6 +191,14 @@
 	#"max"      -> max(m1, m2, ...), multiple hatches do not stack
 	#Unknown values fall back to "multiply". Default: multiply
 	mode = "multiply"
+	#Item id of the chicken that produces EU instead of items.
+	#Leave empty to disable energy production. Default: chicken_roost:c_electric
+	electricChicken = "chicken_roost:c_electric"
+	#EU produced by one electric chicken per production cycle, before the level and parallel multipliers.
+	#Set to 0 to disable energy production. Default: 1024
+	# Default: 1024
+	# Range: 0 ~ 9223372036854775807
+	electricAmount = 1024
 
 [HCE]
 	#Duration for generated recipes. Default: 72000
@@ -229,3 +237,23 @@
 	# Default: 1.0
 	# Range: 0.0 ~ 2.147483647E9
 	durationMultiplier = 0.5
+
+[cow]
+	#How the multipliers of all speed hatches are combined.
+	#"add"      -> 1 + (m1 - 1) + (m2 - 1) + ...
+	#"multiply" -> m1 * m2 * ...
+	#"max"      -> max(m1, m2, ...), multiple hatches do not stack
+	#Unknown values fall back to "multiply". Default: multiply
+	mode = "multiply"
+	#Duration for generated recipes. Default: 200
+	# Default: 200
+	# Range: > 1
+	duration = 200
+	#Fluid produced by one cow per production cycle, in mB. Default: 1000
+	# Default: 1000
+	# Range: > 1
+	fluidAmount = 1000
+	#Energy per tick for generated recipes. Default: 16
+	# Default: 16
+	# Range: > 1
+	energy = 16

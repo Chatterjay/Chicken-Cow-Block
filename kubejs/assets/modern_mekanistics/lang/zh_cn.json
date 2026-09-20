@@ -9,6 +9,8 @@
   "block.modern_mekanistics.turbo_chemical_output_hatch": "涡轮化学品输出仓",
   "block.modern_mekanistics.highly_advanced_chemical_input_hatch": "超高级化学品输入仓",
   "block.modern_mekanistics.highly_advanced_chemical_output_hatch": "超高级化学品输出仓",
+  "block.modern_mekanistics.milk_chicken_steak_ex_item_fluid_chemical_input_hatch": "牛奶鸡排输入仓",
+  "block.modern_mekanistics.milk_chicken_steak_ex_item_fluid_chemical_output_hatch": "牛奶鸡排输出仓",
   "text.modern_mekanistics.chemical_input_hatch": "化学品输入仓",
   "text.modern_mekanistics.chemical_output_hatch": "化学品输出仓",
   "text.modern_mekanistics.chemical": "化学品",

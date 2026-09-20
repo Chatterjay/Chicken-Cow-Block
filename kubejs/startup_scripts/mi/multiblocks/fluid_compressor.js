@@ -6,7 +6,7 @@ MIMachineEvents.registerRecipeTypes((event) => {
         .withFluidInputs();
 });
 MIMachineEvents.registerMachines(event => {
-  const hatch = event.hatchOf( "item_output", "fluid_input", "energy_input");
+  const hatch = event.hatchOf("item_output", "fluid_input", "energy_input");
   const shape = event.layeredShape("sing_casing", [
     ["ggggggggggggggggggg", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   "],
     ["gccccccccdccccccccg", " eeeeeeeeeeeeeeeee ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   "],

@@ -46,6 +46,6 @@ ServerEvents.recipes(event => {
     event.recipes.modern_industrialization.create_chicken(114514, 114514)
         .itemIn('chicken_roost:chicken_food_tier_1')
         .itemIn('114514x chicken_roost:chicken_food_tier_1')
-        .itemOut('chicken_roost:chicken_food_tier_9', 0.25)
-        .itemOut('chicken_roost:chicken_food_tier_2', 0.75);
+        .itemOut('chicken_roost:chicken_food_tier_9', 0.01)
+        .itemOut('chicken_roost:chicken_food_tier_2', 0.99);
 });

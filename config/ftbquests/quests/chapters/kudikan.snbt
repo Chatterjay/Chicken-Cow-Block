@@ -1,8 +1,9 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "kudikan"
 	group: "011A008512DB29FA"
+	hide_quest_until_deps_complete: true
 	icon: {
 		id: "ccb_core:kudikan_fumo"
 	}
@@ -10,5 +11,15 @@
 	images: [ ]
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["70B13491F36CE3AD"]
+		id: "1AA20C4F8F2ECFA2"
+		tasks: [{
+			id: "1CE881E1033E8929"
+			item: { count: 1, id: "ccb:kudikan" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 }

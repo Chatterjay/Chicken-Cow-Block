@@ -4048,5 +4048,23 @@
     "CanGetFreezingDamage": true,
     "CanGetLightningDamage": true,
     "CanGetWitherDamage": true
+  },
+  {
+    "ChickenName": "Electric Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_electric",
+    "itemtexture": "electrumchicken",
+    "mobtexture": "electrumchicken",
+    "dropitem": "mekanism:energy_tablet",
+    "eggtime": 600,
+    "tier": 5,
+    "CanGetFireDamage": true,
+    "CanGetProjectileDamage": true,
+    "CanGetExplosionDamage": true,
+    "CanGetFallDamage": false,
+    "CanGetDrowningDamage": true,
+    "CanGetFreezingDamage": true,
+    "CanGetLightningDamage": true,
+    "CanGetWitherDamage": true
   }
 ]

@@ -28,4 +28,6 @@ MIMachineEvents.registerCasings(event => {
 
     event.registerBlockImitation('feijibei_casing', 'ccb:feijibei');
 
+    event.registerBlockImitation('ultimate_block_casing', 'extendedcrafting:the_ultimate_block');
+
 });

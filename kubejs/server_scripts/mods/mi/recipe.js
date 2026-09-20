@@ -31,7 +31,29 @@ event.shaped('modern_industrialization:giga_parallel_control_hatch',[
     D:'ae2lt:lightning_collapse_matrix',
     E:'extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:neutron_gear"]'
 })
-event.shaped('modern_industrialization:milk_chicken_steak_ex_item_fluid_input_hatch',[
+event.shaped('modern_industrialization:ultimate_energy_input_hatch',[
+    "ABA",
+    " C "
+],{
+    A:'modern_industrialization:superconductor_energy_input_hatch',
+    B:'extendedcrafting:the_ultimate_block',
+    C:'minecraft:hopper'
+})
+event.shaped('modern_industrialization:ultimate_energy_output_hatch',[
+    " C ",
+    "ABA"
+],{
+    A:'modern_industrialization:superconductor_energy_output_hatch',
+    B:'extendedcrafting:the_ultimate_block',
+    C:'minecraft:hopper'
+})
+event.shapeless('modern_industrialization:ultimate_energy_output_hatch',[
+    'modern_industrialization:ultimate_energy_input_hatch'
+])
+event.shapeless('modern_industrialization:ultimate_energy_input_hatch',[
+    'modern_industrialization:ultimate_energy_output_hatch'
+])
+event.shaped('modern_mekanistics:milk_chicken_steak_ex_item_fluid_chemical_input_hatch',[
     "ABA",
     " C "
 ],{
@@ -39,7 +61,7 @@ event.shaped('modern_industrialization:milk_chicken_steak_ex_item_fluid_input_ha
     B:'data_energistics:data_framework',
     C:'minecraft:hopper'
 })
-event.shaped('modern_industrialization:milk_chicken_steak_ex_item_fluid_output_hatch',[
+event.shaped('modern_mekanistics:milk_chicken_steak_ex_item_fluid_chemical_output_hatch',[
     " C ",
     "ABA"
 ],{
